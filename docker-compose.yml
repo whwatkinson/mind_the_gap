@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  neo4j:
+    image: neo4j:5.23.0-bullseye
+    container_name: neo4j
+    environment:
+      - NEO4J_AUTH=neo4j/password  # Set the Neo4j username and password
+      - NEO4J_dbms_memory_pagecache_size=2G  # Example memory settings
+      - NEO4J_dbms_memory_heap_initial__size=1G
+      - NEO4J_dbms_memory_heap_max__size=4G
+    ports:
+      - "7474:7474"  # HTTP port
+      - "7687:7687"  # Bolt port
+    volumes:
+      - neo4j_data:/data  # Volume for data storage
+      - neo4j_logs:/logs  # Volume for logs
+      - neo4j_import:/var/lib/neo4j/import  # Volume for import files
+      - neo4j_plugins:/plugins  # Volume for plugins
+    restart: unless-stopped  # Automatically restart unless stopped manually
+
+volumes:
+  neo4j_data:
+  neo4j_logs:
+  neo4j_import:
+  neo4j_plugins:
