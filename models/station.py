@@ -1,16 +1,23 @@
-from neomodel import RelationshipTo, RelationshipFrom, OneOrMore
+from neomodel import RelationshipTo, RelationshipFrom, BooleanProperty, OneOrMore
 from neomodel import StringProperty, FloatProperty
 
-from models.base import BaseStation
+from models.base_node import BaseNode
 
 
-class Station(BaseStation):
+class Station(BaseNode):
+    station_name = StringProperty(unique_index=True, required=True)
+    end_of_line = BooleanProperty(default=False, required=True)
+    location = StringProperty(default="[lon, lat]")
 
-    location = StringProperty(default="lon, lat")
-    name = StringProperty(unique_index=True)
-    colour = StringProperty(default="#004225")
+    line_identifier = StringProperty(required=True)
+    line_name = StringProperty(default="line_name", required=True)
+    line_colour = StringProperty(default="#ABCDEFG", required=True)
+
     wiggle_ranking = FloatProperty(deleted_at=0.0)
 
-    next = RelationshipTo(cls_name="Station", relation_type="NEXT", cardinality=OneOrMore)
-    previous = RelationshipFrom(cls_name="Station", relation_type="NEXT", cardinality=OneOrMore)
-
+    next = RelationshipTo(
+        cls_name="Station", relation_type="NEXT", cardinality=OneOrMore
+    )
+    previous = RelationshipFrom(
+        cls_name="Station", relation_type="NEXT", cardinality=OneOrMore
+    )
