@@ -26,7 +26,7 @@ Earl's Court,P23,"['P22', 'P24']",0,0
 Barons Court,P24,"['P23', 'P25']",0,0
 Hammersmith,P25,"['P24', 'P26']",0,0
 Turnham Green,P26,"['P25', 'P27']",0,0
-Acton Town,P27,"['P26', 'P28']",0,0
+Acton Town,P27,"['P26', 'P28', 'P39']",0,0
 South Ealing,P28,"['P27', 'P29']",0,0
 Northfields,P29,"['P28', 'P30']",0,0
 Boston Manor,P30,"['P29', 'P31']",0,0

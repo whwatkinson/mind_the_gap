@@ -1,5 +1,5 @@
 station_name,end_of_line,line_identifier,location,wiggle_ranking
-Cockfosters,False,P0,"[lon, lat]",0.0
+Cockfosters,True,P0,"[lon, lat]",0.0
 Oakwood,False,P1,"[lon, lat]",0.0
 Southgate,False,P2,"[lon, lat]",0.0
 Arnos Grove,False,P3,"[lon, lat]",0.0
@@ -37,7 +37,7 @@ Hounslow West,False,P34,"[lon, lat]",0.0
 Hatton Cross,False,P35,"[lon, lat]",0.0
 Heathrow Terminal 4,False,P36,"[lon, lat]",0.0
 "Heathrow Terminals 1, 2 & 3",False,P37,"[lon, lat]",0.0
-Heathrow Terminal 5,False,P38,"[lon, lat]",0.0
+Heathrow Terminal 5,True,P38,"[lon, lat]",0.0
 Ealing Common,False,P39,"[lon, lat]",0.0
 North Ealing,False,P40,"[lon, lat]",0.0
 Park Royal,False,P41,"[lon, lat]",0.0
@@ -51,4 +51,4 @@ Ruislip Manor,False,P48,"[lon, lat]",0.0
 Ruislip,False,P49,"[lon, lat]",0.0
 Ickenham,False,P50,"[lon, lat]",0.0
 Hillingdon,False,P51,"[lon, lat]",0.0
-Uxbridge,False,P52,"[lon, lat]",0.0
+Uxbridge,True,P52,"[lon, lat]",0.0
