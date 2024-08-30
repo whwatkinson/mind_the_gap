@@ -1,17 +1,23 @@
-from neomodel import RelationshipTo, RelationshipFrom, BooleanProperty, OneOrMore
-from neomodel import StringProperty, FloatProperty
+from neomodel import (
+    RelationshipTo,
+    RelationshipFrom,
+    BooleanProperty,
+    OneOrMore,
+    StringProperty,
+    FloatProperty,
+)
 
-from models.base_node import BaseNode
+from models.audit import AuditInformation
 
 
-class Station(BaseNode):
-    station_name = StringProperty(unique_index=True, required=True)
-    end_of_line = BooleanProperty(default=False, required=True)
+class Station(AuditInformation):
+    station_name = StringProperty(unique_index=True)
+    end_of_line = BooleanProperty(default=False)
     location = StringProperty(default="[lon, lat]")
 
     line_identifier = StringProperty(required=True)
-    line_name = StringProperty(default="line_name", required=True)
-    line_colour = StringProperty(default="#ABCDEFG", required=True)
+    line_name = StringProperty(required=True)
+    line_colour = StringProperty(required=True)
 
     wiggle_ranking = FloatProperty(deleted_at=0.0)
 
