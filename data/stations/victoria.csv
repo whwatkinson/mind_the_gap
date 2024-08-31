@@ -1,0 +1,17 @@
+station_name,end_of_line,tube_line_identifier,station_identifier,location,year_opened,wiggle_ranking
+Walthamstow Central,False,V0,76647201,"[lon, lat]",,0.0
+Blackhorse Road,False,V1,29334639,"[lon, lat]",,0.0
+Tottenham Hale,False,V2,83165177,"[lon, lat]",,0.0
+Seven Sisters,False,V3,55077021,"[lon, lat]",,0.0
+Finsbury Park,False,V4,18425881,"[lon, lat]",,0.0
+Highbury & Islington,False,V5,22488418,"[lon, lat]",,0.0
+King's Cross St Pancras,False,V6,82324871,"[lon, lat]",,0.0
+Euston,False,V7,15217065,"[lon, lat]",,0.0
+Warren Street,False,V8,92963154,"[lon, lat]",,0.0
+Oxford Circus,False,V9,92994339,"[lon, lat]",,0.0
+Green Park,False,V10,52497213,"[lon, lat]",,0.0
+Victoria,False,V11,92944317,"[lon, lat]",,0.0
+Pimlico,False,V12,73125062,"[lon, lat]",,0.0
+Vauxhall,False,V13,15446621,"[lon, lat]",,0.0
+Stockwell,False,V14,12504159,"[lon, lat]",,0.0
+Brixton,False,V15,14279388,"[lon, lat]",,0.0

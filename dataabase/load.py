@@ -89,9 +89,11 @@ def load_tube_lines() -> None:
 
     load_tube_stations(tll.piccadilly)
     load_tube_stations(tll.central)
+    load_tube_stations(tll.victoria)
 
     load_connections(tll.piccadilly)
     load_connections(tll.central)
+    load_connections(tll.victoria)
 
 
 if __name__ == "__main__":
