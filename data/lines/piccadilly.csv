@@ -1,0 +1,54 @@
+station_name,end_of_line,tube_line_identifier,station_identifier,location,year_opened,wiggle_ranking
+Cockfosters,False,P0,-705767682618560515,"[lon, lat]",,0.0
+Oakwood,False,P1,5944593340361815638,"[lon, lat]",,0.0
+Southgate,False,P2,-6596594514296878771,"[lon, lat]",,0.0
+Arnos Grove,False,P3,-2275634689951505996,"[lon, lat]",,0.0
+Bounds Green,False,P4,214225396286061542,"[lon, lat]",,0.0
+Wood Green,False,P5,4651597119429441827,"[lon, lat]",,0.0
+Turnpike Lane,False,P6,4375233202767100499,"[lon, lat]",,0.0
+Manor House,False,P7,7744296693615767728,"[lon, lat]",,0.0
+Finsbury Park,False,P8,383323506555722560,"[lon, lat]",,0.0
+Arsenal,False,P9,3268693811565669432,"[lon, lat]",,0.0
+Holloway Road,False,P10,-871917485798186837,"[lon, lat]",,0.0
+Caledonian Road,False,P11,-8500635030185706047,"[lon, lat]",,0.0
+King's Cross St Pancras,False,P12,8242568421714017411,"[lon, lat]",1869,0.0
+Russell Square,False,P13,1335077968173243626,"[lon, lat]",,0.0
+Holborn,False,P14,5608983730252741668,"[lon, lat]",,0.0
+Covent Garden,False,P15,-2437864806888249596,"[lon, lat]",,0.0
+Leicester Square,False,P16,7311201139875072945,"[lon, lat]",,0.0
+Piccadilly Circus,False,P17,-4619790221472014492,"[lon, lat]",,0.0
+Green Park,False,P18,1001585343139892717,"[lon, lat]",,0.0
+Hyde Park Corner,False,P19,283782210848202100,"[lon, lat]",,0.0
+Knightsbridge,False,P20,-2906313067489940828,"[lon, lat]",,0.0
+South Kensington,False,P21,-2668013898332183495,"[lon, lat]",,0.0
+Gloucester Road,False,P22,-2369341942824654025,"[lon, lat]",,0.0
+Earl's Court,False,P23,-2970434268392558969,"[51.490616 0.195848]",,8.6
+Barons Court,False,P24,-6443734069289413704,"[lon, lat]",,0.0
+Hammersmith,False,P25,6146501058659293424,"[lon, lat]",,0.0
+Turnham Green,False,P26,2245302716410477971,"[lon, lat]",,0.0
+Acton Town,False,P27,8009237583165046740,"[lon, lat]",,0.0
+South Ealing,False,P28,179727872720413746,"[lon, lat]",,0.0
+Northfields,False,P29,-2185531941357487204,"[lon, lat]",,0.0
+Boston Manor,False,P30,772352802102961902,"[lon, lat]",,0.0
+Osterley,False,P31,-7794144079731878440,"[lon, lat]",,0.0
+Hounslow East,False,P32,5085261874642888980,"[lon, lat]",,0.0
+Hounslow Central,False,P33,-7647707827313718546,"[lon, lat]",,0.0
+Hounslow West,False,P34,7115937164197447514,"[lon, lat]",,0.0
+Hatton Cross,False,P35,7506672692823606850,"[lon, lat]",,0.0
+Heathrow Terminal 4,False,P36,2305531902504600402,"[lon, lat]",,0.0
+"Heathrow Terminals 1, 2 & 3",False,P37,-4444581413228988686,"[lon, lat]",,0.0
+Heathrow Terminal 5,False,P38,3537650638949784917,"[lon, lat]",,0.0
+Ealing Common,False,P39,-6048138010322518350,"[lon, lat]",,0.0
+North Ealing,False,P40,-8893478818015140278,"[lon, lat]",,0.0
+Park Royal,False,P41,-1185300391980416408,"[lon, lat]",,0.0
+Alperton,False,P42,6271747369842051358,"[lon, lat]",,0.0
+Sudbury Town,False,P43,-8039818711269322434,"[lon, lat]",,0.0
+Sudbury Hill,False,P44,3080553042426503576,"[lon, lat]",,0.0
+South Harrow,False,P45,-8272446942713186027,"[lon, lat]",,0.0
+Rayners Lane,False,P46,8898965980464399180,"[lon, lat]",,0.0
+Eastcote,False,P47,-1188572381817652604,"[lon, lat]",,0.0
+Ruislip Manor,False,P48,-3654321385069205873,"[lon, lat]",,0.0
+Ruislip,False,P49,2061175895167795864,"[lon, lat]",,0.0
+Ickenham,False,P50,8371198568373641223,"[lon, lat]",,0.0
+Hillingdon,False,P51,-8442953342899253009,"[lon, lat]",,0.0
+Uxbridge,False,P52,-5215333089372120648,"[lon, lat]",,0.0
