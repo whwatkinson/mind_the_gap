@@ -1,51 +1,51 @@
 station_name,end_of_line,tube_line_identifier,station_identifier,location,year_opened,wiggle_ranking
-Epping,True,C0,-2949399244274397404,"[lon, lat]",,0.0
-Theydon Bois,False,C1,5376443446842417215,"[lon, lat]",,0.0
-Debden,False,C2,-8632338606108653101,"[lon, lat]",,0.0
-Loughton,False,C3,-5910187110054602613,"[lon, lat]",,0.0
-Buckhurst Hill,False,C4,-2266576869074141809,"[lon, lat]",,0.0
-Woodford,False,C5,1781845873720764860,"[lon, lat]",,0.0
-South Woodford,False,C6,-8236990927975343472,"[lon, lat]",,0.0
-Snaresbrook,False,C7,4648704865698990263,"[lon, lat]",,0.0
-Leytonstone,False,C8,1358781852341449089,"[lon, lat]",,0.0
-Leyton,False,C9,2299911931237753923,"[lon, lat]",,0.0
-Stratford,False,C10,-1836579487006002443,"[lon, lat]",,0.0
-Mile End,False,C11,2615262154483771994,"[lon, lat]",,0.0
-Bethnal Green,False,C12,-5496739592686451300,"[lon, lat]",,0.0
-Liverpool Street,False,C13,2476080432456025773,"[lon, lat]",,0.0
-Bank,False,C14,7502438986466024191,"[lon, lat]",,0.0
-St Paul's,False,C15,4439765434937771825,"[lon, lat]",,0.0
-Chancery Lane,False,C16,-8877402404656851976,"[lon, lat]",,0.0
-Holborn,False,C17,-3382600636132567945,"[lon, lat]",,0.0
-Tottenham Court Road,False,C18,-7674268975843739551,"[lon, lat]",,0.0
-Oxford Circus,False,C19,-5106642506131102416,"[lon, lat]",,0.0
-Bond Street,False,C20,5445225420365534332,"[lon, lat]",,0.0
-Marble Arch,False,C21,5051308964433764424,"[lon, lat]",,0.0
-Lancaster Gate,False,C22,-442455579392274681,"[lon, lat]",,0.0
-Queensway,False,C23,-477480228761358689,"[lon, lat]",,0.0
-Notting Hill Gate,False,C24,-954407410573614722,"[lon, lat]",,0.0
-Holland Park,False,C25,-8830016283415057761,"[lon, lat]",,0.0
-Shepherds's Bush,False,C26,-8506741431733014075,"[lon, lat]",,0.0
-White City,False,C27,4668583495413856260,"[lon, lat]",,0.0
-East Acton,False,C28,-4141748378397410202,"[lon, lat]",,0.0
-North Acton,False,C29,8090501538197576569,"[lon, lat]",,0.0
-West Acton,False,C30,-6438281361302370310,"[lon, lat]",,0.0
-Ealing Broadway,True,C31,-3099968679144408145,"[lon, lat]",,0.0
-Hanger Lane,False,C32,8201407889693167878,"[lon, lat]",,0.0
-Perivale,False,C33,2466257298149913408,"[lon, lat]",,0.0
-Greenford,False,C34,-6945895468890056332,"[lon, lat]",,0.0
-Northholt,False,C35,-4445802687851579800,"[lon, lat]",,0.0
-South Ruislip,False,C36,-5501210211824839476,"[lon, lat]",,0.0
-Ruislip Gardens,False,C37,7830630930706343229,"[lon, lat]",,0.0
-West Ruislip,True,C38,-8563793517197174260,"[lon, lat]",,0.0
+Epping,False,C0,56229441,"[lon, lat]",,0.0
+Theydon Bois,False,C1,30595916,"[lon, lat]",,0.0
+Debden,False,C2,39062440,"[lon, lat]",,0.0
+Loughton,False,C3,56816918,"[lon, lat]",,0.0
+Buckhurst Hill,False,C4,47606254,"[lon, lat]",,0.0
+Woodford,False,C5,63357094,"[lon, lat]",,0.0
+South Woodford,False,C6,4800309,"[lon, lat]",,0.0
+Snaresbrook,False,C7,84217411,"[lon, lat]",,0.0
+Leytonstone,False,C8,65924709,"[lon, lat]",,0.0
+Leyton,False,C9,9379969,"[lon, lat]",,0.0
+Stratford,False,C10,84981838,"[lon, lat]",,0.0
+Mile End,False,C11,44012365,"[lon, lat]",,0.0
+Bethnal Green,False,C12,64202865,"[lon, lat]",,0.0
+Liverpool Street,False,C13,13586932,"[lon, lat]",,0.0
+Bank,False,C14,94234385,"[lon, lat]",,0.0
+St Paul's,False,C15,54453843,"[lon, lat]",,0.0
+Chancery Lane,False,C16,38776418,"[lon, lat]",,0.0
+Holborn,False,C17,42615714,"[lon, lat]",,0.0
+Tottenham Court Road,False,C18,6742987,"[lon, lat]",,0.0
+Oxford Circus,False,C19,92994339,"[lon, lat]",,0.0
+Bond Street,False,C20,467449,"[lon, lat]",,0.0
+Marble Arch,False,C21,16561806,"[lon, lat]",,0.0
+Lancaster Gate,False,C22,51357881,"[lon, lat]",,0.0
+Queensway,False,C23,59478122,"[lon, lat]",,0.0
+Notting Hill Gate,False,C24,49002294,"[lon, lat]",,0.0
+Holland Park,False,C25,1438268,"[lon, lat]",,0.0
+Shepherds's Bush,False,C26,13842824,"[lon, lat]",,0.0
+White City,False,C27,10217577,"[lon, lat]",,0.0
+East Acton,False,C28,31808141,"[lon, lat]",,0.0
+North Acton,False,C29,38981074,"[lon, lat]",,0.0
+West Acton,False,C30,37944467,"[lon, lat]",,0.0
+Ealing Broadway,False,C31,54830707,"[lon, lat]",,0.0
+Hanger Lane,False,C32,45114007,"[lon, lat]",,0.0
+Perivale,False,C33,95261564,"[lon, lat]",,0.0
+Greenford,False,C34,66648943,"[lon, lat]",,0.0
+Northholt,False,C35,41186485,"[lon, lat]",,0.0
+South Ruislip,False,C36,79288884,"[lon, lat]",,0.0
+Ruislip Gardens,False,C37,71718265,"[lon, lat]",,0.0
+West Ruislip,False,C38,53502652,"[lon, lat]",,0.0
 
-Roding Valley,False,C43,-2371923830339449988,"[lon, lat]",,0.0
-Chigwell,False,C44,-5778431421406144059,"[lon, lat]",,0.0
-Grange Hill,False,C45,7318817641281816166,"[lon, lat]",,0.0
-Hainault,False,C46,-7043879105616522186,"[lon, lat]",,0.0
-Fairlop,False,C47,-8913915803969519477,"[lon, lat]",,0.0
-Barkingide,False,C48,-7263801312552182278,"[lon, lat]",,0.0
-Newbury Park,False,C49,-2343011151273480236,"[lon, lat]",,0.0
-Gants Hill,False,C50,-8593589929507743831,"[lon, lat]",,0.0
-Redbridge,False,C51,-4191786817512109592,"[lon, lat]",,0.0
-Wanstead,False,C52,6971613656583280405,"[lon, lat]",,0.0
+Roding Valley,False,C43,41980237,"[lon, lat]",,0.0
+Chigwell,False,C44,9991550,"[lon, lat]",,0.0
+Grange Hill,False,C45,41566852,"[lon, lat]",,0.0
+Hainault,False,C46,602580,"[lon, lat]",,0.0
+Fairlop,False,C47,65773657,"[lon, lat]",,0.0
+Barkingide,False,C48,58730074,"[lon, lat]",,0.0
+Newbury Park,False,C49,29505106,"[lon, lat]",,0.0
+Gants Hill,False,C50,56577292,"[lon, lat]",,0.0
+Redbridge,False,C51,13655348,"[lon, lat]",,0.0
+Wanstead,False,C52,44679247,"[lon, lat]",,0.0
