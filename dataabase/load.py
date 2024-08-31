@@ -14,23 +14,22 @@ config.DATABASE_URL = NEO4J_DATABASE_URL
 
 
 @dataclass
-class TubeStation:
+class TubeLine:
     line_name: str
     line_colour: str
     data_file_name: str
-    station_class: callable
 
 
 @dataclass
 class TubeStationList:
-    piccadilly = TubeStation("Piccadilly", "#1C1865", "piccadilly", Station)
+    piccadilly = TubeLine("Piccadilly", "#1C1865", "piccadilly")
 
 
 def load_connections() -> None:
     pass
 
 
-def load_tube_stations(tube_station: TubeStation) -> None:
+def load_tube_stations(tube_station: TubeLine) -> None:
     with open(
         f"{get_project_root()}/data/lines/{tube_station.data_file_name}.csv",
         newline="\n",
@@ -38,15 +37,22 @@ def load_tube_stations(tube_station: TubeStation) -> None:
         records = DictReader(csvfile, delimiter=",", quotechar='"')
         for row in records:
 
-            tube_station.station_class(
-                station_name=row["station_name"],
-                end_of_line=row["end_of_line"],
-                tube_lines=[tube_station.line_name],
-                tube_line_identifiers=[row["tube_line_identifier"]],
-                station_identifier=row["station_identifier"],
-                location=row["location"],
-                wiggle_ranking=row["wiggle_ranking"],
-            ).save()
+            if station := Station.nodes.get_or_none(
+                station_identifier=row["station_identifier"]
+            ):
+                station.update_tube_lines(tube_station.line_name)
+                station.update_tube_line_identifiers(row["tube_line_identifier"])
+                station.save()
+            else:
+                Station(
+                    station_name=row["station_name"],
+                    end_of_line=row["end_of_line"],
+                    tube_lines=[tube_station.line_name],
+                    tube_line_identifiers=[row["tube_line_identifier"]],
+                    station_identifier=row["station_identifier"],
+                    location=row["location"],
+                    wiggle_ranking=row["wiggle_ranking"],
+                ).save()
 
 
 def load_tube_line() -> None:
@@ -54,6 +60,6 @@ def load_tube_line() -> None:
 
 
 if __name__ == "__main__":
-    db.cypher_query("MATCH (n) DETACH DELETE n;")
+    # db.cypher_query("MATCH (n) DETACH DELETE n;")
     tsl = TubeStationList()
     load_tube_stations(tsl.piccadilly)

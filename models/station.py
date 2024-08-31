@@ -24,6 +24,14 @@ class Station(StructuredNode, AuditInformation):
 
     wiggle_ranking = FloatProperty(default=0.0)
 
+    def update_tube_lines(self, new_tube_line: str) -> None:
+        if new_tube_line not in self.tube_lines:
+            self.tube_lines.append(new_tube_line)
+
+    def update_tube_line_identifiers(self, tube_line_identifier: str) -> None:
+        if tube_line_identifier not in self.tube_line_identifiers:
+            self.tube_line_identifiers.append(tube_line_identifier)
+
     next = RelationshipTo(
         cls_name="Station", relation_type="NEXT", cardinality=OneOrMore
     )
