@@ -1,4 +1,4 @@
-station_name,tube_line_identifier,connection,forward_travel,travel_time_seconds,distance_km,uuid
+station_name,from_station,to_station,forward_travel,travel_time_seconds,distance_km,uuid
 Cockfosters,P0,P1,True,0,0,c04fd55a-1aec-493c-bd5b-f3a717cc726e
 Oakwood,P1,P0,False,0,0,86e98f45-9246-437a-b83c-90de6d3cdd95
 Oakwood,P1,P2,True,0,0,bb7695f0-944d-4335-9d9d-335fadb1df55
@@ -76,7 +76,7 @@ Heathrow Terminal 4,P36,P37,True,0,0,83974c24-b7dd-406e-8df9-4b3f27887174
 "Heathrow Terminals 1, 2 & 3",P37,P36,False,0,0,e7c94fad-faae-4702-bdd1-45363e2c3915
 "Heathrow Terminals 1, 2 & 3",P37,P38,True,0,0,81db7dac-ed95-4fa6-8b09-9e15c00d4f96
 Heathrow Terminal 5,P38,P37,False,0,0,9c71d3ea-716e-4596-87a4-8844e3bb4539
-Ealing Common,P39,P38,False,0,0,28e51c36-c105-4b41-96f1-66ff7220d61b
+Ealing Common,P39,P27,False,0,0,28e51c36-c105-4b41-96f1-66ff7220d61b
 Ealing Common,P39,P40,True,0,0,63a348c7-f293-41bf-8329-f8407c995e75
 North Ealing,P40,P39,False,0,0,e315e1b5-2903-4aa3-8aa3-c358806181b2
 North Ealing,P40,P41,True,0,0,814c3c7f-0a3f-4f26-bb32-a78e22dd6273

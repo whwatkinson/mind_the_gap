@@ -18,8 +18,8 @@ class Station(StructuredNode, AuditInformation):
     end_of_line = BooleanProperty(default=False)
     location = StringProperty(default="[lon, lat]")
 
-    tube_lines = ArrayProperty(required=True)
-    tube_line_identifiers = ArrayProperty(required=True)
+    tube_lines = ArrayProperty(StringProperty(), required=True)
+    tube_line_identifiers = ArrayProperty(StringProperty(), required=True)
     station_identifier = StringProperty(required=True)
 
     wiggle_ranking = FloatProperty(default=0.0)
@@ -45,3 +45,6 @@ class Station(StructuredNode, AuditInformation):
         cardinality=OneOrMore,
         model=Connection,
     )
+
+    def __repr__(self) -> str:
+        return f"{self.station_name}"

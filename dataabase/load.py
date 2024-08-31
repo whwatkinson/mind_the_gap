@@ -26,16 +26,50 @@ class TubeLineList:
 
 
 def load_connections(tube_line: TubeLine) -> None:
+    print(f"Loading connections for {tube_line.line_name}")
+
     with open(
-        f"{get_project_root()}/data/lines/{tube_line.data_file_name}.csv",
+        f"{get_project_root()}/data/connections/{tube_line.data_file_name}.csv",
         newline="\n",
     ) as csvfile:
         records = DictReader(csvfile, delimiter=",", quotechar='"')
         for row in records:
-            pass
+
+            res, _ = db.cypher_query(
+                """
+                MATCH (n:Station), (m:Station)
+                WHERE $FROM IN n.tube_line_identifiers
+                AND $TO IN m.tube_line_identifiers
+                RETURN n, m;
+                """,
+                {"FROM": row["from_station"], "TO": row["to_station"]},
+                resolve_objects=True,
+            )
+            if not res:
+                raise Exception(f"No stations found for {row=}")
+
+            from_station, to_station = res[0]
+
+            if from_station.piccadilly.is_connected(to_station):
+                continue
+
+            from_station.piccadilly.connect(
+                to_station,
+                {
+                    "line_name": "Piccadilly",
+                    "line_colour": "#1C1865",
+                    "forward_travel": row["forward_travel"] == "True",
+                    "travel_time_seconds": float(row["travel_time_seconds"]),
+                    "distance_km": float(row["distance_km"]),
+                },
+            )
+    print(f"Loaded connections for {tube_line.line_name}")
 
 
 def load_tube_stations(tube_line: TubeLine) -> None:
+
+    print(f"Loading stations for {tube_line.line_name}")
+
     with open(
         f"{get_project_root()}/data/lines/{tube_line.data_file_name}.csv",
         newline="\n",
@@ -52,13 +86,14 @@ def load_tube_stations(tube_line: TubeLine) -> None:
             else:
                 Station(
                     station_name=row["station_name"],
-                    end_of_line=row["end_of_line"],
+                    end_of_line=row["end_of_line"] == "True",
                     tube_lines=[tube_line.line_name],
                     tube_line_identifiers=[row["tube_line_identifier"]],
                     station_identifier=row["station_identifier"],
                     location=row["location"],
                     wiggle_ranking=row["wiggle_ranking"],
                 ).save()
+    print(f"Loaded stations for {tube_line.line_name}")
 
 
 def load_tube_line() -> None:
@@ -66,6 +101,7 @@ def load_tube_line() -> None:
 
 
 if __name__ == "__main__":
-    # db.cypher_query("MATCH (n) DETACH DELETE n;")
+    db.cypher_query("MATCH (n) DETACH DELETE n;")
     tll = TubeLineList()
     load_tube_stations(tll.piccadilly)
+    load_connections(tll.piccadilly)

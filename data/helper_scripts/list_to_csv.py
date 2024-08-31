@@ -21,7 +21,7 @@ def list_to_connections() -> None:
     with open(f"{get_project_root()}/data/helper_scripts/clipboard.txt") as file_handle:
         file_contents_list = file_handle.read().split("\n")
     print(
-        "station_name,tube_line_identifier,connection,forward_travel,travel_time_seconds,distance_km,uuid"
+        "station_name,from_station,to_station,forward_travel,travel_time_seconds,distance_km,uuid"
     )
     for index, item in enumerate(file_contents_list):
         if "," in item:
