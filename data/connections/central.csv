@@ -1,5 +1,5 @@
 station_name,from_station,to_station,forward_travel,travel_time_seconds,distance_km,uuid
-Epping,C0,P1,True,0,0,12133080-e233-45b0-9c80-8415286a95bf
+Epping,C0,C1,True,0,0,12133080-e233-45b0-9c80-8415286a95bf
 Theydon Bois,C1,C0,False,0,0,3fac5e87-89db-4c56-a70a-4f154668abd9
 Theydon Bois,C1,C2,True,0,0,32b24c95-1426-408d-a972-da85d1984a54
 Debden,C2,C1,False,0,0,68355763-3e22-45db-9ba8-9da4259bd4d8
@@ -10,12 +10,14 @@ Buckhurst Hill,C4,C3,False,0,0,8841a161-d638-4f59-a968-6b43a2245084
 Buckhurst Hill,C4,C5,True,0,0,d71b2d5f-2888-4573-9c06-e2ee42260d21
 Woodford,C5,C4,False,0,0,a54ea02c-94d2-480c-85f1-234d9776549f
 Woodford,C5,C6,True,0,0,eacbe193-9240-498c-ab31-6bd1e38a4187
+Woodford,C5,C43,True,0,0,3980f4ed-ebd3-46b5-9f43-48ad586d7715
 South Woodford,C6,C5,False,0,0,7f9795fd-72fb-462f-99fc-60f195176244
 South Woodford,C6,C7,True,0,0,d35b50c4-d57c-4b58-940d-fbe81a321a3d
 Snaresbrook,C7,C6,False,0,0,7663cfbe-92b8-413a-993a-9b78a369daea
 Snaresbrook,C7,C8,True,0,0,78582a6c-5530-4b5d-8a08-924e3b42fbd3
 Leytonstone,C8,C7,False,0,0,e5c35ca6-ad9b-4707-b689-1ccf5c96bd8b
 Leytonstone,C8,C9,True,0,0,62ee9c47-6615-4295-a7fe-6aa64094f6a4
+Leytonstone,C8,C52,False,0,0,4280cefb-8225-4f7b-8f57-1d1896461ad8
 Leyton,C9,C8,False,0,0,a2b1da9e-a54f-44c1-baf1-d71b852391ec
 Leyton,C9,C10,True,0,0,5c94fdf2-8955-4158-b673-20ffaacfb7ac
 Stratford,C10,C9,False,0,0,ad0fb018-4c2b-475a-8e24-11e1df9d2934
@@ -75,9 +77,8 @@ South Ruislip,C36,C37,True,0,0,b3b3fcbf-e38a-43e4-a758-6cf9d84958d1
 Ruislip Gardens,C37,C36,False,0,0,9d6adc49-89e4-4f74-8dfb-8e68c048d350
 Ruislip Gardens,C37,C38,True,0,0,d4dc74f6-b933-450a-a9b4-cc742e0adc27
 West Ruislip,C38,C37,False,0,0,83189e74-5957-4842-a607-0ae46bacabe9
-West Ruislip,C38,C39,True,0,0,505c7f13-d507-4b13-9726-18ba39113aca
 
-Roding Valley,C43,C42,False,0,0,ad9cee87-29ff-499e-a9ab-e1a29914ac9b
+Roding Valley,C43,C5,False,0,0,ad9cee87-29ff-499e-a9ab-e1a29914ac9b
 Roding Valley,C43,C44,True,0,0,48a2566a-3b5b-4a1c-a7d8-308070ff7404
 Chigwell,C44,C43,False,0,0,5fa9b868-db3a-4e27-ac39-b3168a0740d2
 Chigwell,C44,C45,True,0,0,5ba930dd-9e32-4e1f-9f73-a95b5fb91526
@@ -96,3 +97,4 @@ Gants Hill,C50,C51,True,0,0,a93d8f42-57d6-446c-8546-34a650fde349
 Redbridge,C51,C50,False,0,0,84aa6b57-b1c8-43c5-96ee-1e571da0d335
 Redbridge,C51,C52,True,0,0,a2694258-b9aa-4bc0-af81-22b8c16f431d
 Wanstead,C52,C51,False,0,0,db05717a-b235-428a-ac1c-f2f9430fc0a5
+Wanstead,C52,C8,True,0,0,66b891e4-d7aa-4219-ba21-7ecf918913f7

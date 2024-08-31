@@ -31,7 +31,7 @@ def list_to_connections() -> None:
         if "," in item:
             item = f'"{item}"'
         if index == 0:
-            print(f"{item},{LINE_CODE}{index},P1,True,0,0,{uuid4()}")
+            print(f"{item},{LINE_CODE}{index},{LINE_CODE}1,True,0,0,{uuid4()}")
         elif index == len(file_contents_list) - 1:
             print(
                 f"{item},{LINE_CODE}{index},{LINE_CODE}{len(file_contents_list[:-2])},False,0,0,{uuid4()}"

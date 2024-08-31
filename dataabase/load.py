@@ -86,9 +86,11 @@ def load_tube_stations(tube_line: TubeLine) -> None:
 
 def load_tube_lines() -> None:
     tll = TubeLineList()
+
     load_tube_stations(tll.piccadilly)
-    load_connections(tll.piccadilly)
     load_tube_stations(tll.central)
+
+    load_connections(tll.piccadilly)
     load_connections(tll.central)
 
 
