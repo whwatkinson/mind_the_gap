@@ -35,14 +35,14 @@ def load_connections(tube_line: TubeLine) -> None:
 
             from_station, to_station = res[0]
 
-            if from_station.piccadilly.is_connected(to_station):
+            if getattr(from_station, tube_line.data_file_name.lower()).is_connected(to_station):
                 continue
 
-            from_station.piccadilly.connect(
+            getattr(from_station, tube_line.data_file_name.lower()).connect(
                 to_station,
                 {
-                    "line_name": "Piccadilly",
-                    "line_colour": "#1C1865",
+                    "line_name": tube_line.line_name,
+                    "line_colour": tube_line.line_colour,
                     "forward_travel": row["forward_travel"] == "True",
                     "travel_time_seconds": float(row["travel_time_seconds"]),
                     "distance_km": float(row["distance_km"]),
@@ -56,7 +56,7 @@ def load_tube_stations(tube_line: TubeLine) -> None:
     print(f"Loading stations for {tube_line.line_name} line")
 
     with open(
-        f"{get_project_root()}/data/lines/{tube_line.data_file_name}.csv",
+        f"{get_project_root()}/data/stations/{tube_line.data_file_name}.csv",
         newline="\n",
     ) as csvfile:
         records = DictReader(csvfile, delimiter=",", quotechar='"')
