@@ -21,17 +21,23 @@ class TubeLine:
 
 
 @dataclass
-class TubeStationList:
+class TubeLineList:
     piccadilly = TubeLine("Piccadilly", "#1C1865", "piccadilly")
 
 
-def load_connections() -> None:
-    pass
-
-
-def load_tube_stations(tube_station: TubeLine) -> None:
+def load_connections(tube_line: TubeLine) -> None:
     with open(
-        f"{get_project_root()}/data/lines/{tube_station.data_file_name}.csv",
+        f"{get_project_root()}/data/lines/{tube_line.data_file_name}.csv",
+        newline="\n",
+    ) as csvfile:
+        records = DictReader(csvfile, delimiter=",", quotechar='"')
+        for row in records:
+            pass
+
+
+def load_tube_stations(tube_line: TubeLine) -> None:
+    with open(
+        f"{get_project_root()}/data/lines/{tube_line.data_file_name}.csv",
         newline="\n",
     ) as csvfile:
         records = DictReader(csvfile, delimiter=",", quotechar='"')
@@ -40,14 +46,14 @@ def load_tube_stations(tube_station: TubeLine) -> None:
             if station := Station.nodes.get_or_none(
                 station_identifier=row["station_identifier"]
             ):
-                station.update_tube_lines(tube_station.line_name)
+                station.update_tube_lines(tube_line.line_name)
                 station.update_tube_line_identifiers(row["tube_line_identifier"])
                 station.save()
             else:
                 Station(
                     station_name=row["station_name"],
                     end_of_line=row["end_of_line"],
-                    tube_lines=[tube_station.line_name],
+                    tube_lines=[tube_line.line_name],
                     tube_line_identifiers=[row["tube_line_identifier"]],
                     station_identifier=row["station_identifier"],
                     location=row["location"],
@@ -61,5 +67,5 @@ def load_tube_line() -> None:
 
 if __name__ == "__main__":
     # db.cypher_query("MATCH (n) DETACH DELETE n;")
-    tsl = TubeStationList()
-    load_tube_stations(tsl.piccadilly)
+    tll = TubeLineList()
+    load_tube_stations(tll.piccadilly)
