@@ -7,12 +7,12 @@ def list_to_stations() -> None:
 
     with open(f"{get_project_root()}/data/helper_scripts/clipboard.txt") as file_handle:
         file_contents_list = file_handle.read().split("\n")
-    print("station_name,end_of_line,tube_line_identifier,location,wiggle_ranking")
+    print("station_name,end_of_line,tube_line_identifier,station_identifier,location,year_opened,wiggle_ranking")
     for index, item in enumerate(file_contents_list):
         if "," in item:
             item = f'"{item}"'
-        # station_name,end_of_line,tube_line_identifier,station_identifier,location,wiggle_ranking
-        print(f'{item},False,P{index},{hash(item.lower())},"[lon, lat]",0.0')
+        # station_name,end_of_line,tube_line_identifier,station_identifier,location,year_opened,wiggle_ranking
+        print(f'{item},False,P{index},{hash(item.lower())},"[lon, lat]",,0.0')
 
 
 # Earl's Court,False,P23,8968448765763071821,"[51.490616 0.195848]",8.6
@@ -38,5 +38,5 @@ def list_to_connections() -> None:
 
 
 if __name__ == "__main__":
-    # list_to_stations()
-    list_to_connections()
+    list_to_stations()
+    # list_to_connections()

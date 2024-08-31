@@ -26,7 +26,7 @@ class TubeLineList:
 
 
 def load_connections(tube_line: TubeLine) -> None:
-    print(f"Loading connections for {tube_line.line_name}")
+    print(f"Loading connections for {tube_line.line_name} line")
 
     with open(
         f"{get_project_root()}/data/connections/{tube_line.data_file_name}.csv",
@@ -63,12 +63,12 @@ def load_connections(tube_line: TubeLine) -> None:
                     "distance_km": float(row["distance_km"]),
                 },
             )
-    print(f"Loaded connections for {tube_line.line_name}")
+    print(f"Loaded connections for {tube_line.line_name} line")
 
 
 def load_tube_stations(tube_line: TubeLine) -> None:
 
-    print(f"Loading stations for {tube_line.line_name}")
+    print(f"Loading stations for {tube_line.line_name} line")
 
     with open(
         f"{get_project_root()}/data/lines/{tube_line.data_file_name}.csv",
@@ -91,17 +91,18 @@ def load_tube_stations(tube_line: TubeLine) -> None:
                     tube_line_identifiers=[row["tube_line_identifier"]],
                     station_identifier=row["station_identifier"],
                     location=row["location"],
+                    year_opened=int(row["year_opened"]) if row["year_opened"] else 0,
                     wiggle_ranking=row["wiggle_ranking"],
                 ).save()
-    print(f"Loaded stations for {tube_line.line_name}")
+    print(f"Loaded stations for {tube_line.line_name} line")
 
 
-def load_tube_line() -> None:
-    pass
+def load_tube_lines() -> None:
+    tll = TubeLineList()
+    load_tube_stations(tll.piccadilly)
+    load_connections(tll.piccadilly)
 
 
 if __name__ == "__main__":
     db.cypher_query("MATCH (n) DETACH DELETE n;")
-    tll = TubeLineList()
-    load_tube_stations(tll.piccadilly)
-    load_connections(tll.piccadilly)
+    load_tube_lines()

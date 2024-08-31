@@ -7,6 +7,7 @@ from neomodel import (
     FloatProperty,
     ArrayProperty,
     StructuredNode,
+    IntegerProperty
 )
 
 from models.audit import AuditInformation
@@ -17,6 +18,7 @@ class Station(StructuredNode, AuditInformation):
     station_name = StringProperty(unique_index=True)
     end_of_line = BooleanProperty(default=False)
     location = StringProperty(default="[lon, lat]")
+    year_opened = IntegerProperty(default=0)
 
     tube_lines = ArrayProperty(StringProperty(), required=True)
     tube_line_identifiers = ArrayProperty(StringProperty(), required=True)
