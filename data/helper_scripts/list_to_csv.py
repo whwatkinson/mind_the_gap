@@ -1,38 +1,40 @@
+from uuid import uuid4
+
 from project_root import get_project_root
 
 
-def list_to_stations():
+def list_to_stations() -> None:
 
-    with open(f"{get_project_root()}/helper_scripts/clipboard.txt") as file_handle:
+    with open(f"{get_project_root()}/data/helper_scripts/clipboard.txt") as file_handle:
         file_contents_list = file_handle.read().split("\n")
-
+    print("station_name,end_of_line,tube_line_identifier,location,wiggle_ranking")
     for index, item in enumerate(file_contents_list):
         if "," in item:
             item = f'"{item}"'
-        # station_name,end_of_line,line_identifier,connections,location,wiggle_ranking
-        print(f'{item},False,P{index},,"[lon, lat]",0.0')
+        # station_name,end_of_line,tube_line_identifier,station_identifier,location,wiggle_ranking
+        print(f'{item},False,P{index},{hash(item.lower())},"[lon, lat]",0.0')
 
 
-def list_to_connections():
+# Earl's Court,False,P23,8968448765763071821,"[51.490616 0.195848]",8.6
+def list_to_connections() -> None:
 
-    with open(f"{get_project_root()}/helper_scripts/clipboard.txt") as file_handle:
+    with open(f"{get_project_root()}/data/helper_scripts/clipboard.txt") as file_handle:
         file_contents_list = file_handle.read().split("\n")
-
+    print(
+        "station_name,tube_line_identifier,connection,forward_travel,travel_time_seconds,distance_km,uuid"
+    )
     for index, item in enumerate(file_contents_list):
         if "," in item:
             item = f'"{item}"'
-
-        connections = []
         if index == 0:
-            connections.append("P1")
+            print(f"{item},P{index},P1,True,0,0,{uuid4()}")
         elif index == len(file_contents_list) - 1:
-            connections.append(f"P{len(file_contents_list[:-2])}")
+            print(
+                f"{item},P{index},P{len(file_contents_list[:-2])},False,0,0,{uuid4()}"
+            )
         else:
-            connections.append(f"P{index - 1}")
-            connections.append(f"P{index + 1}")
-
-        # station_name,line_identifier,connections,travel_time,distance_km
-        print(f'{item},P{index},"{connections}",0,0')
+            print(f"{item},P{index},P{index - 1},False,0,0,{uuid4()}")
+            print(f"{item},P{index},P{index + 1},True,0,0,{uuid4()}")
 
 
 if __name__ == "__main__":
