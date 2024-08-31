@@ -1,0 +1,51 @@
+station_name,end_of_line,tube_line_identifier,station_identifier,location,year_opened,wiggle_ranking
+Epping,True,C0,56229441,"[lon, lat]",,0.0
+Theydon Bois,False,C1,30595916,"[lon, lat]",,0.0
+Debden,False,C2,39062440,"[lon, lat]",,0.0
+Loughton,False,C3,56816918,"[lon, lat]",,0.0
+Buckhurst Hill,False,C4,47606254,"[lon, lat]",,0.0
+Woodford,False,C5,63357094,"[lon, lat]",,0.0
+South Woodford,False,C6,4800309,"[lon, lat]",,0.0
+Snaresbrook,False,C7,84217411,"[lon, lat]",,0.0
+Leytonstone,False,C8,65924709,"[lon, lat]",,0.0
+Leyton,False,C9,9379969,"[lon, lat]",,0.0
+Stratford,False,C10,84981838,"[lon, lat]",,0.0
+Mile End,False,C11,44012365,"[lon, lat]",,0.0
+Bethnal Green,False,C12,64202865,"[lon, lat]",,0.0
+Liverpool Street,False,C13,13586932,"[lon, lat]",,0.0
+Bank,False,C14,94234385,"[lon, lat]",,0.0
+St Paul's,False,C15,54453843,"[lon, lat]",,0.0
+Chancery Lane,False,C16,38776418,"[lon, lat]",,0.0
+Holborn,False,C17,42615714,"[lon, lat]",,0.0
+Tottenham Court Road,False,C18,6742987,"[lon, lat]",,0.0
+Oxford Circus,False,C19,92994339,"[lon, lat]",,0.0
+Bond Street,False,C20,467449,"[lon, lat]",,0.0
+Marble Arch,False,C21,16561806,"[lon, lat]",,0.0
+Lancaster Gate,False,C22,51357881,"[lon, lat]",,0.0
+Queensway,False,C23,59478122,"[lon, lat]",,0.0
+Notting Hill Gate,False,C24,49002294,"[lon, lat]",,0.0
+Holland Park,False,C25,1438268,"[lon, lat]",,0.0
+Shepherds's Bush,False,C26,13842824,"[lon, lat]",,0.0
+White City,False,C27,10217577,"[lon, lat]",,0.0
+East Acton,False,C28,31808141,"[lon, lat]",,0.0
+North Acton,False,C29,38981074,"[lon, lat]",,0.0
+West Acton,False,C30,37944467,"[lon, lat]",,0.0
+Ealing Broadway,True,C31,54830707,"[lon, lat]",,0.0
+Hanger Lane,False,C32,45114007,"[lon, lat]",,0.0
+Perivale,False,C33,95261564,"[lon, lat]",,0.0
+Greenford,False,C34,66648943,"[lon, lat]",,0.0
+Northholt,False,C35,41186485,"[lon, lat]",,0.0
+South Ruislip,False,C36,79288884,"[lon, lat]",,0.0
+Ruislip Gardens,False,C37,71718265,"[lon, lat]",,0.0
+West Ruislip,True,C38,53502652,"[lon, lat]",,0.0
+
+Roding Valley,False,C43,41980237,"[lon, lat]",,0.0
+Chigwell,False,C44,9991550,"[lon, lat]",,0.0
+Grange Hill,False,C45,41566852,"[lon, lat]",,0.0
+Hainault,False,C46,602580,"[lon, lat]",,0.0
+Fairlop,False,C47,65773657,"[lon, lat]",,0.0
+Barkingide,False,C48,58730074,"[lon, lat]",,0.0
+Newbury Park,False,C49,29505106,"[lon, lat]",,0.0
+Gants Hill,False,C50,56577292,"[lon, lat]",,0.0
+Redbridge,False,C51,13655348,"[lon, lat]",,0.0
+Wanstead,False,C52,44679247,"[lon, lat]",,0.0

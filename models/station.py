@@ -7,7 +7,7 @@ from neomodel import (
     FloatProperty,
     ArrayProperty,
     StructuredNode,
-    IntegerProperty
+    IntegerProperty,
 )
 
 from models.audit import AuditInformation
@@ -44,6 +44,12 @@ class Station(StructuredNode, AuditInformation):
     piccadilly = RelationshipTo(
         cls_name="Station",
         relation_type="PICCADILLY",
+        cardinality=OneOrMore,
+        model=Connection,
+    )
+    central = RelationshipTo(
+        cls_name="Station",
+        relation_type="CENTRAL",
         cardinality=OneOrMore,
         model=Connection,
     )

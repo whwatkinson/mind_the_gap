@@ -1,28 +1,13 @@
 from csv import DictReader
-from dataclasses import dataclass
-from typing import Union
 
 from neomodel import config, db
 
+from models.station import Station
+from models.tube_line_list import TubeLine, TubeLineList
+from project_root import get_project_root
 from settings.environment_variables import NEO4J_DATABASE_URL
 
-# from models.tube_lines import Piccadilly
-from models.station import Station
-from project_root import get_project_root
-
 config.DATABASE_URL = NEO4J_DATABASE_URL
-
-
-@dataclass
-class TubeLine:
-    line_name: str
-    line_colour: str
-    data_file_name: str
-
-
-@dataclass
-class TubeLineList:
-    piccadilly = TubeLine("Piccadilly", "#1C1865", "piccadilly")
 
 
 def load_connections(tube_line: TubeLine) -> None:
@@ -50,14 +35,16 @@ def load_connections(tube_line: TubeLine) -> None:
 
             from_station, to_station = res[0]
 
-            if from_station.piccadilly.is_connected(to_station):
+            if getattr(from_station, tube_line.data_file_name.lower()).is_connected(
+                to_station
+            ):
                 continue
 
-            from_station.piccadilly.connect(
+            getattr(from_station, tube_line.data_file_name.lower()).connect(
                 to_station,
                 {
-                    "line_name": "Piccadilly",
-                    "line_colour": "#1C1865",
+                    "line_name": tube_line.line_name,
+                    "line_colour": tube_line.line_colour,
                     "forward_travel": row["forward_travel"] == "True",
                     "travel_time_seconds": float(row["travel_time_seconds"]),
                     "distance_km": float(row["distance_km"]),
@@ -71,7 +58,7 @@ def load_tube_stations(tube_line: TubeLine) -> None:
     print(f"Loading stations for {tube_line.line_name} line")
 
     with open(
-        f"{get_project_root()}/data/lines/{tube_line.data_file_name}.csv",
+        f"{get_project_root()}/data/stations/{tube_line.data_file_name}.csv",
         newline="\n",
     ) as csvfile:
         records = DictReader(csvfile, delimiter=",", quotechar='"')
@@ -99,8 +86,12 @@ def load_tube_stations(tube_line: TubeLine) -> None:
 
 def load_tube_lines() -> None:
     tll = TubeLineList()
+
     load_tube_stations(tll.piccadilly)
+    load_tube_stations(tll.central)
+
     load_connections(tll.piccadilly)
+    load_connections(tll.central)
 
 
 if __name__ == "__main__":
