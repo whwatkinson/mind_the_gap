@@ -7,7 +7,7 @@ from neomodel import (
     FloatProperty,
     ArrayProperty,
     StructuredNode,
-    IntegerProperty
+    IntegerProperty,
 )
 
 from models.audit import AuditInformation

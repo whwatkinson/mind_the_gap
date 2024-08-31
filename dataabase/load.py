@@ -1,28 +1,13 @@
 from csv import DictReader
-from dataclasses import dataclass
-from typing import Union
 
 from neomodel import config, db
 
+from models.station import Station
+from models.tube_line_list import TubeLine, TubeLineList
+from project_root import get_project_root
 from settings.environment_variables import NEO4J_DATABASE_URL
 
-# from models.tube_lines import Piccadilly
-from models.station import Station
-from project_root import get_project_root
-
 config.DATABASE_URL = NEO4J_DATABASE_URL
-
-
-@dataclass
-class TubeLine:
-    line_name: str
-    line_colour: str
-    data_file_name: str
-
-
-@dataclass
-class TubeLineList:
-    piccadilly = TubeLine("Piccadilly", "#1C1865", "piccadilly")
 
 
 def load_connections(tube_line: TubeLine) -> None:

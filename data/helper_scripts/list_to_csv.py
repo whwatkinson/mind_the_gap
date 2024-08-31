@@ -7,7 +7,9 @@ def list_to_stations() -> None:
 
     with open(f"{get_project_root()}/data/helper_scripts/clipboard.txt") as file_handle:
         file_contents_list = file_handle.read().split("\n")
-    print("station_name,end_of_line,tube_line_identifier,station_identifier,location,year_opened,wiggle_ranking")
+    print(
+        "station_name,end_of_line,tube_line_identifier,station_identifier,location,year_opened,wiggle_ranking"
+    )
     for index, item in enumerate(file_contents_list):
         if "," in item:
             item = f'"{item}"'
