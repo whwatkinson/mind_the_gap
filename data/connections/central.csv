@@ -1,0 +1,100 @@
+station_name,from_station,to_station,forward_travel,travel_time_seconds,distance_km,uuid
+Epping,P0,P1,True,0,0,cc195c8f-70f3-4060-bdaf-49fe94d3c735
+Theydon Bois,P1,P0,False,0,0,9aef6874-234a-43e2-940f-4cd66f4db9f8
+Theydon Bois,P1,P2,True,0,0,726ce904-7b72-43d0-81e3-acdf4c1b8ccc
+Debden,P2,P1,False,0,0,0be2993b-db88-4586-a80f-9ee1c92ab4de
+Debden,P2,P3,True,0,0,f2e37752-2aaa-4fa1-9ca8-6367b9e969b6
+Loughton,P3,P2,False,0,0,189d2ded-ba15-492b-b438-c49df8c537e1
+Loughton,P3,P4,True,0,0,873955a9-7962-40d5-b9cb-eee775d000e2
+Buckhurst Hill,P4,P3,False,0,0,684c1c69-cc52-42ad-9d35-91d0fbe4255a
+Buckhurst Hill,P4,P5,True,0,0,dfa2a1cb-0c08-4841-9647-a7fdedc45ebc
+Woodford,P5,P4,False,0,0,6967f0f2-a45d-4666-80f3-d4ca3f8ee7c7
+Woodford,P5,P6,True,0,0,ef20a042-90fc-4b86-9775-1ff07ccd2a7a
+Woodford,P5,P43,True,0,0,f276400f-18db-4be7-8f8a-6e5551d2a668
+South Woodford,P6,P5,False,0,0,b1189715-40d5-4a30-99e0-3ea498b50f54
+South Woodford,P6,P7,True,0,0,884be619-8418-4626-899c-0d0cdcd75659
+Snaresbrook,P7,P6,False,0,0,9d017145-20cd-4177-a96f-86a40057edc0
+Snaresbrook,P7,P8,True,0,0,6bfa46c3-5abf-4521-b225-354ba939bbfb
+Leytonstone,P8,P7,False,0,0,cdfb27c9-ffc6-44b8-83b2-8762b37b0e24
+Leytonstone,P8,P9,True,0,0,db4da37a-2eae-4893-b232-18f8c3db213b
+Leytonstone,P8,P52,True,0,0,5aef1f34-de5a-44de-9b19-ad343e6879de
+Leyton,P9,P8,False,0,0,689314cd-d0e5-4847-9f59-5bbee679cc4b
+Leyton,P9,P10,True,0,0,376ebc43-21b0-4916-8f55-f71f795c6b92
+Stratford,P10,P9,False,0,0,cd7ee8c1-c533-41ab-a1f3-ad138a719464
+Stratford,P10,P11,True,0,0,66e38790-6400-40ef-80ff-3b96536c9be0
+Mile End,P11,P10,False,0,0,14c0ee85-505e-4daf-9f16-184722342f1e
+Mile End,P11,P12,True,0,0,37066534-3a4d-4da3-81b7-fc4a77ca0363
+Bethnal Green,P12,P11,False,0,0,1d3c4012-6d6c-43e2-a0c5-c1d66b10f4c6
+Bethnal Green,P12,P13,True,0,0,f00ed8cb-b148-4963-a30f-a5535cca75c9
+Liverpool Street,P13,P12,False,0,0,c9e3cb25-9e64-4cc6-9172-e067fe05d96e
+Liverpool Street,P13,P14,True,0,0,7b15047e-3ec9-41e3-bc51-2c64f434ae52
+Bank,P14,P13,False,0,0,9e19e0d0-f24b-4e56-891e-69fc352638f4
+Bank,P14,P15,True,0,0,64682c67-5dc0-4608-915e-fcc738c9ca86
+St Paul's,P15,P14,False,0,0,b07cc542-12f0-4586-b00c-8d559061bb23
+St Paul's,P15,P16,True,0,0,5ca25896-25e0-4c21-b0fd-f2ace0f99158
+Chancery Lane,P16,P15,False,0,0,3ffbb405-0f95-40b5-86e3-1ef663a10b82
+Chancery Lane,P16,P17,True,0,0,b8c332f1-43b7-4447-92f6-442666a0a3a7
+Holborn,P17,P16,False,0,0,002c1403-db92-4e4a-82a7-e721d6e36dd0
+Holborn,P17,P18,True,0,0,f7199436-ca8d-45d6-afd4-e3353e05087f
+Tottenham Court Road,P18,P17,False,0,0,ebf67410-0f2d-4f51-856b-9077e84d9afe
+Tottenham Court Road,P18,P19,True,0,0,4b2bc640-e882-405d-a066-73c26782142b
+Oxford Circus,P19,P18,False,0,0,f26a45de-c01a-459e-a3d2-d897ddb6c5e9
+Oxford Circus,P19,P20,True,0,0,046f2f09-59cb-49eb-ab8b-cdf668e2970c
+Bond Street,P20,P19,False,0,0,28678f6b-721b-488c-98ec-14e0e1943363
+Bond Street,P20,P21,True,0,0,a20e8d72-6665-4c82-b5b4-d784fd373dab
+Marble Arch,P21,P20,False,0,0,3b39915c-c81b-4c4f-af7a-2069226f8eef
+Marble Arch,P21,P22,True,0,0,57029060-b70a-42c5-924d-b0da7c160b91
+Lancaster Gate,P22,P21,False,0,0,8b5cfe97-4446-4ff6-9def-b9c5c6260b8b
+Lancaster Gate,P22,P23,True,0,0,16b4ba8e-49e3-4c9e-9cef-d5d37f25e877
+Queensway,P23,P22,False,0,0,1e6699c3-7240-4f1c-a6a2-b8e4109aa7d5
+Queensway,P23,P24,True,0,0,b08ba1dc-2528-40aa-be24-9a8ba4ea45ca
+Notting Hill Gate,P24,P23,False,0,0,32aff91b-5726-4d45-810b-c7613d1580a8
+Notting Hill Gate,P24,P25,True,0,0,f05ed529-1a62-436f-8df5-63c4038ff41e
+Holland Park,P25,P24,False,0,0,0f2a7602-92b0-4b3a-83fd-7bea490fc6f7
+Holland Park,P25,P26,True,0,0,feff05f5-a5b2-453d-aaaa-b9666d4844aa
+Shepherds's Bush,P26,P25,False,0,0,aac7da01-c2a2-41af-8f2d-a77e75fdda63
+Shepherds's Bush,P26,P27,True,0,0,e0b042ba-ec69-4462-8047-746243895479
+White City,P27,P26,False,0,0,b771ca59-fa1b-41a8-9869-0f5bf6c88a26
+White City,P27,P28,True,0,0,31c4c608-b543-41a2-970b-03623fdf5772
+East Acton,P28,P27,False,0,0,1d3e1afd-6a59-450c-8ea8-efc32d632c45
+East Acton,P28,P29,True,0,0,ceef4114-16f2-4b79-9c7f-4262abb0c38e
+North Acton,P29,P28,False,0,0,574520a4-63b1-403f-b6ae-85957fb8cad2
+North Acton,P29,P30,True,0,0,ec44c32b-b89b-470b-8952-b785ae3448f8
+West Acton,P30,P29,False,0,0,7a8b10fb-85f1-4008-9b66-3306595af631
+West Acton,P30,P31,True,0,0,3a803bc1-a439-4cd2-895a-c1f0a2653886
+Ealing Broadway,P31,P30,False,0,0,303f315d-9a58-49f5-948e-2cac83dec63c
+Ealing Broadway,P31,P32,True,0,0,66a3552e-6cd9-4252-b16f-64f6c9efc1b1
+Hanger Lane,P32,P31,False,0,0,9f636514-f350-410d-bc24-4435a126d56a
+Hanger Lane,P32,P33,True,0,0,59b31531-8372-41ff-aaaa-7ab007cc446f
+Perivale,P33,P32,False,0,0,1cfc2d4a-cb73-45e1-9fa5-1ebccb1526f4
+Perivale,P33,P34,True,0,0,a82aaea4-b5c6-45be-bef6-3f91aecd4e58
+Greenford,P34,P33,False,0,0,668da673-2cf8-4415-bc38-a27361ee001e
+Greenford,P34,P35,True,0,0,5a88d733-5d7b-42ee-aae9-9d8a57687939
+Northholt,P35,P34,False,0,0,3677bbdf-24b9-4a45-bc30-2ac08382da9f
+Northholt,P35,P36,True,0,0,edec0faf-020a-4868-a7cd-0e1052d2fb3b
+South Ruislip,P36,P35,False,0,0,45a0931f-40ec-4f90-8816-da36a5ce05eb
+South Ruislip,P36,P37,True,0,0,8d3a3bb8-346f-4fc3-b859-0f9803cda402
+Ruislip Gardens,P37,P36,False,0,0,a972626c-4bf7-44fc-bff7-82ea6561e121
+Ruislip Gardens,P37,P38,True,0,0,822a0f4b-f79e-43b5-8fb5-44864e0d3138
+West Ruislip,P38,P37,False,0,0,04ff75af-97fd-4e84-9c36-7dffd5fb10e5
+
+Roding Valley,P43,P5,False,0,0,332047be-7cb1-4d86-8f32-ad6e3153eca7
+Roding Valley,P43,P44,True,0,0,0ad069b1-e94f-44f8-890f-65fa75758d99
+Chigwell,P44,P43,False,0,0,19317ea6-dd20-4719-8b8d-0b965c166238
+Chigwell,P44,P45,True,0,0,8b591b74-99bc-4fbb-8d55-ef1c2d8c96ef
+Grange Hill,P45,P44,False,0,0,c3fee550-fbad-4b2b-a220-7aa36795a908
+Grange Hill,P45,P46,True,0,0,155979c8-b9bf-419f-8ae7-2a87d41f9f5a
+Hainault,P46,P45,False,0,0,02b9dfe0-53ff-4f0a-a171-2e5dcccbfd45
+Hainault,P46,P47,True,0,0,1d1ff812-f6e6-42f4-a8fb-d39cc679de4c
+Fairlop,P47,P46,False,0,0,62456d95-6225-49ad-a2e1-a3a91f1b5f3d
+Fairlop,P47,P48,True,0,0,7de8a733-e9b8-4840-87bc-7c34d4fb1460
+Barkingide,P48,P47,False,0,0,4ac68f3b-cad5-49cb-8a91-b869e0a840a0
+Barkingide,P48,P49,True,0,0,1159e63f-2492-4391-9568-e2a9e8caa954
+Newbury Park,P49,P48,False,0,0,e56f5ea1-9b78-4695-b07d-f4858ee0a518
+Newbury Park,P49,P50,True,0,0,8b2d05ab-a730-4730-9419-81613ee55685
+Gants Hill,P50,P49,False,0,0,475017a1-7769-4d76-92a7-f18e218c5289
+Gants Hill,P50,P51,True,0,0,002beee5-00d4-494a-8d72-be3f75b5ed15
+Redbridge,P51,P50,False,0,0,a1baa963-566c-4ca9-a03f-ff48b7324111
+Redbridge,P51,P52,True,0,0,29c43f93-bc2f-4aef-9c0e-c644ab0c0c4a
+Wanstead,P52,P51,False,0,0,0731d1b3-6b70-4544-85b9-3ad681b1e7fa
+Wanstead,P52,P8,False,0,0,a86cf0c7-4e9e-4591-996a-293a7a30a034

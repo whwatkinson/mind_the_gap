@@ -11,3 +11,4 @@ class TubeLine:
 @dataclass
 class TubeLineList:
     piccadilly = TubeLine("Piccadilly", "#1C1865", "piccadilly")
+    central = TubeLine("Central", "#E32017", "central")

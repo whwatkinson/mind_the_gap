@@ -17,7 +17,6 @@ def list_to_stations() -> None:
         print(f'{item},False,P{index},{hash(item.lower())},"[lon, lat]",,0.0')
 
 
-# Earl's Court,False,P23,8968448765763071821,"[51.490616 0.195848]",8.6
 def list_to_connections() -> None:
 
     with open(f"{get_project_root()}/data/helper_scripts/clipboard.txt") as file_handle:
@@ -40,5 +39,5 @@ def list_to_connections() -> None:
 
 
 if __name__ == "__main__":
-    list_to_stations()
-    # list_to_connections()
+    # list_to_stations()
+    list_to_connections()

@@ -35,7 +35,9 @@ def load_connections(tube_line: TubeLine) -> None:
 
             from_station, to_station = res[0]
 
-            if getattr(from_station, tube_line.data_file_name.lower()).is_connected(to_station):
+            if getattr(from_station, tube_line.data_file_name.lower()).is_connected(
+                to_station
+            ):
                 continue
 
             getattr(from_station, tube_line.data_file_name.lower()).connect(
@@ -86,6 +88,8 @@ def load_tube_lines() -> None:
     tll = TubeLineList()
     load_tube_stations(tll.piccadilly)
     load_connections(tll.piccadilly)
+    load_tube_stations(tll.central)
+    load_connections(tll.central)
 
 
 if __name__ == "__main__":

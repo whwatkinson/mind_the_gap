@@ -47,6 +47,12 @@ class Station(StructuredNode, AuditInformation):
         cardinality=OneOrMore,
         model=Connection,
     )
+    central = RelationshipTo(
+        cls_name="Station",
+        relation_type="CENTRAL",
+        cardinality=OneOrMore,
+        model=Connection,
+    )
 
     def __repr__(self) -> str:
         return f"{self.station_name}"
