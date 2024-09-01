@@ -11,6 +11,10 @@ config.DATABASE_URL = NEO4J_DATABASE_URL
 
 
 def load_connections(tube_line: TubeLine) -> None:
+
+    if tube_line.data_file_name == "master_station_names":
+        return None
+
     print(f"Loading connections for {tube_line.line_name} line")
 
     with open(
@@ -94,6 +98,7 @@ def load_tube_lines() -> None:
     with db.transaction:
         tll = TubeLineList()
         # TODO master stations list
+        # load_tube_stations(tll.master_station_names)
 
         load_tube_stations(tll.piccadilly)
         load_tube_stations(tll.central)

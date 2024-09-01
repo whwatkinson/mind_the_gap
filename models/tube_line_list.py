@@ -10,6 +10,9 @@ class TubeLine:
 
 @dataclass
 class TubeLineList:
+    master_station_names = TubeLine(
+        "Master Station Names", "#000000", "master_station_names"
+    )
     piccadilly = TubeLine("Piccadilly", "#1C1865", "piccadilly")
     central = TubeLine("Central", "#E32017", "central")
     victoria = TubeLine("Victoria", "#0098D4", "victoria")
