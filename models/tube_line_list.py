@@ -16,3 +16,6 @@ class TubeLineList:
     bakerloo = TubeLine("Bakerloo", "#894E24", "bakerloo")
     jubilee = TubeLine("Jubilee", "#A9BDB4", "jubilee")
     metropolitan = TubeLine("Metropolitan", "#751056", "metropolitan")
+    hammersmith_and_city = TubeLine(
+        "Hammersmith & City", "#F3A9BB", "hammersmith_and_city"
+    )

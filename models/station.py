@@ -54,6 +54,13 @@ class Station(StructuredNode, AuditInformation):
         model=Connection,
     )
 
+    hammersmith_and_city = RelationshipTo(
+        cls_name="Station",
+        relation_type="HAMMERSMITH_AND_CITY",
+        cardinality=OneOrMore,
+        model=Connection,
+    )
+
     jubilee = RelationshipTo(
         cls_name="Station",
         relation_type="JUBILEE",

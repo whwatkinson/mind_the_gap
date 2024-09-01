@@ -1,0 +1,31 @@
+station_name,end_of_line,tube_line_identifier,location,year_opened,wiggle_ranking
+Hammersmith,False,H0,"[lon, lat]",,0.0
+Goldhawk Road,False,H1,"[lon, lat]",,0.0
+Shepherd's Bush Market,False,H2,"[lon, lat]",,0.0
+Wood Lane,False,H3,"[lon, lat]",,0.0
+White City,False,H4,"[lon, lat]",,0.0
+Latimer Road,False,H5,"[lon, lat]",,0.0
+Ladbroke Grove,False,H6,"[lon, lat]",,0.0
+Westbourne Park,False,H7,"[lon, lat]",,0.0
+Royal Oak,False,H8,"[lon, lat]",,0.0
+Paddington,False,H9,"[lon, lat]",,0.0
+Edgware Road,False,H10,"[lon, lat]",,0.0
+Baker Street,False,H11,"[lon, lat]",,0.0
+Great Portland Street,False,H12,"[lon, lat]",,0.0
+Euston Square,False,H13,"[lon, lat]",,0.0
+King's Cross St Pancras,False,H14,"[lon, lat]",,0.0
+Farringdon,False,H15,"[lon, lat]",,0.0
+Barbican,False,H16,"[lon, lat]",,0.0
+Moorgate,False,H17,"[lon, lat]",,0.0
+Liverpool Street,False,H18,"[lon, lat]",,0.0
+Aldgate East,False,H19,"[lon, lat]",,0.0
+Whitechapel,False,H20,"[lon, lat]",,0.0
+Stepney Green,False,H21,"[lon, lat]",,0.0
+Mile End,False,H22,"[lon, lat]",,0.0
+Bow Road,False,H23,"[lon, lat]",,0.0
+Bromley-by-Bow,False,H24,"[lon, lat]",,0.0
+West Ham,False,H25,"[lon, lat]",,0.0
+Plaistow,False,H26,"[lon, lat]",,0.0
+Upton Park,False,H27,"[lon, lat]",,0.0
+East Ham,False,H28,"[lon, lat]",,0.0
+Barking,False,H29,"[lon, lat]",,0.0

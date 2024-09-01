@@ -99,6 +99,7 @@ def load_tube_lines() -> None:
         load_tube_stations(tll.bakerloo)
         load_tube_stations(tll.jubilee)
         load_tube_stations(tll.metropolitan)
+        load_tube_stations(tll.hammersmith_and_city)
 
         load_connections(tll.piccadilly)
         load_connections(tll.central)
@@ -106,6 +107,7 @@ def load_tube_lines() -> None:
         load_connections(tll.bakerloo)
         load_connections(tll.jubilee)
         load_connections(tll.metropolitan)
+        load_connections(tll.hammersmith_and_city)
 
 
 if __name__ == "__main__":
