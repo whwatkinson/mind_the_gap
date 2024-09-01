@@ -1,5 +1,5 @@
 station_name,end_of_line,tube_line_identifier,location,year_opened,wiggle_ranking
-Stanmore,True,J0,"[lon, lat]",,0.0
+Stanmore,False,J0,"[lon, lat]",,0.0
 Canons Park,False,J1,"[lon, lat]",,0.0
 Queensbury,False,J2,"[lon, lat]",,0.0
 Kingsbury,False,J3,"[lon, lat]",,0.0
@@ -25,4 +25,4 @@ Canary Wharf,False,J22,"[lon, lat]",,0.0
 North Greenwich,False,J23,"[lon, lat]",,0.0
 Canning Town,False,J24,"[lon, lat]",,0.0
 West Ham,False,J25,"[lon, lat]",,0.0
-Stratford,True,J26,"[lon, lat]",,0.0
+Stratford,False,J26,"[lon, lat]",,0.0

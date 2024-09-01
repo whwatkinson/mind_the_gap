@@ -1,49 +1,49 @@
-station_name,from_station,to_station,heading_west_or_south,travel_time_seconds,distance_km,uuid
-Harrow and Wealdstone,B0,B1,True,0,0,904d7453-d79e-4b31-a044-8da4783f6c0a
-Kenton,B1,B0,False,0,0,aa3c64e8-d184-4902-b42e-276bd213e134
-Kenton,B1,B2,True,0,0,29fec7d5-d902-43fa-9ee7-0af742f992f1
-South Kenton,B2,B1,False,0,0,f606c892-f843-4ad3-911d-9b03166cd571
-South Kenton,B2,B3,True,0,0,f987e650-bd66-4f25-b5dd-8e211872846f
-North Wembley,B3,B2,False,0,0,067a0233-940a-4050-bca5-f020c7dcafad
-North Wembley,B3,B4,True,0,0,49fcc370-47ce-44f5-9d80-e4859440903a
-Wembley Central,B4,B3,False,0,0,2ac21b50-7476-4f16-a950-5a507aad667a
-Wembley Central,B4,B5,True,0,0,79ea345b-791e-4419-af42-956c64a9ffc9
-Stonebridge Park,B5,B4,False,0,0,3fd6a1be-84d9-4d7d-a8a9-98394cdab010
-Stonebridge Park,B5,B6,True,0,0,b24e345f-b310-41df-b620-bfb048a9428b
-Harlesden,B6,B5,False,0,0,7eaab2a4-aa62-41ee-80cc-a5db75f7c40f
-Harlesden,B6,B7,True,0,0,5d513209-d35a-44f7-a9e1-6562476777f6
-Wilesden Juction,B7,B6,False,0,0,74cdcc3c-fde6-441a-8a97-acf3a700ec05
-Wilesden Juction,B7,B8,True,0,0,f34be871-3dea-4ffe-b026-483d7a05ad68
-Kensal Green,B8,B7,False,0,0,0e3fd766-b191-4df9-a690-0af2a6c77da7
-Kensal Green,B8,B9,True,0,0,f803ebca-c3ce-4cd4-989e-d57d8f8a124c
-Queens Park,B9,B8,False,0,0,a5cd3e8d-bd84-4efc-a109-3cbc88a5eb62
-Queens Park,B9,B10,True,0,0,8860239c-82b2-422e-8158-15471b328c72
-Kilburn Park,B10,B9,False,0,0,8b910da7-46f0-41b3-9f2a-39fd405e7a6e
-Kilburn Park,B10,B11,True,0,0,f654948d-bc79-4c63-809f-33af0f88bc48
-Maida Vale,B11,B10,False,0,0,0d4b690e-4601-4aec-9edd-25e56d203438
-Maida Vale,B11,B12,True,0,0,ff7f85e6-dca3-4f99-bb35-d2168ecd6cd5
-Warwick Avenue,B12,B11,False,0,0,27a3fc47-92d3-45a2-95f0-369b58e4d747
-Warwick Avenue,B12,B13,True,0,0,a8446781-0e42-40fc-bda5-5a9045db17c1
-Paddington,B13,B12,False,0,0,1adf512e-e2b6-4614-a1eb-c030732e5bfe
-Paddington,B13,B14,True,0,0,77080363-fc36-4d69-9261-85a950e22fb6
-Edgware Road,B14,B13,False,0,0,e8488f2e-7a63-45f7-a44a-3b79d33bdfe8
-Edgware Road,B14,B15,True,0,0,c7178b4c-1030-43c2-9aa5-eaf0504407b4
-Marylebone,B15,B14,False,0,0,01b54d63-a554-4606-b4a3-9c0ee41b51f5
-Marylebone,B15,B16,True,0,0,1352757c-9499-4e74-ac49-a7d5c12ec882
-Baker Street,B16,B15,False,0,0,e01606f4-d1ea-4513-9546-7dce3fd50188
-Baker Street,B16,B17,True,0,0,caad355b-3b18-4261-81f8-811fa9eb02ba
-Regent's Park,B17,B16,False,0,0,9ee84fb8-c970-41aa-93a9-c82fe58485ec
-Regent's Park,B17,B18,True,0,0,c97b85de-5dcf-484c-9707-23b98d898283
-Oxford Circus,B18,B17,False,0,0,5f672ff0-614c-4ca6-9970-c93547cd8032
-Oxford Circus,B18,B19,True,0,0,0522d7ec-c72d-4f8d-949e-b3a978e6ae7b
-Piccadilly Circus,B19,B18,False,0,0,29f0d685-82f8-49f2-b6ac-a8dd219e7f53
-Piccadilly Circus,B19,B20,True,0,0,ec3441fc-56e9-4e4f-a913-30107c196020
-Charing Cross,B20,B19,False,0,0,855b5389-2d06-4630-a0e2-de61b6cf4081
-Charing Cross,B20,B21,True,0,0,3256b267-4170-4be8-b58b-68842e10e2e8
-Embankment,B21,B20,False,0,0,418c996c-eba5-4089-9487-a99842d677d8
-Embankment,B21,B22,True,0,0,0084978a-ee22-45fc-b08d-50c6ee0f8585
-Waterloo,B22,B21,False,0,0,1ef7d908-fdb3-444c-8f29-aa94966c8695
-Waterloo,B22,B23,True,0,0,1952e2c0-d89a-4a0b-8919-a02589704908
-Lambeth North,B23,B22,False,0,0,72006e66-92cf-4187-9a50-947589911267
-Lambeth North,B23,B24,True,0,0,906e54e9-8cc6-4ec9-9e3d-64e8d318d5eb
-Elephant and Castle,B24,B23,False,0,0,3991a5ee-2d90-4a8b-8fcf-0d314c732619
+station_name,from_station,to_station,heading_west,travel_time_seconds,distance_km,uuid
+Harrow and Wealdstone,B0,B1,False,0,0,9e8dcfe0-518b-460b-985f-389ba5f853f0
+Kenton,B1,B0,True,0,0,a02361cc-5041-4943-873f-7d16993f2aa1
+Kenton,B1,B2,False,0,0,fb0460ee-e50b-4398-9936-1efdfbe20a24
+South Kenton,B2,B1,True,0,0,12e7df4f-ce8f-4d82-90a7-0920c1f2d81e
+South Kenton,B2,B3,False,0,0,3910f771-46ca-4b36-8e34-d0e5e6a17290
+North Wembley,B3,B2,True,0,0,3483f148-b101-465c-bda6-fe6f5f4bffe3
+North Wembley,B3,B4,False,0,0,80c4350f-25bf-43bc-9e98-3752aa9be422
+Wembley Central,B4,B3,True,0,0,bf1f6395-19a5-4458-842f-dfa19d277eea
+Wembley Central,B4,B5,False,0,0,44bd8bd6-a289-4aab-bb5b-afc93c03d55c
+Stonebridge Park,B5,B4,True,0,0,041668e4-7f7d-4631-89c8-773475461bb6
+Stonebridge Park,B5,B6,False,0,0,074c2366-a42b-430e-ba81-992a24331635
+Harlesden,B6,B5,True,0,0,4d8afc90-cfe3-430e-bfd2-830c1f0c8821
+Harlesden,B6,B7,False,0,0,0a1ec831-369d-416a-bdec-5e1768ac3723
+Wilesden Juction,B7,B6,True,0,0,3c2e60c2-c097-4c00-af17-1592694ed585
+Wilesden Juction,B7,B8,False,0,0,a1fad193-8df9-4d74-af1e-b766a30f06d6
+Kensal Green,B8,B7,True,0,0,1ce4fd77-7d92-436e-a58f-45de8a5b359a
+Kensal Green,B8,B9,False,0,0,302f89f4-276a-45d0-b6be-326a5fcf5e6b
+Queens Park,B9,B8,True,0,0,ea53ecad-4705-47ea-a983-5947474bdaa0
+Queens Park,B9,B10,False,0,0,03d58524-56e7-405e-bd66-3cdcb6828f95
+Kilburn Park,B10,B9,True,0,0,83226b1c-405b-47d0-a1df-6609da119d97
+Kilburn Park,B10,B11,False,0,0,d554d5c5-a1c2-4c72-8087-74640238c8ba
+Maida Vale,B11,B10,True,0,0,af2f1cf9-e569-4988-a909-e12f8786f8c1
+Maida Vale,B11,B12,False,0,0,4ca26ed6-a1a2-4dae-bcd2-a4fc758ad668
+Warwick Avenue,B12,B11,True,0,0,5eb4ce77-21a4-4c69-85ce-22fb09f5cc75
+Warwick Avenue,B12,B13,False,0,0,67fb3f06-c6b9-48da-ab5c-49f7a9980384
+Paddington,B13,B12,True,0,0,d528738c-d9e5-4421-83a8-7e6903ef1e30
+Paddington,B13,B14,False,0,0,3b758893-ecc5-474a-8290-82b1bd4e7cfb
+Edgware Road,B14,B13,True,0,0,8218c3f6-eb3b-402f-af1a-fbfaf1f1c309
+Edgware Road,B14,B15,False,0,0,23d1eb3f-9c22-4482-8bb0-f3646e946ce5
+Marylebone,B15,B14,True,0,0,a336a60f-098a-41b4-b9da-2ecef37002cb
+Marylebone,B15,B16,False,0,0,d3d530a9-2edc-4ee0-b4c5-b76f614a6f1b
+Baker Street,B16,B15,True,0,0,ae8501d9-ed41-4a68-a9ad-1df33b9638f6
+Baker Street,B16,B17,False,0,0,a01901cb-31f5-4ce5-a8c5-bb374d22e5a4
+Regent's Park,B17,B16,True,0,0,a7c3eda3-cb7c-434c-90e2-8cdac4cae991
+Regent's Park,B17,B18,False,0,0,07f46676-53ef-47e1-999a-de0fccb41417
+Oxford Circus,B18,B17,True,0,0,8b99a76f-46b7-474d-8053-bd9024bf2562
+Oxford Circus,B18,B19,False,0,0,134b8af6-85e8-4dc4-ac90-4f9800037783
+Piccadilly Circus,B19,B18,True,0,0,23703618-1952-43ce-8dc0-d35fabb6b7ce
+Piccadilly Circus,B19,B20,False,0,0,6da5b34c-324a-4d74-b3e5-1e2ea83fe76c
+Charing Cross,B20,B19,True,0,0,3bbb8a18-b630-4a3a-bb74-e5a7937948ba
+Charing Cross,B20,B21,False,0,0,2b09f4f2-2554-4298-b082-758c04d8ccde
+Embankment,B21,B20,True,0,0,4ecf7b54-b759-4974-a17b-071da65d2391
+Embankment,B21,B22,False,0,0,dd40bbec-8e9d-44fd-b186-3f5ff2d1c224
+Waterloo,B22,B21,True,0,0,89cd8862-42e3-4a81-be17-e39e28e81145
+Waterloo,B22,B23,False,0,0,277682d5-6458-4f20-a2c4-98889901a970
+Lambeth North,B23,B22,True,0,0,21bf4ce0-e97b-40a1-824d-1fd8720a5fe1
+Lambeth North,B23,B24,False,0,0,35205893-19a2-4342-867a-66e343aca118
+Elephant and Castle,B24,B23,True,0,0,d1a8317e-362a-4fc9-876e-b19e6703ed61

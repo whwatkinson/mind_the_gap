@@ -2,7 +2,7 @@ from uuid import uuid4
 
 from project_root import get_project_root
 
-LINE_CODE = "V"
+LINE_CODE = "J"
 
 
 def list_to_stations() -> None:
@@ -24,7 +24,7 @@ def list_to_connections() -> None:
     with open(f"{get_project_root()}/data/helper_scripts/clipboard.txt") as file_handle:
         file_contents_list = file_handle.read().split("\n")
     print(
-        "station_name,from_station,to_station,heading_west_or_south,travel_time_seconds,distance_km,uuid"
+        "station_name,from_station,to_station,heading_west,travel_time_seconds,distance_km,uuid"
     )
     for index, item in enumerate(file_contents_list):
         if "," in item:

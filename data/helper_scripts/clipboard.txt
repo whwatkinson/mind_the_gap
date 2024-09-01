@@ -1,16 +1,27 @@
-Walthamstow Central
-Blackhorse Road
-Tottenham Hale
-Seven Sisters
-Finsbury Park
-Highbury & Islington
-King's Cross St Pancras
-Euston
-Warren Street
-Oxford Circus
+Stanmore
+Canons Park
+Queensbury
+Kingsbury
+Wembley Park
+Neasden
+Dollis Hill
+Wilesden Green
+Kilburn
+West Hampstead
+Finchley Road
+Swiss Cottage
+St. John's Wood
+Baker Street
+Bond Street
 Green Park
-Victoria
-Pimlico
-Vauxhall
-Stockwell
-Brixton
+Westminster
+Waterloo
+Southwark
+London Bridge
+Bermondsey
+Canada Water
+Canary Wharf
+North Greenwich
+Canning Town
+West Ham
+Stratford

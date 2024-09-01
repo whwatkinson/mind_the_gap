@@ -1,4 +1,4 @@
-station_name,from_station,to_station,heading_west_or_south,travel_time_seconds,distance_km,uuid
+station_name,from_station,to_station,heading_west,travel_time_seconds,distance_km,uuid
 Walthamstow Central,V0,V1,True,0,0,20ab0026-9d57-4166-979c-af88e6937ebc
 Blackhorse Road,V1,V0,False,0,0,6c871559-49b1-4060-8ef3-6c7d8feb2554
 Blackhorse Road,V1,V2,True,0,0,95c04a12-7ded-407f-9a0c-a5ffaf9b3fe1
