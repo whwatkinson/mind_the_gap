@@ -82,6 +82,13 @@ class Station(StructuredNode, AuditInformation):
         model=Connection,
     )
 
+    northern = RelationshipTo(
+        cls_name="Station",
+        relation_type="NORTHERN",
+        cardinality=OneOrMore,
+        model=Connection,
+    )
+
     piccadilly = RelationshipTo(
         cls_name="Station",
         relation_type="PICCADILLY",

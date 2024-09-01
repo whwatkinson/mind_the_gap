@@ -1,0 +1,57 @@
+station_name,end_of_line,tube_line_identifier,location,year_opened,wiggle_ranking
+Mill Hill East,False,D0,"[lon, lat]",,0.0
+
+High Barnet,False,D2,"[lon, lat]",,0.0
+Totteridge & Whetstone,False,D3,"[lon, lat]",,0.0
+Woodside Park,False,D4,"[lon, lat]",,0.0
+West Finchley,False,D5,"[lon, lat]",,0.0
+Finchley Central,False,D6,"[lon, lat]",,0.0
+East Finchley,False,D7,"[lon, lat]",,0.0
+Highgate,False,D8,"[lon, lat]",,0.0
+Archway,False,D9,"[lon, lat]",,0.0
+Tuffnell Park,False,D10,"[lon, lat]",,0.0
+Kentish Town,False,D11,"[lon, lat]",,0.0
+
+Edgware,False,D13,"[lon, lat]",,0.0
+Burnt Oak,False,D14,"[lon, lat]",,0.0
+Colindale,False,D15,"[lon, lat]",,0.0
+Hendon Central,False,D16,"[lon, lat]",,0.0
+Brent Cross,False,D17,"[lon, lat]",,0.0
+Golders Green,False,D18,"[lon, lat]",,0.0
+Hampstead,False,D19,"[lon, lat]",,0.0
+Belsize Park,False,D20,"[lon, lat]",,0.0
+Chalk Farm,False,D21,"[lon, lat]",,0.0
+Camden Town,False,D22,"[lon, lat]",,0.0
+Mornington Crescent,False,D23,"[lon, lat]",,0.0
+Euston,False,D24,"[lon, lat]",,0.0
+Warren Street,False,D25,"[lon, lat]",,0.0
+Goodge Street,False,D26,"[lon, lat]",,0.0
+Tottenham Court Road,False,D27,"[lon, lat]",,0.0
+Leicester Square,False,D28,"[lon, lat]",,0.0
+Charing Cross,False,D29,"[lon, lat]",,0.0
+Embankment,False,D30,"[lon, lat]",,0.0
+Waterloo,False,D31,"[lon, lat]",,0.0
+Kennington,False,D32,"[lon, lat]",,0.0
+Oval,False,D33,"[lon, lat]",,0.0
+Stockwell,False,D34,"[lon, lat]",,0.0
+Clapham North,False,D35,"[lon, lat]",,0.0
+Clapham Common,False,D36,"[lon, lat]",,0.0
+Clapham South,False,D37,"[lon, lat]",,0.0
+Balham,False,D38,"[lon, lat]",,0.0
+Tooting Bec,False,D39,"[lon, lat]",,0.0
+Tooting Broadway,False,D40,"[lon, lat]",,0.0
+Colliers Wood,False,D41,"[lon, lat]",,0.0
+South Wimbledon,False,D42,"[lon, lat]",,0.0
+Morden,False,D43,"[lon, lat]",,0.0
+
+Nine Elms,False,D45,"[lon, lat]",,0.0
+Battersea Power Station,False,D46,"[lon, lat]",,0.0
+
+King's Cross St Pancras,False,D48,"[lon, lat]",,0.0
+Angel,False,D49,"[lon, lat]",,0.0
+Old Street,False,D50,"[lon, lat]",,0.0
+Moorgate,False,D51,"[lon, lat]",,0.0
+Bank,False,D52,"[lon, lat]",,0.0
+London Bridge,False,D53,"[lon, lat]",,0.0
+Borough,False,D54,"[lon, lat]",,0.0
+Elephant & Castle,False,D55,"[lon, lat]",,0.0

@@ -89,9 +89,11 @@ def load_tube_stations(tube_line: TubeLine) -> None:
 
 
 def load_tube_lines() -> None:
+    # TODO profile this
 
     with db.transaction:
         tll = TubeLineList()
+        # TODO master stations list
 
         load_tube_stations(tll.piccadilly)
         load_tube_stations(tll.central)
@@ -101,6 +103,7 @@ def load_tube_lines() -> None:
         load_tube_stations(tll.metropolitan)
         load_tube_stations(tll.hammersmith_and_city)
         load_tube_stations(tll.district)
+        load_tube_stations(tll.northern)
 
         load_connections(tll.piccadilly)
         load_connections(tll.central)
@@ -110,6 +113,7 @@ def load_tube_lines() -> None:
         load_connections(tll.metropolitan)
         load_connections(tll.hammersmith_and_city)
         load_connections(tll.district)
+        load_connections(tll.northern)
 
 
 if __name__ == "__main__":

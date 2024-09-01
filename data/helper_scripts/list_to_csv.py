@@ -37,14 +37,14 @@ def list_to_connections() -> None:
             )
         else:
             print(
-                f"{item},{LINE_CODE}{index},{LINE_CODE}{index - 1},True,0,0,{uuid4()}"
+                f"{item},{LINE_CODE}{index},{LINE_CODE}{index - 1},False,0,0,{uuid4()}"
             )
             print(
-                f"{item},{LINE_CODE}{index},{LINE_CODE}{index + 1},False,0,0,{uuid4()}"
+                f"{item},{LINE_CODE}{index},{LINE_CODE}{index + 1},True,0,0,{uuid4()}"
             )
 
 
 if __name__ == "__main__":
-    list_to_stations()
+    # list_to_stations()
     print("\n\n\n")
     list_to_connections()
