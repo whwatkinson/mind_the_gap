@@ -1,0 +1,26 @@
+station_name,end_of_line,tube_line_identifier,location,year_opened,wiggle_ranking
+Harrow and Wealdstone,True,B0,"[lon, lat]",,0.0
+Kenton,False,B1,"[lon, lat]",,0.0
+South Kenton,False,B2,"[lon, lat]",,0.0
+North Wembley,False,B3,"[lon, lat]",,0.0
+Wembley Central,False,B4,"[lon, lat]",,0.0
+Stonebridge Park,False,B5,"[lon, lat]",,0.0
+Harlesden,False,B6,"[lon, lat]",,0.0
+Wilesden Juction,False,B7,"[lon, lat]",,0.0
+Kensal Green,False,B8,"[lon, lat]",,0.0
+Queens Park,False,B9,"[lon, lat]",,0.0
+Kilburn Park,False,B10,"[lon, lat]",,0.0
+Maida Vale,False,B11,"[lon, lat]",,0.0
+Warwick Avenue,False,B12,"[lon, lat]",,0.0
+Paddington,False,B13,"[lon, lat]",,0.0
+Edgware Road,False,B14,"[lon, lat]",,0.0
+Marylebone,False,B15,"[lon, lat]",,0.0
+Baker Street,False,B16,"[lon, lat]",,0.0
+Regent's Park,False,B17,"[lon, lat]",,0.0
+Oxford Circus,False,B18,"[lon, lat]",,0.0
+Piccadilly Circus,False,B19,"[lon, lat]",,0.0
+Charing Cross,False,B20,"[lon, lat]",,0.0
+Embankment,False,B21,"[lon, lat]",,0.0
+Waterloo,False,B22,"[lon, lat]",,0.0
+Lambeth North,False,B23,"[lon, lat]",,0.0
+Elephant and Castle,True,B24,"[lon, lat]",,0.0

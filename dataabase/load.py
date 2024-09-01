@@ -34,7 +34,9 @@ def load_connections(tube_line: TubeLine) -> None:
                 raise Exception(f"No stations found for {row=}")
 
             from_station, to_station = res[0]
-            print(f"\t Connecting {from_station.station_name} to {to_station.station_name}")
+            print(
+                f"\t Connecting {from_station.station_name} to {to_station.station_name}"
+            )
             if getattr(from_station, tube_line.data_file_name.lower()).is_connected(
                 to_station
             ):
@@ -90,10 +92,12 @@ def load_tube_lines() -> None:
     load_tube_stations(tll.piccadilly)
     load_tube_stations(tll.central)
     load_tube_stations(tll.victoria)
+    load_tube_stations(tll.bakerloo)
 
     load_connections(tll.piccadilly)
     load_connections(tll.central)
     load_connections(tll.victoria)
+    load_connections(tll.bakerloo)
 
 
 if __name__ == "__main__":

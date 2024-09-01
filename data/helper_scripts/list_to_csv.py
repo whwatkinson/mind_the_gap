@@ -2,7 +2,7 @@ from uuid import uuid4
 
 from project_root import get_project_root
 
-LINE_CODE = "P"
+LINE_CODE = "B"
 
 
 def list_to_stations() -> None:
@@ -16,9 +16,7 @@ def list_to_stations() -> None:
         if "," in item:
             item = f'"{item}"'
         # station_name,end_of_line,tube_line_identifier,location,year_opened,wiggle_ranking
-        print(
-            f'{item},False,{LINE_CODE}{index},"[lon, lat]",,0.0'
-        )
+        print(f'{item},False,{LINE_CODE}{index},"[lon, lat]",,0.0')
 
 
 def list_to_connections() -> None:

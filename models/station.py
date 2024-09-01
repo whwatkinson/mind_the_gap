@@ -40,9 +40,9 @@ class Station(StructuredNode, AuditInformation):
         cls_name="Station", relation_type="NEXT", cardinality=OneOrMore
     )
 
-    piccadilly = RelationshipTo(
+    bakerloo = RelationshipTo(
         cls_name="Station",
-        relation_type="PICCADILLY",
+        relation_type="BAKERLOO",
         cardinality=OneOrMore,
         model=Connection,
     )
@@ -50,6 +50,13 @@ class Station(StructuredNode, AuditInformation):
     central = RelationshipTo(
         cls_name="Station",
         relation_type="CENTRAL",
+        cardinality=OneOrMore,
+        model=Connection,
+    )
+
+    piccadilly = RelationshipTo(
+        cls_name="Station",
+        relation_type="PICCADILLY",
         cardinality=OneOrMore,
         model=Connection,
     )
