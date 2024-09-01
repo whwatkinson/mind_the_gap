@@ -61,6 +61,13 @@ class Station(StructuredNode, AuditInformation):
         model=Connection,
     )
 
+    metropolitan = RelationshipTo(
+        cls_name="Station",
+        relation_type="METROPOLITAN",
+        cardinality=OneOrMore,
+        model=Connection,
+    )
+
     piccadilly = RelationshipTo(
         cls_name="Station",
         relation_type="PICCADILLY",

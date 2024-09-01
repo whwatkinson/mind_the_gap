@@ -1,105 +1,107 @@
-station_name,from_station,to_station,forward_travel,travel_time_seconds,distance_km,uuid
-Cockfosters,P0,P1,True,0,0,c04fd55a-1aec-493c-bd5b-f3a717cc726e
-Oakwood,P1,P0,False,0,0,86e98f45-9246-437a-b83c-90de6d3cdd95
-Oakwood,P1,P2,True,0,0,bb7695f0-944d-4335-9d9d-335fadb1df55
-Southgate,P2,P1,False,0,0,f556cfa7-3e3a-4585-a840-ef76a5ac048f
-Southgate,P2,P3,True,0,0,d9bfbfde-4ac5-4db7-8dbf-9cedff447702
-Arnos Grove,P3,P2,False,0,0,3999f5fc-811c-46e9-8ff9-07eabeacd3b6
-Arnos Grove,P3,P4,True,0,0,47d3d96f-6d55-42b4-959b-f1d25ee79c3e
-Bounds Green,P4,P3,False,0,0,4f5ff7be-51ad-4caa-b951-4c1cfa8be84c
-Bounds Green,P4,P5,True,0,0,124188fe-ae64-4de1-9aff-949129021f02
-Wood Green,P5,P4,False,0,0,e4d56e31-95ab-42bd-bd6a-1c3ecf219cf2
-Wood Green,P5,P6,True,0,0,60e6d38a-8ff4-4c43-899a-f81b45fc12f6
-Turnpike Lane,P6,P5,False,0,0,69611566-dbbe-4e12-bc80-66291bc0e72f
-Turnpike Lane,P6,P7,True,0,0,e2e1381a-5168-41f8-b0fe-199ea80c7c20
-Manor House,P7,P6,False,0,0,3c5a5c45-a30a-4f93-ac74-6474e015c969
-Manor House,P7,P8,True,0,0,0a133326-1681-46a7-9d63-187450c69119
-Finsbury Park,P8,P7,False,0,0,83a9ee7e-27b1-4574-940c-57dc1a04f381
-Finsbury Park,P8,P9,True,0,0,e9a34cd8-a3b1-4a30-b921-fb1c2d85687c
-Arsenal,P9,P8,False,0,0,63452a20-0dfb-47b0-9bac-694c8832f038
-Arsenal,P9,P10,True,0,0,13d17cc7-fd04-48f4-9e7e-0f2897b10807
-Holloway Road,P10,P9,False,0,0,3d582aff-2440-45bf-bb0e-a044713630d7
-Holloway Road,P10,P11,True,0,0,2d690e03-0d20-49e3-afd0-fc86d4ba87b8
-Caledonian Road,P11,P10,False,0,0,b9931b76-aeff-4de6-8e00-a929cf31bd49
-Caledonian Road,P11,P12,True,0,0,3d0fc87e-ae80-4fca-ba9a-0ba9ddda8964
-King's Cross St Pancras,P12,P11,False,0,0,bd229f44-bff1-4f49-ad98-420afc26323f
-King's Cross St Pancras,P12,P13,True,0,0,9ee6060d-3feb-4b16-a704-b967efe2a495
-Russell Square,P13,P12,False,0,0,b4860dc2-1770-40d3-af00-444c8c2b2f3e
-Russell Square,P13,P14,True,0,0,9bad7f21-8173-412a-ab9c-26628ac9be02
-Holborn,P14,P13,False,0,0,4a887ed9-404d-433d-bd5c-97fb4cbb83a3
-Holborn,P14,P15,True,0,0,acf2ff9b-b09f-4dfa-9d1b-cfedf3d3381e
-Covent Garden,P15,P14,False,0,0,07013ab5-1650-4712-a128-188592488c19
-Covent Garden,P15,P16,True,0,0,25cee4f2-7f30-4706-97f9-85e085797449
-Leicester Square,P16,P15,False,0,0,96516ae9-6b0f-4329-bc71-a2a8d78d262f
-Leicester Square,P16,P17,True,0,0,1ba5fcc6-b3fb-4f91-897e-3fde0f8adb0c
-Piccadilly Circus,P17,P16,False,0,0,401616be-9645-4527-806a-4fd852205568
-Piccadilly Circus,P17,P18,True,0,0,8e74d4bf-d816-4b0d-a012-5484c69eaaea
-Green Park,P18,P17,False,0,0,6a1acbf5-ce2c-4585-9b0a-93e1ec5e84f9
-Green Park,P18,P19,True,0,0,b0153930-c2a9-402b-bd47-4a32cf63467b
-Hyde Park Corner,P19,P18,False,0,0,3f4f2f4d-0bcf-4e8b-9941-b9f54af267c2
-Hyde Park Corner,P19,P20,True,0,0,8a3a4753-d952-42c7-821f-5e20507acc38
-Knightsbridge,P20,P19,False,0,0,52739b8b-9b5e-4948-8fe7-ab36a0aef8c9
-Knightsbridge,P20,P21,True,0,0,eb19fa92-9109-4ad5-9180-b5f2ad2eb716
-South Kensington,P21,P20,False,0,0,05b0f5b0-019b-47cc-a1d1-3dda9417372d
-South Kensington,P21,P22,True,0,0,93673733-6511-447d-a5fb-9da1a8b82c79
-Gloucester Road,P22,P21,False,0,0,38484d56-1ea0-43ab-8868-08d42966e8f9
-Gloucester Road,P22,P23,True,0,0,4dde0dac-8fe5-4efe-a4c3-6e6198740357
-Earl's Court,P23,P22,False,0,0,a1a5ed1f-0e42-44e5-ba75-d5db3cff6407
-Earl's Court,P23,P24,True,0,0,1ed9bc38-9b99-49eb-8370-63af0e34de68
-Barons Court,P24,P23,False,0,0,c1461658-be04-4def-ac82-a881ffaadb01
-Barons Court,P24,P25,True,0,0,f4216654-2b2c-442d-82c0-ebdbb9b67ed1
-Hammersmith,P25,P24,False,0,0,20c1193a-916a-437c-9e8b-0bff38922871
-Hammersmith,P25,P26,True,0,0,d2381987-d131-479c-90cc-f26add3126bd
-Turnham Green,P26,P25,False,0,0,e9203462-0891-4337-a6e5-585950c51b1f
-Turnham Green,P26,P27,True,0,0,adbb46ee-a7c5-4484-8526-3573a0957167
-Acton Town,P27,P26,False,0,0,0103575c-e38b-4d66-aa79-e3d13316190a
-Acton Town,P27,P28,True,0,0,b5837c5d-0373-4ead-a194-66fcc2b25305
-Acton Town,P27,P39,True,0,0,b5837c5d-0373-4ead-a194-66fcc2b25305
-South Ealing,P28,P27,False,0,0,c2ed062f-5cbc-4913-a57b-6a9a9ca92c91
-South Ealing,P28,P29,True,0,0,c8411b6b-e92a-4559-a2d3-362bcae6a28d
-Northfields,P29,P28,False,0,0,538185ae-78ee-4a45-bd68-606d07dc123c
-Northfields,P29,P30,True,0,0,961e6a5b-aae5-4d9b-a6c2-b254bcde2294
-Boston Manor,P30,P29,False,0,0,65e023dc-64f0-42a5-bc2a-29d024898075
-Boston Manor,P30,P31,True,0,0,ed052da6-1aa6-4a33-93ca-2162637b1426
-Osterley,P31,P30,False,0,0,b06daf8a-f8f9-4054-b079-9bdeb7ec8db0
-Osterley,P31,P32,True,0,0,27877de0-adca-490d-89ec-9851fb43f2d3
-Hounslow East,P32,P31,False,0,0,d54917a3-680d-4218-b3c3-611112192654
-Hounslow East,P32,P33,True,0,0,58512520-b6f4-4f2a-8a3a-8c20bd835ec9
-Hounslow Central,P33,P32,False,0,0,a681fb0d-2589-44a8-adb5-833a3c0946a2
-Hounslow Central,P33,P34,True,0,0,ca9352e3-0b6f-42bd-ba38-b8766e89f010
-Hounslow West,P34,P33,False,0,0,df9de7ad-f58d-4a29-970e-dbdaf3aa2a0b
-Hounslow West,P34,P35,True,0,0,16aee156-2c45-4da2-a831-879142e47466
-Hatton Cross,P35,P34,False,0,0,b98e433c-fceb-4739-8039-58b9dbd58647
-Hatton Cross,P35,P36,True,0,0,c1d5706f-d6c8-446e-aedd-b3ba361705f0
-Heathrow Terminal 4,P36,P35,False,0,0,772105a3-fd59-4698-9022-c6a30006ad16
-Heathrow Terminal 4,P36,P37,True,0,0,83974c24-b7dd-406e-8df9-4b3f27887174
-"Heathrow Terminals 1, 2 & 3",P37,P36,False,0,0,e7c94fad-faae-4702-bdd1-45363e2c3915
-"Heathrow Terminals 1, 2 & 3",P37,P38,True,0,0,81db7dac-ed95-4fa6-8b09-9e15c00d4f96
-Heathrow Terminal 5,P38,P37,False,0,0,9c71d3ea-716e-4596-87a4-8844e3bb4539
-Ealing Common,P39,P27,False,0,0,28e51c36-c105-4b41-96f1-66ff7220d61b
-Ealing Common,P39,P40,True,0,0,63a348c7-f293-41bf-8329-f8407c995e75
-North Ealing,P40,P39,False,0,0,e315e1b5-2903-4aa3-8aa3-c358806181b2
-North Ealing,P40,P41,True,0,0,814c3c7f-0a3f-4f26-bb32-a78e22dd6273
-Park Royal,P41,P40,False,0,0,db147b73-1f85-4d08-83a7-34ad207558fa
-Park Royal,P41,P42,True,0,0,954e8d1c-7aaa-4e86-8c5b-bf6738d1e16e
-Alperton,P42,P41,False,0,0,df23ac46-4b6d-43be-9ff4-d38ea5ec5b66
-Alperton,P42,P43,True,0,0,838862e6-5ea7-48c6-83ec-38a28ba4df70
-Sudbury Town,P43,P42,False,0,0,8c2523f4-a27f-46e7-8d22-e2492efc3463
-Sudbury Town,P43,P44,True,0,0,c54bf57d-b24c-4528-a4fa-13f062055048
-Sudbury Hill,P44,P43,False,0,0,596ada02-bb89-43cd-823c-98e9467145f6
-Sudbury Hill,P44,P45,True,0,0,673df936-0762-4772-8ee1-b62fc807d492
-South Harrow,P45,P44,False,0,0,483d0088-a048-4ec3-937c-5f14bd6fea35
-South Harrow,P45,P46,True,0,0,31cc677f-b799-45dc-908b-9c586b653a79
-Rayners Lane,P46,P45,False,0,0,6db0f3c7-4041-4aa0-935b-0afc288e53a6
-Rayners Lane,P46,P47,True,0,0,fec6e4e5-854e-4f44-9a39-68f6a2320c68
-Eastcote,P47,P46,False,0,0,9c980025-65a8-49fb-9f56-9df826f1c270
-Eastcote,P47,P48,True,0,0,2f457582-c687-419b-91b1-25395215e532
-Ruislip Manor,P48,P47,False,0,0,0147e653-50fa-4d26-8063-49f4a388d7aa
-Ruislip Manor,P48,P49,True,0,0,5cb1e3b4-799f-46c0-a832-b874702998b4
-Ruislip,P49,P48,False,0,0,534f574f-aca6-411d-9581-fdada711abb4
-Ruislip,P49,P50,True,0,0,eeb2a7b2-8f85-4cda-8974-11ae2523147d
-Ickenham,P50,P49,False,0,0,84a6f1c3-543a-42d3-b8b4-bb70b0f4ba09
-Ickenham,P50,P51,True,0,0,a968105b-21bd-45fb-8aa3-ae55b8571a97
-Hillingdon,P51,P50,False,0,0,4d771335-2498-4cf0-91e7-5c1770307902
-Hillingdon,P51,P52,True,0,0,d15ced23-2e95-4ac4-ba73-8e47acff06fa
-Uxbridge,P52,P51,False,0,0,35aa15dd-892c-42a2-b1ac-01f340748045
+station_name,from_station,to_station,heading_west,travel_time_seconds,distance_km,uuid
+Uxbridge,P0,P1,False,0,0,eeaffde2-e95b-4293-b4f0-ac408a5e4a88
+Hillingdon,P1,P0,True,0,0,31916598-5ca5-426f-b06f-4353f1fc739b
+Hillingdon,P1,P2,False,0,0,02c4150c-0904-475a-af20-6a75b0a05be7
+Ickenham,P2,P1,True,0,0,775f8797-711a-4d0e-9e7a-891d57a30847
+Ickenham,P2,P3,False,0,0,adfc890e-0d97-4b06-9e2d-8def70f2f205
+Ruislip,P3,P2,True,0,0,bd6cd396-ba4b-4398-9382-1e3c26a032e1
+Ruislip,P3,P4,False,0,0,35e52aec-5d20-4680-9d12-25a8d03c1eab
+Ruislip Manor,P4,P3,True,0,0,95fd9dc6-5583-459b-b174-540832c961da
+Ruislip Manor,P4,P5,False,0,0,11a9c085-96a7-4205-bfd0-3d1ec27477bd
+Eastcote,P5,P4,True,0,0,b132f57d-371c-44f1-b156-f024394337ad
+Eastcote,P5,P6,False,0,0,0631c369-7f7c-4bc7-b6e5-15bb7480df6a
+Rayners Lane,P6,P5,True,0,0,4147f51b-9268-45b4-bbce-cf845c6e7b1d
+Rayners Lane,P6,P7,False,0,0,75fe2aa1-99dd-47d8-b2b3-d3daad30437e
+South Harrow,P7,P6,True,0,0,a98fa6ff-730b-4721-a684-e82779724285
+South Harrow,P7,P8,False,0,0,62374980-14b2-41d6-8eb5-821398e4eb54
+Sudbury Hill,P8,P7,True,0,0,ddbbe718-bc3a-401f-82f5-ab4cf5498911
+Sudbury Hill,P8,P9,False,0,0,2f052183-afcd-4809-bff4-aceb96ace713
+Sudbury Town,P9,P8,True,0,0,eabd5f4d-4644-439d-bef7-ab532f1e60d2
+Sudbury Town,P9,P10,False,0,0,65e03d99-7e5b-4281-a105-2695906a73b8
+Alperton,P10,P9,True,0,0,920986b6-6ec7-477b-b27d-3e32bd647a89
+Alperton,P10,P11,False,0,0,0d913e0b-2ca4-4277-ad18-7305e882f4b1
+Park Royal,P11,P10,True,0,0,fc472968-4ddf-4ce2-ae0b-c268854a049a
+Park Royal,P11,P12,False,0,0,eb4f41bb-af8d-4195-846d-3e3c9155bbb2
+North Ealing,P12,P11,True,0,0,a8994784-83bb-4591-9e65-32a67fcb1a00
+North Ealing,P12,P13,False,0,0,fa49e39d-5935-4ab8-8329-a25dcba7cd6e
+Ealing Common,P13,P12,True,0,0,08fa6b8a-e670-4474-a0a5-fac38dedf98a
+Ealing Common,P13,P27,False,0,0,cf862b8e-d8e4-4ace-837b-a7d2877b3402
+
+Heathrow Terminal 5,P15,P16,False,0,0,e3ec4784-73c3-488a-bf52-f80ff1b01c0b
+"Heathrow Terminals 1, 2 & 3",P16,P15,True,0,0,23445a00-9fe0-4e54-9032-fed2f226821d
+"Heathrow Terminals 1, 2 & 3",P16,P18,False,0,0,f169b349-302d-46fb-b34b-260327494f42
+Heathrow Terminal 4,P17,P16,True,0,0,5f054a1b-c72b-46ab-ba2e-850520c5d575
+Hatton Cross,P18,P16,True,0,0,3916b136-5aed-4512-9be2-d108b3db859b
+Hatton Cross,P18,P17,True,0,0,47d72a7d-9788-4951-b76a-bbdc192d19ec
+Hatton Cross,P18,P19,False,0,0,0da74bc2-36c3-44bd-9bfd-882be3dccb9a
+Hounslow West,P19,P18,True,0,0,b197b8f0-8b3e-465d-b29d-a3cd44a0d4a3
+Hounslow West,P19,P20,False,0,0,b174b140-2e0b-4bbb-9a60-794e3e5917c9
+Hounslow Central,P20,P19,True,0,0,b113071e-26f9-46cb-9158-88a6338ac424
+Hounslow Central,P20,P21,False,0,0,9d61265b-823a-44f8-af1e-9cea7b364c3e
+Hounslow East,P21,P20,True,0,0,f6be8dd1-8535-46f9-bb31-8b75ebe7fb95
+Hounslow East,P21,P22,False,0,0,ddea2ba7-600f-4d92-b34b-6baa680a0a52
+Osterley,P22,P21,True,0,0,da04fca1-1f93-43b6-9aba-29705e5f01fb
+Osterley,P22,P23,False,0,0,36e9b59b-ae1f-4fe8-b951-3fe9fd92c7d1
+Boston Manor,P23,P22,True,0,0,06c89070-3958-4cec-92ac-c072b5088ac6
+Boston Manor,P23,P24,False,0,0,4e246248-5093-4fa3-a539-97829a98d13f
+Northfields,P24,P23,True,0,0,262ff08f-7c99-48ea-a93b-3f00f95a9bbc
+Northfields,P24,P25,False,0,0,38edb575-dd4c-4bb9-9243-4edfe15ca4fb
+South Ealing,P25,P24,True,0,0,c51fdaff-d206-4c52-b11d-64bd0540f83a
+South Ealing,P25,P27,False,0,0,5ae4fa07-818d-43f9-b0de-27d869642815
+
+Acton Town,P27,P25,True,0,0,e14461b7-b5f5-4044-9346-321ae647c386
+Acton Town,P27,P13,True,0,0,211fa79d-f8d0-4841-91c0-ad65ccb53606
+Acton Town,P27,P28,False,0,0,b21a4dda-5811-45f4-9bf8-91a8e85f9e43
+Turnham Green,P28,P27,True,0,0,e9fd9cbe-eb17-4c00-81de-74aa2809bcdb
+Turnham Green,P28,P29,False,0,0,18d288d4-7449-4c80-a00c-58a84ad41981
+Hammersmith,P29,P28,True,0,0,4c063910-fb83-48db-8635-851fe48bee4a
+Hammersmith,P29,P30,False,0,0,cec88961-4355-4f25-9d3f-369e30591fb6
+Barons Court,P30,P29,True,0,0,6046de65-2c20-4b39-b02e-fd0362087b17
+Barons Court,P30,P31,False,0,0,f5d20ba8-0b3f-4863-80d9-5962a07cf021
+Earl's Court,P31,P30,True,0,0,a3878c2d-3206-440e-acb2-2fe4e0a40cb6
+Earl's Court,P31,P32,False,0,0,669c0f7e-51d7-41d9-9044-adc0c5d8a924
+Gloucester Road,P32,P31,True,0,0,5125794e-82ee-442c-94dd-19e2ea15ad3b
+Gloucester Road,P32,P33,False,0,0,7409255d-3255-4a9b-bdac-d53a2f87f345
+South Kensington,P33,P32,True,0,0,2be95ba1-5ef8-49ed-8f0a-104cceec7466
+South Kensington,P33,P34,False,0,0,fd2e618e-7970-410a-8cec-a435140c94c8
+Knightsbridge,P34,P33,True,0,0,de72235d-8ebf-4f15-b6c2-e33811b8ea59
+Knightsbridge,P34,P35,False,0,0,d287512b-0228-47e9-b3b7-656c9811569d
+Hyde Park Corner,P35,P34,True,0,0,4e06a38d-78e1-493f-822b-84c4950cf22b
+Hyde Park Corner,P35,P36,False,0,0,a09b670f-2483-4f72-b1eb-8c5080a878c0
+Green Park,P36,P35,True,0,0,3f307d57-354b-460d-8be4-ce1212bcd9f7
+Green Park,P36,P37,False,0,0,dbeb81a6-af83-4df5-9f98-6aaf3b61979f
+Piccadilly Circus,P37,P36,True,0,0,f0fa06dd-cc18-4dc1-aedb-048345856c3a
+Piccadilly Circus,P37,P38,False,0,0,15ad5dce-efec-4b4e-9427-ae6fd9b81066
+Leicester Square,P38,P37,True,0,0,677ec2dd-4316-49f9-b571-1e938d6851f4
+Leicester Square,P38,P39,False,0,0,4fe4716b-78e1-48e8-9285-3ba91922ca53
+Covent Garden,P39,P38,True,0,0,b6cf6a7a-c296-4f77-b48d-b28bc253b4f9
+Covent Garden,P39,P40,False,0,0,4492a346-fa9c-4b22-ba64-d9924cd0bb56
+Holborn,P40,P39,True,0,0,d442166f-1057-4fe9-a588-cec97145a977
+Holborn,P40,P41,False,0,0,cfdc4bbc-350c-47c3-860c-c629330c7d73
+Russell Square,P41,P40,True,0,0,030a60df-0799-4c2b-8c17-85ed23348525
+Russell Square,P41,P42,False,0,0,8c599e20-a250-435f-964a-1161066f360b
+King's Cross St Pancras,P42,P41,True,0,0,65589838-13bf-4315-8190-382eec484a32
+King's Cross St Pancras,P42,P43,False,0,0,7bcf7dbc-cee3-4f8f-83b5-54219409d455
+Caledonian Road,P43,P42,True,0,0,226a6df0-6172-4dbf-99f6-0e9155a1db5f
+Caledonian Road,P43,P44,False,0,0,5e22f7f2-eb89-4896-9f96-1174e8cf563e
+Holloway Road,P44,P43,True,0,0,3f130bde-b6f4-4dc5-8ab4-7dbc9a75d0d8
+Holloway Road,P44,P45,False,0,0,1681fceb-dd38-4ca6-a681-fb9a95d8b36b
+Arsenal,P45,P44,True,0,0,6f61c68e-565a-4ada-a3fe-572148ede9c0
+Arsenal,P45,P46,False,0,0,5509c629-d2e4-4889-b054-19bf89a1eb1f
+Finsbury Park,P46,P45,True,0,0,36eddaa3-3afd-46c8-8d88-eead40107950
+Finsbury Park,P46,P47,False,0,0,460a51c2-ce0e-44fc-a77d-4848462c5a7d
+Manor House,P47,P46,True,0,0,f1d14fc0-a169-490b-acb0-9170cf63a21d
+Manor House,P47,P48,False,0,0,911c1189-ad4f-413f-9e06-166cdc43548d
+Turnpike Lane,P48,P47,True,0,0,3d542aa7-f334-4198-851d-d5fa2a5794b6
+Turnpike Lane,P48,P49,False,0,0,d583bb7f-60ca-4c65-873c-7404fa332a3e
+Wood Green,P49,P48,True,0,0,1c503d52-494f-4cbe-a928-814d682c733e
+Wood Green,P49,P50,False,0,0,4c83d56e-5ba2-44dc-b2ad-65de49b4bc22
+Bounds Green,P50,P49,True,0,0,ebbf596a-1704-4458-931c-7efc1a16db4f
+Bounds Green,P50,P51,False,0,0,16f24746-40ac-462c-ab5e-88b2b29f4f97
+Arnos Grove,P51,P50,True,0,0,bcfc1789-aa37-44e4-9ffd-d078396fefe1
+Arnos Grove,P51,P52,False,0,0,f0ab8d0f-1f29-474d-a393-b275c674aecc
+Southgate,P52,P51,True,0,0,657a9aeb-9fb5-4c35-a5dd-72fddbdea8c4
+Southgate,P52,P53,False,0,0,da0dc536-6b9e-4e18-9d68-422e67ad0112
+Oakwood,P53,P52,True,0,0,f98860e8-a1a2-4b61-8d43-ae2bebedf5b8
+Oakwood,P53,P54,False,0,0,2f5aba1c-b1b6-4b2c-97ed-1b89b4543beb
+Cockfosters,P54,P53,True,0,0,921d6e9b-b750-4bc4-9567-eff73a099cd1

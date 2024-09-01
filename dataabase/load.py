@@ -47,7 +47,7 @@ def load_connections(tube_line: TubeLine) -> None:
                 {
                     "line_name": tube_line.line_name,
                     "line_colour": tube_line.line_colour,
-                    "forward_travel": row["forward_travel"] == "True",
+                    "heading_west": row["heading_west"] == "True",
                     "travel_time_seconds": float(row["travel_time_seconds"]),
                     "distance_km": float(row["distance_km"]),
                 },
@@ -65,7 +65,7 @@ def load_tube_stations(tube_line: TubeLine) -> None:
     ) as csvfile:
         records = DictReader(csvfile, delimiter=",", quotechar='"')
         for row in records:
-            print(f'\tAdding: {row["station_name"]}')
+            print(f'\tAdding {row["station_name"]}')
             if station := Station.nodes.get_or_none(
                 station_name=row["station_name"],
             ):
@@ -96,12 +96,14 @@ def load_tube_lines() -> None:
         # load_tube_stations(tll.victoria)
         # load_tube_stations(tll.bakerloo)
         # load_tube_stations(tll.jubilee)
+        # load_tube_stations(tll.metropolitan)
 
         # load_connections(tll.piccadilly)
         load_connections(tll.central)
-        # load_connections(tll.victoria)
+        # load_connections(tll.v+ictoria)
         # load_connections(tll.bakerloo)
         # load_connections(tll.jubilee)
+        # load_connections(tll.metropolitan)
 
 
 if __name__ == "__main__":

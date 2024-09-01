@@ -15,3 +15,4 @@ class TubeLineList:
     victoria = TubeLine("Victoria", "#0098D4", "victoria")
     bakerloo = TubeLine("Bakerloo", "#894E24", "bakerloo")
     jubilee = TubeLine("Jubilee", "#A9BDB4", "jubilee")
+    metropolitan = TubeLine("Metropolitan", "#751056", "metropolitan")
