@@ -22,7 +22,6 @@ class Station(StructuredNode, AuditInformation):
 
     tube_lines = ArrayProperty(StringProperty(), required=True)
     tube_line_identifiers = ArrayProperty(StringProperty(), required=True)
-    station_identifier = StringProperty(required=True)
 
     wiggle_ranking = FloatProperty(default=0.0)
 
@@ -47,9 +46,17 @@ class Station(StructuredNode, AuditInformation):
         cardinality=OneOrMore,
         model=Connection,
     )
+
     central = RelationshipTo(
         cls_name="Station",
         relation_type="CENTRAL",
+        cardinality=OneOrMore,
+        model=Connection,
+    )
+
+    victoria = RelationshipTo(
+        cls_name="Station",
+        relation_type="VICTORIA",
         cardinality=OneOrMore,
         model=Connection,
     )

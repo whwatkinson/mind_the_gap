@@ -34,7 +34,7 @@ def load_connections(tube_line: TubeLine) -> None:
                 raise Exception(f"No stations found for {row=}")
 
             from_station, to_station = res[0]
-
+            print(f"\t Connecting {from_station.station_name} to {to_station.station_name}")
             if getattr(from_station, tube_line.data_file_name.lower()).is_connected(
                 to_station
             ):
@@ -63,24 +63,24 @@ def load_tube_stations(tube_line: TubeLine) -> None:
     ) as csvfile:
         records = DictReader(csvfile, delimiter=",", quotechar='"')
         for row in records:
-
+            print(f'\tAdding: {row["station_name"]}')
             if station := Station.nodes.get_or_none(
-                station_identifier=row["station_identifier"]
+                station_name=row["station_name"],
             ):
                 station.update_tube_lines(tube_line.line_name)
                 station.update_tube_line_identifiers(row["tube_line_identifier"])
-                station.save()
             else:
-                Station(
+                station = Station(
                     station_name=row["station_name"],
                     end_of_line=row["end_of_line"] == "True",
                     tube_lines=[tube_line.line_name],
                     tube_line_identifiers=[row["tube_line_identifier"]],
-                    station_identifier=row["station_identifier"],
                     location=row["location"],
                     year_opened=int(row["year_opened"]) if row["year_opened"] else 0,
                     wiggle_ranking=row["wiggle_ranking"],
-                ).save()
+                )
+
+            station.save()
     print(f"Loaded stations for {tube_line.line_name} line")
 
 
@@ -89,9 +89,11 @@ def load_tube_lines() -> None:
 
     load_tube_stations(tll.piccadilly)
     load_tube_stations(tll.central)
+    load_tube_stations(tll.victoria)
 
     load_connections(tll.piccadilly)
     load_connections(tll.central)
+    load_connections(tll.victoria)
 
 
 if __name__ == "__main__":

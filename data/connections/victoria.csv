@@ -1,0 +1,31 @@
+station_name,from_station,to_station,forward_travel,travel_time_seconds,distance_km,uuid
+Walthamstow Central,V0,V1,True,0,0,20ab0026-9d57-4166-979c-af88e6937ebc
+Blackhorse Road,V1,V0,False,0,0,6c871559-49b1-4060-8ef3-6c7d8feb2554
+Blackhorse Road,V1,V2,True,0,0,95c04a12-7ded-407f-9a0c-a5ffaf9b3fe1
+Tottenham Hale,V2,V1,False,0,0,d02c76bd-6b7e-4c3b-9faf-e804a1616b0f
+Tottenham Hale,V2,V3,True,0,0,c7bd7f51-3241-4496-88a9-8f2dc64b0d48
+Seven Sisters,V3,V2,False,0,0,15a3e57f-b8b8-4a6e-b344-80731eb1ecd7
+Seven Sisters,V3,V4,True,0,0,6cdfb2ae-c4ac-4979-9bc4-5aaa65e77476
+Finsbury Park,V4,V3,False,0,0,eba38172-423c-45b2-a31d-3f75ab3a39c6
+Finsbury Park,V4,V5,True,0,0,ead179c7-9d72-4835-b3dc-30b3166c526c
+Highbury & Islington,V5,V4,False,0,0,acbdac96-ed43-4520-b6df-151e5f8e5eda
+Highbury & Islington,V5,V6,True,0,0,f837bcbd-5826-404b-b7c2-153e5e326470
+King's Cross St Pancras,V6,V5,False,0,0,83092e73-d106-401e-a5ba-d80ca424b84b
+King's Cross St Pancras,V6,V7,True,0,0,cc41cb81-9e8c-4128-af5d-9cb361e75188
+Euston,V7,V6,False,0,0,20e52e00-b697-4f4f-a59f-785e9c9bc645
+Euston,V7,V8,True,0,0,fe8470b4-49cc-4f8a-ae27-2e5223c67a6d
+Warren Street,V8,V7,False,0,0,3c826bca-075f-4d6a-9b50-b8ac18ecd694
+Warren Street,V8,V9,True,0,0,4711763c-5684-4a85-893a-dad60bf89b78
+Oxford Circus,V9,V8,False,0,0,99bdb717-6dab-4d75-8c6a-8f3f621a41b1
+Oxford Circus,V9,V10,True,0,0,2fa4869d-02a0-4fe3-a90a-504c742f4020
+Green Park,V10,V9,False,0,0,e0b503ab-811b-4c9b-b4ae-e961fd0aee66
+Green Park,V10,V11,True,0,0,53fefa07-8c9d-458a-a6d2-0d7e58415be4
+Victoria,V11,V10,False,0,0,d32fd4a7-f4d3-4f2a-96c4-37203c3f7dec
+Victoria,V11,V12,True,0,0,4aa06267-e9fc-4908-b667-7d2df1e0d21b
+Pimlico,V12,V11,False,0,0,452f9a46-266d-42d2-932e-c589a2e896fa
+Pimlico,V12,V13,True,0,0,2c81040d-083e-4c83-bf15-395b5ccb9406
+Vauxhall,V13,V12,False,0,0,2db0313e-f864-4f95-8a49-45d94839d0c5
+Vauxhall,V13,V14,True,0,0,45621a82-e01e-4484-9684-6e02621862e5
+Stockwell,V14,V13,False,0,0,ca7fd1f6-b476-4415-a861-edc3a4b57e76
+Stockwell,V14,V15,True,0,0,c3ce016a-fbc0-4216-aacf-fe61ccfdcf3b
+Brixton,V15,V14,False,0,0,2d908e58-85a8-40d1-8876-7388174684a6
