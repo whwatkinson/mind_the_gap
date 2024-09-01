@@ -2,7 +2,7 @@ from uuid import uuid4
 
 from project_root import get_project_root
 
-LINE_CODE = "B"
+LINE_CODE = "J"
 
 
 def list_to_stations() -> None:
@@ -31,7 +31,7 @@ def list_to_connections() -> None:
             item = f'"{item}"'
         if index == 0:
             print(f"{item},{LINE_CODE}{index},{LINE_CODE}1,True,0,0,{uuid4()}")
-        elif index == len(file_contents_list) - 1:
+        elif index == len(file_contents_list)-1:
             print(
                 f"{item},{LINE_CODE}{index},{LINE_CODE}{len(file_contents_list[:-2])},False,0,0,{uuid4()}"
             )

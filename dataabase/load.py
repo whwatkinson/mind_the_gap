@@ -87,17 +87,21 @@ def load_tube_stations(tube_line: TubeLine) -> None:
 
 
 def load_tube_lines() -> None:
-    tll = TubeLineList()
 
-    load_tube_stations(tll.piccadilly)
-    load_tube_stations(tll.central)
-    load_tube_stations(tll.victoria)
-    load_tube_stations(tll.bakerloo)
+    with db.transaction:
+        tll = TubeLineList()
 
-    load_connections(tll.piccadilly)
-    load_connections(tll.central)
-    load_connections(tll.victoria)
-    load_connections(tll.bakerloo)
+        # load_tube_stations(tll.piccadilly)
+        load_tube_stations(tll.central)
+        # load_tube_stations(tll.victoria)
+        # load_tube_stations(tll.bakerloo)
+        # load_tube_stations(tll.jubilee)
+
+        # load_connections(tll.piccadilly)
+        load_connections(tll.central)
+        # load_connections(tll.victoria)
+        # load_connections(tll.bakerloo)
+        # load_connections(tll.jubilee)
 
 
 if __name__ == "__main__":

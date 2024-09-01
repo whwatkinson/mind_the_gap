@@ -60,11 +60,12 @@ East Acton,C28,C27,False,0,0,2e96f708-78d5-4803-8523-3c70024c700f
 East Acton,C28,C29,True,0,0,c0640f18-7d47-40b8-95d0-d9f0b4fad65c
 North Acton,C29,C28,False,0,0,11f3717a-f9e9-4797-9c95-32a423e74e50
 North Acton,C29,C30,True,0,0,932ac9f0-c0bf-49f1-bd86-c538d2a4e46a
+North Acton,C29,C32,True,0,0,9c8e64d0-96d7-44e9-84c3-238fbd8a89b5
 West Acton,C30,C29,False,0,0,6d71c7b0-6d04-4538-9868-5478f5474903
 West Acton,C30,C31,True,0,0,07fde5a4-448b-48b7-b1cf-6e22a96a711d
 Ealing Broadway,C31,C30,False,0,0,9958e427-3ab2-4505-bf38-f67e5466744f
-Ealing Broadway,C31,C32,True,0,0,ed248332-d281-409a-b302-47f6e4eea34c
-Hanger Lane,C32,C31,False,0,0,48c9496b-2baa-4e45-b664-01bd2052acaa
+
+Hanger Lane,C32,C29,False,0,0,48c9496b-2baa-4e45-b664-01bd2052acaa
 Hanger Lane,C32,C33,True,0,0,288ca3ec-ea4a-4189-9794-1fbbf8dbeefa
 Perivale,C33,C32,False,0,0,89303d3b-8b51-4887-9d9c-c4de9a459828
 Perivale,C33,C34,True,0,0,e161bd14-99ea-4b28-9a85-d1f7bede0fa2

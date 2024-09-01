@@ -54,6 +54,13 @@ class Station(StructuredNode, AuditInformation):
         model=Connection,
     )
 
+    jubilee = RelationshipTo(
+        cls_name="Station",
+        relation_type="JUBILEE",
+        cardinality=OneOrMore,
+        model=Connection,
+    )
+
     piccadilly = RelationshipTo(
         cls_name="Station",
         relation_type="PICCADILLY",
