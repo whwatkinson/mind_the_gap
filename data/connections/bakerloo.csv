@@ -1,4 +1,4 @@
-station_name,from_station,to_station,forward_travel,travel_time_seconds,distance_km,uuid
+station_name,from_station,to_station,heading_west_or_south,travel_time_seconds,distance_km,uuid
 Harrow and Wealdstone,B0,B1,True,0,0,904d7453-d79e-4b31-a044-8da4783f6c0a
 Kenton,B1,B0,False,0,0,aa3c64e8-d184-4902-b42e-276bd213e134
 Kenton,B1,B2,True,0,0,29fec7d5-d902-43fa-9ee7-0af742f992f1

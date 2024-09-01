@@ -93,15 +93,15 @@ def load_tube_lines() -> None:
 
         # load_tube_stations(tll.piccadilly)
         # load_tube_stations(tll.central)
-        load_tube_stations(tll.victoria)
-        # load_tube_stations(tll.bakerloo)
+        # load_tube_stations(tll.victoria)
+        load_tube_stations(tll.bakerloo)
         # load_tube_stations(tll.jubilee)
         # load_tube_stations(tll.metropolitan)
 
         # load_connections(tll.piccadilly)
         # load_connections(tll.central)
-        load_connections(tll.victoria)
-        # load_connections(tll.bakerloo)
+        # load_connections(tll.victoria)
+        load_connections(tll.bakerloo)
         # load_connections(tll.jubilee)
         # load_connections(tll.metropolitan)
 
