@@ -35,7 +35,9 @@ def load_connections(tube_line: TubeLine) -> None:
 
             from_station, to_station = res[0]
             print(
-                f"\t Connecting {from_station.station_name} to {to_station.station_name}"
+                f"\t Connecting {from_station.station_name} "
+                f"to {to_station.station_name} "
+                f"heading_west {row['heading_west']}"
             )
             if getattr(from_station, tube_line.data_file_name.lower()).is_connected(
                 to_station
@@ -91,19 +93,19 @@ def load_tube_lines() -> None:
     with db.transaction:
         tll = TubeLineList()
 
-        # load_tube_stations(tll.piccadilly)
-        # load_tube_stations(tll.central)
-        # load_tube_stations(tll.victoria)
-        # load_tube_stations(tll.bakerloo)
+        load_tube_stations(tll.piccadilly)
+        load_tube_stations(tll.central)
+        load_tube_stations(tll.victoria)
+        load_tube_stations(tll.bakerloo)
         load_tube_stations(tll.jubilee)
-        # load_tube_stations(tll.metropolitan)
+        load_tube_stations(tll.metropolitan)
 
-        # load_connections(tll.piccadilly)
-        # load_connections(tll.central)
-        # load_connections(tll.victoria)
-        # load_connections(tll.bakerloo)
+        load_connections(tll.piccadilly)
+        load_connections(tll.central)
+        load_connections(tll.victoria)
+        load_connections(tll.bakerloo)
         load_connections(tll.jubilee)
-        # load_connections(tll.metropolitan)
+        load_connections(tll.metropolitan)
 
 
 if __name__ == "__main__":
