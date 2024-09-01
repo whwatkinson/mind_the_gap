@@ -1,0 +1,53 @@
+station_name,from_station,to_station,heading_west,travel_time_seconds,distance_km,uuid
+Stanmore,J0,J1,False,0,0,a3cd618a-ed8b-4919-a549-6025d8eee80a
+Canons Park,J1,J0,True,0,0,c82a5de7-3997-4ea6-a946-f22bc73868e0
+Canons Park,J1,J2,False,0,0,0d62b842-fea4-47cf-8034-de5b2aaeffcd
+Queensbury,J2,J1,True,0,0,9ffe1b10-29cf-4f99-8826-0f525b6d16dc
+Queensbury,J2,J3,False,0,0,d7c3c11f-588e-40cf-9969-1bc1e91991e4
+Kingsbury,J3,J2,True,0,0,0e1f7912-c981-4643-8250-a9c9c93f0d34
+Kingsbury,J3,J4,False,0,0,33ea86f0-25ff-418e-94e6-b7d91797177f
+Wembley Park,J4,J3,True,0,0,1982b9b0-a7fa-489d-a6a1-3e5ebad8fb53
+Wembley Park,J4,J5,False,0,0,5ad54a5c-f2ee-4df6-a607-807505994a30
+Neasden,J5,J4,True,0,0,14e9c2fd-0730-4643-a5be-a35e965b4567
+Neasden,J5,J6,False,0,0,e0a4ff5a-7a07-4760-a336-2ba18fce3852
+Dollis Hill,J6,J5,True,0,0,a5fb9d62-8058-4286-96ff-5022ea4ecc37
+Dollis Hill,J6,J7,False,0,0,c815fc4f-2182-4976-9f8c-7aa297e87bde
+Wilesden Green,J7,J6,True,0,0,c1541e37-0333-4808-a762-9f755e95fa6d
+Wilesden Green,J7,J8,False,0,0,a868cf7e-ae95-4064-b4c9-ec76b7f7e7bb
+Kilburn,J8,J7,True,0,0,0b142a5a-b842-44b6-995b-636a41717cc7
+Kilburn,J8,J9,False,0,0,02889e4a-ef72-432d-838f-63af093d75e8
+West Hampstead,J9,J8,True,0,0,d968eca3-71d6-4ddc-9187-b54a322dc6ac
+West Hampstead,J9,J10,False,0,0,f734b20a-ec5e-47df-8406-2f081508cdeb
+Finchley Road,J10,J9,True,0,0,117ec057-de7c-403a-b1c5-7dbb76be2d3d
+Finchley Road,J10,J11,False,0,0,55a20620-6151-4ab0-9d77-66e182aad4ac
+Swiss Cottage,J11,J10,True,0,0,5577bb4c-2c4b-4022-a76b-cc67f1cd5a38
+Swiss Cottage,J11,J12,False,0,0,737d4ae5-45c4-49ab-9662-dc3f10bb5a82
+St. John's Wood,J12,J11,True,0,0,43babcef-d0e4-4c41-bae8-c1486d1ab8f1
+St. John's Wood,J12,J13,False,0,0,bdbd161e-0178-4748-88f4-1bf37cc37494
+Baker Street,J13,J12,True,0,0,af7f9750-5161-4525-a881-381812d28ccc
+Baker Street,J13,J14,False,0,0,bcb607f1-8a66-4be2-9baa-40998ae01e9f
+Bond Street,J14,J13,True,0,0,07c2aa62-aeec-4d86-86e8-1d198febf80d
+Bond Street,J14,J15,False,0,0,18a24e7e-e63e-401a-870f-7b3e6a2f8a71
+Green Park,J15,J14,True,0,0,702bac45-d69b-4165-8b34-9cb44dd4b902
+Green Park,J15,J16,False,0,0,e96a52c8-eb18-45c0-92f9-501a9a131e84
+Westminster,J16,J15,True,0,0,7d81f0a5-cbbc-454a-9b4c-b293526d7c50
+Westminster,J16,J17,False,0,0,f51cc462-5d74-4510-9e6c-a5d1eebbd39b
+Waterloo,J17,J16,True,0,0,f8c64540-697d-427c-b8df-2bc078f293ee
+Waterloo,J17,J18,False,0,0,789c52f1-cab8-4973-ada9-f81dbff701b9
+Southwark,J18,J17,True,0,0,f34b6e5f-b081-4950-808d-e97306154c59
+Southwark,J18,J19,False,0,0,48382b1b-15b0-4b85-93d2-e94d3d0365e9
+London Bridge,J19,J18,True,0,0,fab9c320-bdba-48d6-86e3-f248c437b5d6
+London Bridge,J19,J20,False,0,0,d86cb84f-2987-4c81-a69b-eaadca9949d1
+Bermondsey,J20,J19,True,0,0,43a19d74-5e5e-498a-a34a-1cba2b2ef771
+Bermondsey,J20,J21,False,0,0,c42b4d73-4787-4bca-bffc-7cd9a37bca68
+Canada Water,J21,J20,True,0,0,397ef8a2-c990-4cee-8bfd-dffa2afe4308
+Canada Water,J21,J22,False,0,0,3d7d126b-e21b-4d74-baf3-a10a8a24da64
+Canary Wharf,J22,J21,True,0,0,aa9c2df0-2e47-47a6-ac42-48f576f3e76c
+Canary Wharf,J22,J23,False,0,0,30335668-a289-46ea-9416-cc8f6a45ea4f
+North Greenwich,J23,J22,True,0,0,9c6d1728-a618-47cd-8a6b-27824f1f4e3e
+North Greenwich,J23,J24,False,0,0,379b4ef4-85bb-4a09-af2f-3f9dc4ed32f0
+Canning Town,J24,J23,True,0,0,d7f73a22-8c1e-4b3f-89c6-0e69e8c1be95
+Canning Town,J24,J25,False,0,0,f7e8e264-1a83-45ad-96ed-0215ad711c18
+West Ham,J25,J24,True,0,0,2681719a-ab45-4037-83a8-8893d1581b7c
+West Ham,J25,J26,False,0,0,ae47d1b9-d36f-4de2-b906-66b696792421
+Stratford,J26,J25,True,0,0,032e0cf4-bc03-4ec2-9d93-a5cb70c7313d

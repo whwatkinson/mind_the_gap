@@ -1,0 +1,37 @@
+station_name,end_of_line,tube_line_identifier,location,year_opened,wiggle_ranking
+Amersham,False,M0,"[lon, lat]",,0.0
+
+Chesham,False,M2,"[lon, lat]",,0.0
+Chalfont & Latimer,False,M3,"[lon, lat]",,0.0
+Chorleywood,False,M4,"[lon, lat]",,0.0
+Rickmansworth,False,M5,"[lon, lat]",,0.0
+Moor Park,False,M6,"[lon, lat]",,0.0
+Northwood,False,M7,"[lon, lat]",,0.0
+Northwood Hills,False,M8,"[lon, lat]",,0.0
+Pinner,False,M9,"[lon, lat]",,0.0
+North Harrow,False,M10,"[lon, lat]",,0.0
+Harrow on the Hill,False,M11,"[lon, lat]",,0.0
+Northwick Park,False,M12,"[lon, lat]",,0.0
+Preston Road,False,M13,"[lon, lat]",,0.0
+Wembley Park,False,M14,"[lon, lat]",,0.0
+Finchley Road,False,M15,"[lon, lat]",,0.0
+Baker Street,False,M16,"[lon, lat]",,0.0
+Great Portland Street,False,M17,"[lon, lat]",,0.0
+Euston Square,False,M18,"[lon, lat]",,0.0
+King's Cross St Pancras,False,M19,"[lon, lat]",,0.0
+Farringdon,False,M20,"[lon, lat]",,0.0
+Moorgate,False,M21,"[lon, lat]",,0.0
+Liverpool Street,False,M22,"[lon, lat]",,0.0
+Aldgate,False,M23,"[lon, lat]",,0.0
+
+Watford,False,M25,"[lon, lat]",,0.0
+Croxley,False,M26,"[lon, lat]",,0.0
+
+Uxbridge,False,M28,"[lon, lat]",,0.0
+Hillingdon,False,M29,"[lon, lat]",,0.0
+Ickenham,False,M30,"[lon, lat]",,0.0
+Ruislip,False,M31,"[lon, lat]",,0.0
+Ruislip Manor,False,M32,"[lon, lat]",,0.0
+Eastcote,False,M33,"[lon, lat]",,0.0
+Rayners Lane,False,M34,"[lon, lat]",,0.0
+West Harrow,False,M35,"[lon, lat]",,0.0
