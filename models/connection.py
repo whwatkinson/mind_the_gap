@@ -10,6 +10,6 @@ class Connection(StructuredRel, AuditInformation):
     line_name = StringProperty(required=True)
     line_colour = StringProperty(required=True)
 
-    heading_west = BooleanProperty(default=True)
+    heading_west_or_south = BooleanProperty(default=True)
     travel_time_seconds = FloatProperty(default=0.0)
     distance_km = FloatProperty(default=0.0)

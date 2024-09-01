@@ -1,4 +1,4 @@
-station_name,from_station,to_station,heading_west,travel_time_seconds,distance_km,uuid
+station_name,from_station,to_station,heading_west_or_south,travel_time_seconds,distance_km,uuid
 Wanstead,C0,C42,True,0,0,32918b45-8124-4c91-bf23-9ae09f165772
 Wanstead,C0,C1,True,0,0,9e2879fe-1549-4176-a5f3-96fb9cfe615c
 Redbridge,C1,C0,True,0,0,4d58c28e-e16f-4c2a-989a-5d2c113647b5

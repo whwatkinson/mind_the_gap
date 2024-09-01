@@ -1,4 +1,4 @@
-station_name,from_station,to_station,heading_west,travel_time_seconds,distance_km,uuid
+station_name,from_station,to_station,heading_west_or_south,travel_time_seconds,distance_km,uuid
 Uxbridge,P0,P1,False,0,0,eeaffde2-e95b-4293-b4f0-ac408a5e4a88
 Hillingdon,P1,P0,True,0,0,31916598-5ca5-426f-b06f-4353f1fc739b
 Hillingdon,P1,P2,False,0,0,02c4150c-0904-475a-af20-6a75b0a05be7
