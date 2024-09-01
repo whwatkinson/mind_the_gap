@@ -2,7 +2,7 @@ from uuid import uuid4
 
 from project_root import get_project_root
 
-LINE_CODE = "H"
+LINE_CODE = "D"
 
 
 def list_to_stations() -> None:

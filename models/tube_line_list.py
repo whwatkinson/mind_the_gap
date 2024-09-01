@@ -19,3 +19,4 @@ class TubeLineList:
     hammersmith_and_city = TubeLine(
         "Hammersmith & City", "#F3A9BB", "hammersmith_and_city"
     )
+    district = TubeLine("District", "#007229", "district")

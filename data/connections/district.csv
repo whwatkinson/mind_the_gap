@@ -1,0 +1,123 @@
+station_name,from_station,to_station,heading_west,travel_time_seconds,distance_km,uuid
+Richmond,D0,D1,False,0,0,fb6b753c-e719-4ef8-9fe8-1cfab3d8517a
+Kew Gardens,D1,D0,True,0,0,46e094ef-e950-4727-b330-9a04b70e528c
+Kew Gardens,D1,D2,False,0,0,d8163aef-a7a0-4c5f-ad81-e377b0cf232e
+Gunnersbury,D2,D1,True,0,0,72d3d340-b625-47a1-9a9c-3bf8873538a2
+Gunnersbury,D2,D25,False,0,0,37756410-edbb-4d0f-972a-f30fa19259ab
+
+Wimbledon,D4,D5,False,0,0,6904040e-a2ae-4bdc-bfc6-134d04029fc9
+Wimbledon Park,D5,D4,True,0,0,01548093-9519-41e3-ad90-0cb32dd78aec
+Wimbledon Park,D5,D6,False,0,0,382f46ac-29ab-499f-9bc7-be36476430bb
+Southfields,D6,D5,True,0,0,7bf565ce-2d21-4c48-92dc-9aae31e06efc
+Southfields,D6,D7,False,0,0,4a4f5253-1140-43df-9fd0-140405f9c202
+East Putney,D7,D6,True,0,0,a1c225fd-48c0-41ef-a32a-8cc136e3136b
+East Putney,D7,D8,False,0,0,8e47622d-2b05-4c75-a027-c8adb4b64a7c
+Putney Bridge,D8,D7,True,0,0,5b443478-04f0-4bf8-9921-9096fb646b0f
+Putney Bridge,D8,D9,False,0,0,13a368ff-3442-48f8-b8d3-864d65adfb52
+Parsons Green,D9,D8,True,0,0,4cf57956-336b-4aaf-8d5d-4353960a638b
+Parsons Green,D9,D10,False,0,0,ed077b01-2ac6-4c1e-b06a-041ec7b5b13d
+Fulham Broadway,D10,D9,True,0,0,d3315e45-02b1-42bd-8fdc-015b2013a563
+Fulham Broadway,D10,D11,False,0,0,5c0ca697-e60a-4af2-892a-6222fc72b078
+West Brompton,D11,D10,True,0,0,75804727-c48e-4ad2-bda7-0b0ee1f19f8a
+West Brompton,D11,D31,False,0,0,259c5195-dc15-4979-bfb0-9d2c84e2e56b
+
+Edgware Road,D13,D14,False,0,0,59f76ded-542b-4cb9-b412-a6b88a360603
+Paddington,D14,D13,True,0,0,c7de25a3-b18c-4a04-92e3-fab62ff51054
+Paddington,D14,D15,False,0,0,17fab9ef-bd44-483d-9e11-bae115caafb0
+Bayswater,D15,D14,True,0,0,e01e4c18-488c-4fad-a24a-c86082fe59c7
+Bayswater,D15,D16,False,0,0,26e18136-e33f-46a8-9dba-f3dfdd812ed9
+Notting Hill Gate,D16,D15,True,0,0,3db1d14b-7ba7-45e9-b045-6130304af9a6
+Notting Hill Gate,D16,D17,False,0,0,6fc2e289-715e-40dc-8c85-c8b8906c2026
+High Street Kensington,D17,D16,True,0,0,34d54f6b-a03b-4069-83d6-ad9d81e7ff5d
+High Street Kensington,D17,D31,False,0,0,cdf9204a-4c29-4097-a2b8-d5ef39bb3dd8
+
+Kensington (Olympia),D19,D31,False,0,0,8963994f-c4a7-4653-896c-c0071edca08b
+
+Ealing Broadway,D21,D22,False,0,0,c680d884-e0b5-4629-baae-f37fdc35b750
+Ealing Common,D22,D21,True,0,0,c70ed4df-b872-46a0-9e48-95450ce05dfa
+Ealing Common,D22,D23,False,0,0,63620d48-a99d-4308-b482-796b7697b84e
+Acton Town,D23,D22,True,0,0,8f49fc09-b900-4e32-a04b-49d0786a6e9e
+Acton Town,D23,D24,False,0,0,7b92befe-091f-4b2a-83e1-bc170e5c2f56
+Chiswick Park,D24,D23,True,0,0,c45f9e1a-8145-4d4a-9c5f-3ca2ba263a55
+Chiswick Park,D24,D25,False,0,0,c55edeef-316b-4435-82ef-6ab6faa7da3f
+Turnham Green,D25,D24,True,0,0,510d5626-7b9b-4c78-9086-f4b427758d0d
+Turnham Green,D25,D2,True,0,0,75762e51-0974-4dea-aaf2-c3e4f238903c
+Turnham Green,D25,D26,False,0,0,99a9135a-c5c4-40d7-95cb-db3f6e21b95b
+Stamford Brook,D26,D25,True,0,0,3c3333e0-e588-4abb-b424-006e640dbc6f
+Stamford Brook,D26,D27,False,0,0,c0f47e29-f0a0-40ee-b2fc-dbacaa419c3a
+Ravenscourt Park,D27,D26,True,0,0,212612ba-3e22-4dd0-ae76-77567a225b0f
+Ravenscourt Park,D27,D28,False,0,0,f5a84b33-f3b7-4008-9d8e-9a955f67aebd
+Hammersmith,D28,D27,True,0,0,0ec6bdd5-0792-490a-b26d-2391c822edc7
+Hammersmith,D28,D29,False,0,0,6acb58ce-7ce4-43e8-a93f-72993b3476f4
+Barons Court,D29,D28,True,0,0,f44a5ad4-3abf-4df7-a9b0-6a999effb41b
+Barons Court,D29,D30,False,0,0,20e23d97-23cc-4da5-a7db-7931e7a223c4
+West Kensington,D30,D29,True,0,0,c0bf8975-1bd0-47d2-a576-e11be237298a
+West Kensington,D30,D31,False,0,0,fa98994a-6af9-4eec-a8e4-d1a296f749f7
+Earl's Court,D31,D30,True,0,0,459bf0f7-5364-484f-97b9-d65b3d4bfff3
+Earl's Court,D31,D11,True,0,0,edef3dc1-6e9a-4885-8914-38f8911c33e7
+Earl's Court,D31,D19,True,0,0,b31372d5-b869-4503-91fe-20672c87f4e5
+Earl's Court,D31,D17,True,0,0,ed5f6091-1f28-4146-8828-4b0fe5a99437
+Earl's Court,D31,D32,False,0,0,0e5cfac2-6ea7-4859-a1f1-fc1054fe3ee5
+Gloucester Road,D32,D31,True,0,0,2ab1e43b-8a49-473a-ad9a-a709f608c106
+Gloucester Road,D32,D33,False,0,0,07fab429-ca7a-4bea-a422-f69ec36786ad
+South Kensington,D33,D32,True,0,0,b8257437-c770-4097-8ca8-8d3ce94c8e93
+South Kensington,D33,D34,False,0,0,e2196331-4e6b-4516-8cf7-2f897e7fbd88
+Sloane Square,D34,D33,True,0,0,1a4528c6-74a0-4a53-bc58-b66657cdfd13
+Sloane Square,D34,D35,False,0,0,5a675ae9-7b51-4c61-9c2f-b1b743aa4d7f
+Victoria,D35,D34,True,0,0,d2862c0a-cf67-4b65-ad9b-b13e366a5495
+Victoria,D35,D36,False,0,0,37ed2a45-ea40-46da-aa42-16a8733381c0
+St James's Park,D36,D35,True,0,0,16ceb788-f780-44c4-8ef6-2d807d80ee1a
+St James's Park,D36,D37,False,0,0,a673cc07-7146-4b3f-a949-33bee569286b
+Westminster,D37,D36,True,0,0,799b6daf-63e3-4517-8568-8623be7fb627
+Westminster,D37,D38,False,0,0,a142af32-e62f-4070-bced-6fe40ae512c4
+Embankment,D38,D37,True,0,0,8f17eda2-bb1b-41f6-8b55-2984fd5e35d4
+Embankment,D38,D39,False,0,0,cec1cfa2-2a1a-4bec-8f07-04030fc907ac
+Temple,D39,D38,True,0,0,649348b1-e4d0-450c-bfc1-b15ddec60aef
+Temple,D39,D40,False,0,0,cde20968-7d92-42b1-b3eb-f8d9f44a98d6
+Blackfriars,D40,D39,True,0,0,a7118be1-8ddc-4ace-91b9-e5e433dd70c1
+Blackfriars,D40,D41,False,0,0,cd3e8aea-2f04-4c78-a357-887dd20c3134
+Mansion House,D41,D40,True,0,0,df65dd55-efba-4b31-9ee4-ea16e6a097e3
+Mansion House,D41,D42,False,0,0,838cfd71-72a4-46a5-b52e-515bf2626806
+Cannon Street,D42,D41,True,0,0,5af40574-e57f-4d90-af98-3dda825b36e6
+Cannon Street,D42,D43,False,0,0,60689e05-11c0-49ca-8acc-1fa725e8d003
+Monument,D43,D42,True,0,0,d0381916-982f-4653-8529-e7c0f9410d46
+Monument,D43,D44,False,0,0,d0f77971-fc1b-4be3-afaf-6e98adcda474
+Tower Hill,D44,D43,True,0,0,8875d6fd-5f1f-4a38-beb3-74f4bbcf985c
+Tower Hill,D44,D45,False,0,0,b78e9caf-3fdd-4900-9631-edb00f1de051
+Aldgate East,D45,D44,True,0,0,f72cc463-0e72-4d5e-8272-4e63740be1b7
+Aldgate East,D45,D46,False,0,0,e2e3c0a2-2690-4231-bc04-7e2ba5125125
+Whitechapel,D46,D45,True,0,0,45c73416-ef0e-434c-8dce-beb4035471bb
+Whitechapel,D46,D47,False,0,0,47642698-7c48-4e3b-b28a-33d70defbccd
+Stepney Green,D47,D46,True,0,0,418b84be-cdcf-490c-86bb-fb6a9a857e0a
+Stepney Green,D47,D48,False,0,0,3c6b58f5-0f59-408c-8f69-44c2d9d9344e
+Mile End,D48,D47,True,0,0,b40eafee-6172-4602-bb87-499a0016fafa
+Mile End,D48,D49,False,0,0,bbeb47e5-bd0d-4d1f-968b-558c24933f43
+Bow Road,D49,D48,True,0,0,55e174f4-b932-4bf9-9639-38e362ef28da
+Bow Road,D49,D50,False,0,0,2d2c3202-7d78-4249-ab21-70bbd9982140
+Bromley-by-Bow,D50,D49,True,0,0,20e5e776-dec5-487b-bc3a-43ce4f68ccca
+Bromley-by-Bow,D50,D51,False,0,0,505a240a-18fa-4fe2-90b9-882489d24ed1
+West Ham,D51,D50,True,0,0,1ec43e6a-86cc-4ef8-af46-5e2dea14f8a9
+West Ham,D51,D52,False,0,0,4a836380-6a9e-4b65-aa05-a7f976edb922
+Plaistow,D52,D51,True,0,0,a9bd0d1f-c75e-441e-b720-a5e76474b7d4
+Plaistow,D52,D53,False,0,0,377ccd98-1b7d-46a2-a072-6f51280a55d4
+Upton Park,D53,D52,True,0,0,ed337e07-58d3-400c-a845-84e5184fcc81
+Upton Park,D53,D54,False,0,0,36eed280-5d39-47a4-9b41-3a34e54e3cba
+East Ham,D54,D53,True,0,0,2bb7a45a-adc3-4bdd-b0d3-aef9d0e4b944
+East Ham,D54,D55,False,0,0,587c8399-029f-41e7-ab49-118373a96e01
+Barking,D55,D54,True,0,0,b49a8528-be49-4c29-91f5-67dfccdc3079
+Barking,D55,D56,False,0,0,42609e25-f731-4fb0-ac1d-a63bd333e418
+Upney,D56,D55,True,0,0,5164b6fc-7b7e-4f3e-b8b0-837462a9429b
+Upney,D56,D57,False,0,0,5249ae3c-d5b7-4ddd-a225-24731373e0cc
+Becontree,D57,D56,True,0,0,558d8920-391e-45dc-912f-e1edb2600886
+Becontree,D57,D58,False,0,0,cfe6ed4c-6dfd-4c8d-8fb2-378e7ebc79d0
+Dagenham Heathway,D58,D57,True,0,0,7d015b52-e0ed-4e8a-8a42-06e18247478b
+Dagenham Heathway,D58,D59,False,0,0,575ba385-9eb0-48ad-b529-cca4df1ef3ff
+Dagenham East,D59,D58,True,0,0,65eb38c9-2574-4620-a9d5-f8d7e734ab4e
+Dagenham East,D59,D60,False,0,0,e2bbe9af-5afa-49b8-b8e2-6c0048432a6b
+Elm Park,D60,D59,True,0,0,ce6cd876-437f-4c33-af68-d53536c77290
+Elm Park,D60,D61,False,0,0,211c649e-8b49-4918-b7eb-cf3b0c531a04
+Hornchurch,D61,D60,True,0,0,d899d5cd-7256-4a33-8743-6078f90a63eb
+Hornchurch,D61,D62,False,0,0,9a997430-935f-4e8f-8330-214974526b2a
+Upminster Bridge,D62,D61,True,0,0,524583b2-2c05-4776-91dd-1e6c0bf7b144
+Upminster Bridge,D62,D63,False,0,0,51c71249-fd55-4607-a3bc-b33f161385b0
+Upminster,D63,D62,True,0,0,ff16d8d3-8edd-48f0-b656-4d6f9b9dae4f
