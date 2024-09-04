@@ -24,3 +24,4 @@ class TubeLineList:
     )
     district = TubeLine("District", "#007229", "district")
     northern = TubeLine("Northern", "#000000", "northern")
+    waterloo_and_city = TubeLine("Waterloo & City", "#95CDBA", "waterloo_and_city")

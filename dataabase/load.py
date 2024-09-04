@@ -118,6 +118,7 @@ def load_tube_lines() -> None:
         load_tube_stations(tll.hammersmith_and_city)
         load_tube_stations(tll.district)
         load_tube_stations(tll.northern)
+        load_tube_stations(tll.waterloo_and_city)
         load_tube_stations(tll.master_station_names)
 
     with db.transaction:
@@ -130,8 +131,9 @@ def load_tube_lines() -> None:
         load_connections(tll.hammersmith_and_city)
         load_connections(tll.district)
         load_connections(tll.northern)
+        load_connections(tll.waterloo_and_city)
 
 
 if __name__ == "__main__":
-    db.cypher_query("MATCH (n) DETACH DELETE n;")
+    # db.cypher_query("MATCH (n) DETACH DELETE n;")
     load_tube_lines()

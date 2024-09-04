@@ -1,0 +1,3 @@
+station_name,from_station,to_station,heading_west,travel_time_seconds,distance_km,uuid
+Waterloo,B0,B1,False,0,0,aabb2b8d-3003-4b74-90e8-dbc04763507c
+Bank,B1,B0,True,0,0,2ce3f964-dc19-4077-8170-ec5478f26ca3

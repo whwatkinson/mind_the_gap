@@ -25,6 +25,7 @@ class TubeLineEnum(Enum):
     METROPOLITAN = "METROPOLITAN"
     NORTHERN = "NORTHERN"
     PICCADILLY = "PICCADILLY"
+    WATERLOO_AND_CITY = "WATERLOO_AND_CITY"
     VICTORIA = "VICTORIA"
 
 
@@ -112,6 +113,13 @@ class Station(StructuredNode, AuditInformation):
     piccadilly = RelationshipTo(
         cls_name="Station",
         relation_type=TubeLineEnum.PICCADILLY.value,
+        cardinality=OneOrMore,
+        model=Connection,
+    )
+
+    waterloo_and_city = RelationshipTo(
+        cls_name="Station",
+        relation_type=TubeLineEnum.WATERLOO_AND_CITY.value,
         cardinality=OneOrMore,
         model=Connection,
     )
