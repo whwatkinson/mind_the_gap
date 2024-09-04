@@ -10,14 +10,12 @@ def list_to_stations() -> None:
 
     with open(f"{get_project_root()}/data/helper_scripts/clipboard.txt") as file_handle:
         file_contents_list = file_handle.read().split("\n")
-    print(
-        "station_name,end_of_line,tube_line_identifier"
-    )
+    print("station_name,end_of_line,tube_line_identifier")
     for index, item in enumerate(file_contents_list):
         if "," in item:
             item = f'"{item}"'
         # station_name,end_of_line,tube_line_identifier
-        print(f'{item},False,{LINE_CODE}{index}')
+        print(f"{item},False,{LINE_CODE}{index}")
 
 
 def list_to_connections() -> None:
@@ -103,7 +101,11 @@ def update_master_stations_list():
         for record in all_records:
 
             # TODO REMOVE temp
-            record = {k: v for k, v in record.items() if k not in ("tube_line_identifier", "end_of_line")}
+            record = {
+                k: v
+                for k, v in record.items()
+                if k not in ("tube_line_identifier", "end_of_line")
+            }
 
             writer.writerow(record)
 

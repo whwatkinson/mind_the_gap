@@ -96,7 +96,7 @@ def load_tube_stations(tube_line: TubeLine) -> None:
                     station_name=row["station_name"],
                     tube_lines=[tube_line.line_name],
                     tube_line_identifiers=[row["tube_line_identifier"]],
-                    end_of_line_for=end_of_line_for
+                    end_of_line_for=end_of_line_for,
                 )
 
             station.save()
@@ -108,32 +108,30 @@ def load_tube_lines() -> None:
 
     with db.transaction:
         tll = TubeLineList()
-        # TODO master stations list
 
-        # load_tube_stations(tll.piccadilly)
-        # load_tube_stations(tll.central)
-        # load_tube_stations(tll.victoria)
-        # load_tube_stations(tll.bakerloo)
-        # load_tube_stations(tll.jubilee)
-        # load_tube_stations(tll.metropolitan)
-        # load_tube_stations(tll.hammersmith_and_city)
-        # load_tube_stations(tll.district)
+        load_tube_stations(tll.piccadilly)
+        load_tube_stations(tll.central)
+        load_tube_stations(tll.victoria)
+        load_tube_stations(tll.bakerloo)
+        load_tube_stations(tll.jubilee)
+        load_tube_stations(tll.metropolitan)
+        load_tube_stations(tll.hammersmith_and_city)
+        load_tube_stations(tll.district)
         load_tube_stations(tll.northern)
         load_tube_stations(tll.master_station_names)
 
     with db.transaction:
-        # load_connections(tll.piccadilly)
-        # load_connections(tll.central)
-        # load_connections(tll.victoria)
-        # load_connections(tll.bakerloo)
-        # load_connections(tll.jubilee)
-        # load_connections(tll.metropolitan)
-        # load_connections(tll.hammersmith_and_city)
-        # load_connections(tll.district)
+        load_connections(tll.piccadilly)
+        load_connections(tll.central)
+        load_connections(tll.victoria)
+        load_connections(tll.bakerloo)
+        load_connections(tll.jubilee)
+        load_connections(tll.metropolitan)
+        load_connections(tll.hammersmith_and_city)
+        load_connections(tll.district)
         load_connections(tll.northern)
 
 
-
 if __name__ == "__main__":
-    # db.cypher_query("MATCH (n) DETACH DELETE n;")
+    db.cypher_query("MATCH (n) DETACH DELETE n;")
     load_tube_lines()
