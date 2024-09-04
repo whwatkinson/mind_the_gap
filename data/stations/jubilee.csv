@@ -1,28 +1,28 @@
-station_name,end_of_line,tube_line_identifier,location,year_opened,wiggle_ranking
-Stanmore,False,J0,"[lon, lat]",,0.0
-Canons Park,False,J1,"[lon, lat]",,0.0
-Queensbury,False,J2,"[lon, lat]",,0.0
-Kingsbury,False,J3,"[lon, lat]",,0.0
-Wembley Park,False,J4,"[lon, lat]",,0.0
-Neasden,False,J5,"[lon, lat]",,0.0
-Dollis Hill,False,J6,"[lon, lat]",,0.0
-Wilesden Green,False,J7,"[lon, lat]",,0.0
-Kilburn,False,J8,"[lon, lat]",,0.0
-West Hampstead,False,J9,"[lon, lat]",,0.0
-Finchley Road,False,J10,"[lon, lat]",,0.0
-Swiss Cottage,False,J11,"[lon, lat]",,0.0
-St. John's Wood,False,J12,"[lon, lat]",,0.0
-Baker Street,False,J13,"[lon, lat]",,0.0
-Bond Street,False,J14,"[lon, lat]",,0.0
-Green Park,False,J15,"[lon, lat]",,0.0
-Westminster,False,J16,"[lon, lat]",,0.0
-Waterloo,False,J17,"[lon, lat]",,0.0
-Southwark,False,J18,"[lon, lat]",,0.0
-London Bridge,False,J19,"[lon, lat]",,0.0
-Bermondsey,False,J20,"[lon, lat]",,0.0
-Canada Water,False,J21,"[lon, lat]",,0.0
-Canary Wharf,False,J22,"[lon, lat]",,0.0
-North Greenwich,False,J23,"[lon, lat]",,0.0
-Canning Town,False,J24,"[lon, lat]",,0.0
-West Ham,False,J25,"[lon, lat]",,0.0
-Stratford,False,J26,"[lon, lat]",,0.0
+station_name,end_of_line,tube_line_identifier
+Stanmore,True,J0
+Canons Park,False,J1
+Queensbury,False,J2
+Kingsbury,False,J3
+Wembley Park,False,J4
+Neasden,False,J5
+Dollis Hill,False,J6
+Wilesden Green,False,J7
+Kilburn,False,J8
+West Hampstead,False,J9
+Finchley Road,False,J10
+Swiss Cottage,False,J11
+St. John's Wood,False,J12
+Baker Street,False,J13
+Bond Street,False,J14
+Green Park,False,J15
+Westminster,False,J16
+Waterloo,False,J17
+Southwark,False,J18
+London Bridge,False,J19
+Bermondsey,False,J20
+Canada Water,False,J21
+Canary Wharf,False,J22
+North Greenwich,False,J23
+Canning Town,False,J24
+West Ham,False,J25
+Stratford,True,J26

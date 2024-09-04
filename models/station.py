@@ -33,14 +33,13 @@ ALL_TUBE_LINES = "|".join(x.value for x in TubeLineEnum)
 
 class Station(StructuredNode, AuditInformation):
     station_name = StringProperty(unique_index=True)
-    end_of_line = BooleanProperty(default=False)
     location = StringProperty(default=None)
     year_opened = IntegerProperty(default=None)
-
-    tube_lines = ArrayProperty(StringProperty(), required=True)
-    tube_line_identifiers = ArrayProperty(StringProperty(), required=True)
-
     wiggle_ranking = FloatProperty(default=0.0)
+
+    tube_lines = ArrayProperty(StringProperty(), default=list)
+    tube_line_identifiers = ArrayProperty(StringProperty(), default=list)
+    end_of_line_for = ArrayProperty(StringProperty(), default=list)
 
     def update_tube_lines(self, new_tube_line: str) -> None:
         if new_tube_line not in self.tube_lines:
@@ -49,6 +48,10 @@ class Station(StructuredNode, AuditInformation):
     def update_tube_line_identifiers(self, tube_line_identifier: str) -> None:
         if tube_line_identifier not in self.tube_line_identifiers:
             self.tube_line_identifiers.append(tube_line_identifier)
+
+    def update_end_of_line_for(self, tube_line: str) -> None:
+        if tube_line not in self.end_of_line_for:
+            self.end_of_line_for.append(tube_line)
 
     next = RelationshipTo(
         cls_name="Station", relation_type=ALL_TUBE_LINES, cardinality=OneOrMore
