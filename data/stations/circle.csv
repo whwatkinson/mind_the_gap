@@ -1,0 +1,37 @@
+station_name,end_of_line,tube_line_identifier
+Hammersmith,True,Y0
+Goldhawk Road,False,Y1
+Shepherd's Bush Market,False,Y2
+Wood Lane,False,Y3
+Latimer Road,False,Y4
+Ladbroke Grove,False,Y5
+Westbourne Park,False,Y6
+Royal Oak,False,Y7
+
+Paddington,False,Y9
+Edgware Road,False,Y10
+Baker Street,False,Y11
+Great Portland Street,False,Y12
+Euston Square,False,Y13
+King's Cross St Pancras,False,Y14
+Farringdon,False,Y15
+Barbican,False,Y16
+Moorgate,False,Y17
+Liverpool Street,False,Y18
+Aldgate,False,Y19
+Tower Hill,False,Y20
+Monument,False,Y21
+Cannon Street,False,Y22
+Mansion House,False,Y23
+Blackfriars,False,Y24
+Temple,False,Y25
+Embankment,False,Y26
+Westminster,False,Y27
+St. James's Park,False,Y28
+Victoria,False,Y29
+Sloane Square,False,Y30
+South Kensington,False,Y31
+Gloucester Road,False,Y32
+High Street Kensington,False,Y33
+Notting Hill Gate,False,Y34
+Bayswater,False,Y35

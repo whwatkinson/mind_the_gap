@@ -19,6 +19,7 @@ from models.connection import Connection
 class TubeLineEnum(Enum):
     BAKERLOO = "BAKERLOO"
     CENTRAL = "CENTRAL"
+    CIRCLE = "CIRCLE"
     DISTRICT = "DISTRICT"
     HAMMERSMITH_AND_CITY = "HAMMERSMITH_AND_CITY"
     JUBILEE = "JUBILEE"
@@ -71,6 +72,13 @@ class Station(StructuredNode, AuditInformation):
     central = RelationshipTo(
         cls_name="Station",
         relation_type=TubeLineEnum.CENTRAL.value,
+        cardinality=OneOrMore,
+        model=Connection,
+    )
+
+    circle = RelationshipTo(
+        cls_name="Station",
+        relation_type=TubeLineEnum.CIRCLE.value,
         cardinality=OneOrMore,
         model=Connection,
     )

@@ -3,7 +3,7 @@ from uuid import uuid4
 
 from project_root import get_project_root
 
-LINE_CODE = "N"
+LINE_CODE = "Y"
 
 
 def list_to_stations() -> None:
@@ -38,9 +38,9 @@ def list_to_connections() -> None:
             print(
                 f"{item},{LINE_CODE}{index},{LINE_CODE}{index - 1},False,0,0,{uuid4()}"
             )
-            print(
-                f"{item},{LINE_CODE}{index},{LINE_CODE}{index + 1},True,0,0,{uuid4()}"
-            )
+            # print(
+            #     f"{item},{LINE_CODE}{index},{LINE_CODE}{index + 1},True,0,0,{uuid4()}"
+            # )
 
 
 def update_master_stations_list():
@@ -57,7 +57,7 @@ def update_master_stations_list():
     lines = [
         "bakerloo",
         "central",
-        # "circle",
+        "circle",
         "district",
         "hammersmith_and_city",
         "jubilee",
@@ -65,7 +65,7 @@ def update_master_stations_list():
         "northern",
         "piccadilly",
         "victoria",
-        # "waterloo_and_city",
+        "waterloo_and_city",
     ]
 
     new_records = list()
@@ -111,7 +111,7 @@ def update_master_stations_list():
 
 
 if __name__ == "__main__":
-    # update_master_stations_list()
-    list_to_stations()
+    update_master_stations_list()
+    # list_to_stations()
     print("\n\n\n")
-    # list_to_connections()
+    list_to_connections()

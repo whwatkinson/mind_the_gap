@@ -40,6 +40,7 @@ def load_connections(tube_line: TubeLine) -> None:
             from_station, to_station = res[0]
             print(
                 f"\t Connecting {from_station.station_name} "
+                f"for {tube_line.line_name} "
                 f"to {to_station.station_name} "
                 f"heading_west {row['heading_west']}"
             )
@@ -119,6 +120,7 @@ def load_tube_lines() -> None:
         load_tube_stations(tll.district)
         load_tube_stations(tll.northern)
         load_tube_stations(tll.waterloo_and_city)
+        load_tube_stations(tll.circle)
         load_tube_stations(tll.master_station_names)
 
     with db.transaction:
@@ -132,8 +134,9 @@ def load_tube_lines() -> None:
         load_connections(tll.district)
         load_connections(tll.northern)
         load_connections(tll.waterloo_and_city)
+        load_connections(tll.circle)
 
 
 if __name__ == "__main__":
-    # db.cypher_query("MATCH (n) DETACH DELETE n;")
+    db.cypher_query("MATCH (n) DETACH DELETE n;")
     load_tube_lines()

@@ -1,0 +1,44 @@
+station_name,from_station,to_station,heading_west,travel_time_seconds,distance_km,uuid
+Hammersmith,Y0,Y1,False,0,0,45051f2b-918b-4793-b837-bed3edff181a
+Goldhawk Road,Y1,Y0,False,0,0,3ed3a0bd-acfd-462f-8f80-740c0d11ef67
+Goldhawk Road,Y1,Y2,True,0,0,cb092f8d-d2d6-4fc9-b07d-f0d668f9394d
+Shepherd's Bush Market,Y2,Y1,False,0,0,69229614-4279-4a76-95ee-a1b1c31ed5fb
+Shepherd's Bush Market,Y2,Y3,True,0,0,4bd8d17f-6c92-4f5f-9154-6f1bfe1ff509
+Wood Lane,Y3,Y2,False,0,0,431542bc-52dc-4096-9db8-6d6746213305
+Wood Lane,Y3,Y4,True,0,0,f64246ff-0aef-4ed4-886d-f5210b4bbf65
+Latimer Road,Y4,Y3,False,0,0,76539334-0c76-498d-830b-3a3d743939a1
+Latimer Road,Y4,Y5,True,0,0,058e2f79-992d-443f-8708-715f73057c5d
+Ladbroke Grove,Y5,Y4,False,0,0,21548265-daea-462c-b1e7-87f89b500d2c
+Ladbroke Grove,Y5,Y6,True,0,0,310ea43d-8153-4f3f-8b4b-3dcc2f6aa752
+Westbourne Park,Y6,Y5,False,0,0,ac6da9e2-a0ea-46a4-843e-b9574d205d29
+Westbourne Park,Y6,Y7,True,0,0,c693640c-62b0-4a72-ae10-78ca8773f1f2
+Royal Oak,Y7,Y6,False,0,0,21fdfa8c-637a-42df-9834-915e298e6d37
+Royal Oak,Y7,Y9,True,0,0,c6c6a75e-e4c1-487a-8918-e19692f3f5bb
+
+Paddington,Y9,Y10,False,0,0,a547cd65-cb0f-4c06-abb5-61adc65d5e2a
+Edgware Road,Y10,Y11,False,0,0,eeeb76c2-b583-4fa7-8e90-c3be22ae581c
+Baker Street,Y11,Y12,False,0,0,b6c3d5c5-9f92-4694-9365-5ce168c8c521
+Great Portland Street,Y12,Y13,False,0,0,764a3e02-50ea-40ed-b636-2eaef3ce0f0b
+Euston Square,Y13,Y14,False,0,0,cd862bf6-e2be-40b9-897c-818f4fb9781d
+King's Cross St Pancras,Y14,Y15,False,0,0,da06b80e-427e-4687-8719-752a684451c1
+Farringdon,Y15,Y16,False,0,0,0acf6d1f-23b0-430f-9669-cc107385999f
+Barbican,Y16,Y17,False,0,0,16949693-e6e3-41c5-b0db-3a6946dac59c
+Moorgate,Y17,Y18,False,0,0,3615e09b-c94e-490b-8257-bbd8ebe9f3fb
+Liverpool Street,Y18,Y19,False,0,0,0e052fc8-f46b-43fb-9529-e79329affeaa
+Aldgate,Y19,Y20,False,0,0,bb7d002a-f5a7-4bac-8d8b-22962d528891
+Tower Hill,Y20,Y21,True,0,0,0b9272d5-e7c6-4840-88df-9e211fab5fa8
+Monument,Y21,Y22,True,0,0,cf5cd20c-e4b6-42e5-96cc-7e65f762a275
+Cannon Street,Y22,Y23,True,0,0,bd959c2b-3274-4e9b-9eaf-f6026ada9857
+Mansion House,Y23,Y24,True,0,0,38727ea1-ae5d-488b-9924-1638b082d227
+Blackfriars,Y24,Y25,True,0,0,e1fe8803-52c2-4671-ad8a-da3469e6faec
+Temple,Y25,Y26,True,0,0,7144f77b-fceb-4385-ae80-a911e31817d1
+Embankment,Y26,Y27,True,0,0,35de0d4b-9511-4e8f-851c-5fe52c568be7
+Westminster,Y27,Y28,True,0,0,5ab3f692-9a31-4ddb-8626-cba732834c8e
+St. James's Park,Y28,Y29,True,0,0,01ff5963-a79d-4124-a3dd-48254c1ed3fd
+Victoria,Y29,Y30,True,0,0,eb22270a-853f-49fe-a7a3-4e9a97b35b33
+Sloane Square,Y30,Y31,True,0,0,f6db6e31-cba1-4c91-a37e-668126bea160
+South Kensington,Y31,Y32,True,0,0,9885697c-121a-4f8b-8c61-42110ae0735f
+Gloucester Road,Y32,Y33,True,0,0,b24b1e8d-4e43-4641-bd3a-77ad2264b910
+High Street Kensington,Y33,Y34,True,0,0,f16190fb-511e-4073-8d6a-19fe4a4f5309
+Notting Hill Gate,Y34,Y35,True,0,0,3ccc93a5-f19f-4956-9a15-31dc23c492fd
+Bayswater,Y35,Y10,True,0,0,e000290c-2c3d-4a9a-a585-174d748a0a5b
