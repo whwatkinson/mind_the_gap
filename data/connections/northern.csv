@@ -1,0 +1,108 @@
+station_name,from_station,to_station,heading_west,travel_time_seconds,distance_km,uuid
+Mill Hill East,N0,N6,True,0,0,10800ed6-867f-444f-87f1-6e33fafc83e6
+
+High Barnet,N2,N3,True,0,0,dfb81235-5b81-4cbb-a7b4-d6d107e04316
+Totteridge & Whetstone,N3,N2,False,0,0,eeb08b75-60a4-4261-9c40-e46a9e756461
+Totteridge & Whetstone,N3,N4,True,0,0,9cc9149c-bc72-44dd-a218-31a99dcef163
+Woodside Park,N4,N3,False,0,0,4825d8c2-fb8b-4f76-9d9b-19b3c8facc85
+Woodside Park,N4,N5,True,0,0,2b2bf7a3-aff7-455f-b32c-d3f627f4ddc9
+West Finchley,N5,N4,False,0,0,da2f415b-b308-479c-b224-5e3361e631ba
+West Finchley,N5,N6,True,0,0,7bfd8bd8-bf65-43b8-a95f-4ec065d463e4
+Finchley Central,N6,N5,False,0,0,76ed3751-eaec-4f11-87c3-b25a73c5cd4d
+Finchley Central,N6,N0,False,0,0,c3d4dee7-5935-41fa-8683-a7b56d05ad13
+Finchley Central,N6,N7,True,0,0,c730421b-cdc7-499c-9f80-755d0f316aed
+East Finchley,N7,N6,False,0,0,a4d847d4-0080-4e7f-834e-3ae4472f994f
+East Finchley,N7,N8,True,0,0,031e444e-d476-4ab6-8fef-01a3e80272ab
+Highgate,N8,N7,False,0,0,aa9bb744-7c34-4cc8-a22f-149bdce619f8
+Highgate,N8,N9,True,0,0,f4a60e8d-c02a-4c52-a4fd-c8e11b137913
+Archway,N9,N8,False,0,0,e2d70cf8-e34d-4afc-85b0-0859f82ab35a
+Archway,N9,N10,True,0,0,9eaedc3d-0b45-4720-a5fc-eb8930dceefb
+Tuffnell Park,N10,N9,False,0,0,958a7bb8-9a0d-43c3-8415-db5b49c30ac4
+Tuffnell Park,N10,N11,True,0,0,38ccc4a4-c111-45f6-bf4d-39f7503eae10
+Kentish Town,N11,N10,False,0,0,574cbf25-7a2b-4989-affd-fc25da2397d7
+Kentish Town,N11,N23,True,0,0,62b49130-1de3-4db1-a41a-f2ba823b30b9
+
+Edgware,N13,N14,True,0,0,053d72f1-cff8-4ade-b0f9-a4d35c50ee89
+Burnt Oak,N14,N13,False,0,0,8dc487a0-5b2e-4095-a60b-ede03b879276
+Burnt Oak,N14,N15,True,0,0,95e070cc-a3e2-44c4-b833-192177790bc8
+Colindale,N15,N14,False,0,0,833f49ba-46ab-4009-bd14-2f47afe2f595
+Colindale,N15,N16,True,0,0,ca3b69c8-d67a-4e97-ba7d-1a13c7104292
+Hendon Central,N16,N15,False,0,0,16e0d87b-e008-499b-af33-d9e3033cc43f
+Hendon Central,N16,N17,True,0,0,633c4b98-ccc8-42c8-827c-c3e0f3fe9b8c
+Brent Cross,N17,N16,False,0,0,f37dd74a-998f-449a-bd06-9eaebf27e5d0
+Brent Cross,N17,N18,True,0,0,0b4a3763-6eaa-43e7-b117-df92acac2647
+Golders Green,N18,N17,False,0,0,a5c46d0c-51ff-4620-b5d0-4504f50d7bda
+Golders Green,N18,N19,True,0,0,3782e3d9-0017-4d52-a7c1-c6ca303c7a3e
+Hampstead,N19,N18,False,0,0,af971184-0573-4523-8b93-b53f630ff4a4
+Hampstead,N19,N20,True,0,0,8301e78a-e69a-48a5-8f94-07e3855dd3d5
+Belsize Park,N20,N19,False,0,0,de376cb8-392d-4e9b-82e5-f0f83cf770d7
+Belsize Park,N20,N21,True,0,0,812f8416-64fd-4a03-a8a6-aa99046a5548
+Chalk Farm,N21,N20,False,0,0,2ed5f246-685c-45b1-9e3c-727e04f73e20
+Chalk Farm,N21,N22,True,0,0,797e344e-83ca-4587-b0f6-86f5e31d1354
+Camden Town,N22,N21,False,0,0,0316eff1-a77a-4d3c-aeab-7050d2708edc
+Camden Town,N22,N23,True,0,0,e2580e1b-b4c5-4fce-8840-cf44576c7119
+Mornington Crescent,N23,N22,False,0,0,83f4972c-abcb-4ba7-814c-615c8c649657
+Mornington Crescent,N23,N24,True,0,0,e9f1ee23-b86b-4074-8ad7-b6f7d808e952
+Euston,N24,N23,False,0,0,626564e3-d0a2-4297-8021-d53af0e53aa9
+Euston,N24,N25,True,0,0,8ccc35b2-65b2-4965-b87a-9288f8bbf18f
+Euston,N24,N48,True,0,0,fce515c7-b39b-475a-a2af-3efd7b262ca3
+Warren Street,N25,N24,False,0,0,5920ef13-13a7-443e-b13c-bd357c50bb4e
+Warren Street,N25,N26,True,0,0,873b3715-7740-4554-913d-3cd682964e30
+Goodge Street,N26,N25,False,0,0,48ad1237-ca2d-4113-ac2c-a4918ed521d0
+Goodge Street,N26,N27,True,0,0,1c601acf-72cc-4172-a1a3-34627faa9c82
+Tottenham Court Road,N27,N26,False,0,0,a697f474-d756-480e-8400-44b61889deb4
+Tottenham Court Road,N27,N28,True,0,0,97280d5f-23a2-419c-9bf2-0593266546f9
+Leicester Square,N28,N27,False,0,0,8b02c524-c2a6-4927-96c8-1d5f74e708b8
+Leicester Square,N28,N29,True,0,0,0134f35f-5721-4ed0-a30b-f87996640712
+Charing Cross,N29,N28,False,0,0,8b259856-b6f3-4be6-8162-e20d6f0d5515
+Charing Cross,N29,N30,True,0,0,e0edeb50-68d5-481e-ba9b-953bbeae1023
+Embankment,N30,N29,False,0,0,c50488f9-4c25-4e9c-bc8a-9170a535191e
+Embankment,N30,N31,True,0,0,feb636c0-4558-4f31-bce1-7efe38c31de1
+Waterloo,N31,N30,False,0,0,ea8137f0-8afe-41fd-bfe2-f33d244bb6ab
+Waterloo,N31,N32,True,0,0,bc0ba520-c8ac-439a-ba76-dc260e8214b6
+Kennington,N32,N31,False,0,0,63643ac8-4b97-408d-bfe9-0944dbaabf6b
+Kennington,N32,N45,False,0,0,b4fe542b-e8cd-4fcd-ae45-c728e85241f4
+Kennington,N32,N55,False,0,0,b66215c9-7613-41f1-a6bc-10cb045316d8
+Kennington,N32,N33,True,0,0,6b60ff61-5dc8-46b2-8aa9-f24fd7f57932
+Oval,N33,N32,False,0,0,79d94544-f493-495b-a0ed-ba92735bdbd3
+Oval,N33,N34,True,0,0,7f617ef9-9af7-4326-88a0-f0e76a940526
+Stockwell,N34,N33,False,0,0,7175839b-cb62-4de0-934d-4ea5a22fb7f0
+Stockwell,N34,N35,True,0,0,e3fd1c62-a264-4241-8573-6dc20e4e14ed
+Clapham North,N35,N34,False,0,0,80e9c600-cf4b-4869-82ec-0bd2d00f5728
+Clapham North,N35,N36,True,0,0,00b6eb26-af70-4419-9d3e-6f1a23f9fb12
+Clapham Common,N36,N35,False,0,0,2f49ff7d-e1ac-4dc9-94b5-4fb6fc1d518f
+Clapham Common,N36,N37,True,0,0,7de08df5-bb54-45c4-bd95-62323b07d06d
+Clapham South,N37,N36,False,0,0,7c0efcdf-69e1-4597-821b-705f32ffd7c9
+Clapham South,N37,N38,True,0,0,06b319f3-56d8-49a7-91d5-d90505d9dc85
+Balham,N38,N37,False,0,0,6cb41593-4643-4066-803f-4e8a24ee81ff
+Balham,N38,N39,True,0,0,92b0ad5a-ee92-40e1-ad36-f2a6f7b7556c
+Tooting Bec,N39,N38,False,0,0,e9f93726-cfde-457c-9f6d-7a2db6171e97
+Tooting Bec,N39,N40,True,0,0,ba40a170-b08f-486b-b342-19b6eee643b4
+Tooting Broadway,N40,N39,False,0,0,6ec38271-1b03-43a8-91d8-c99f9f07d1c9
+Tooting Broadway,N40,N41,True,0,0,11c706f3-f884-4513-8306-f8d2ecf192a2
+Colliers Wood,N41,N40,False,0,0,2d9fa48f-f7b2-4bb3-9285-f955b936dd16
+Colliers Wood,N41,N42,True,0,0,37f7b330-8616-4a48-ab59-11703683113b
+South Wimbledon,N42,N41,False,0,0,cec789be-4f07-4197-8816-13e9ed536d7a
+South Wimbledon,N42,N43,True,0,0,a4fe45e9-3a11-42a3-a70b-7f5a308182bc
+Morden,N43,N42,False,0,0,facd587d-9832-4e98-95b6-d67c435753c7
+
+Nine Elms,N45,N32,False,0,0,c80d3bce-5d47-4f79-9b99-ee3cf0a23e6d
+Nine Elms,N45,N46,True,0,0,5c8ffed2-e0a2-460f-99b3-3710cb341346
+Battersea Power Station,N46,N45,False,0,0,1011af25-cec5-4b67-864e-2aaa06196c5a
+
+King's Cross St Pancras,N48,N24,False,0,0,11386d13-c743-45a0-a19e-408737d4274b
+King's Cross St Pancras,N48,N49,True,0,0,ac6412dd-1c1a-4f80-989e-4a6e70670874
+Angel,N49,N48,False,0,0,4c7ccc56-c489-438a-9e63-97d958346981
+Angel,N49,N50,True,0,0,246d2b75-a391-4ea9-acc6-db1c73a791dc
+Old Street,N50,N49,False,0,0,48cc4efe-1d45-4e48-8160-6085f288b3e5
+Old Street,N50,N51,True,0,0,d5d5d839-9876-41ce-9038-596122d75b7b
+Moorgate,N51,N50,False,0,0,984c0494-d5b6-4135-987d-14bb5adc1425
+Moorgate,N51,N52,True,0,0,933a1b65-55ca-42a0-a284-e2f99cf73d18
+Bank,N52,N51,False,0,0,17ac97be-77e7-49f5-8502-e7d78bd978eb
+Bank,N52,N53,True,0,0,e2d74cc1-a1c1-4ab1-9e88-d2d96b8717d0
+London Bridge,N53,N52,False,0,0,e0b6a515-924e-46df-85c4-57ccab4c59c2
+London Bridge,N53,N54,True,0,0,ec50ba86-1065-4aee-a3b1-65e3430f0138
+Borough,N54,N53,False,0,0,20ed6400-13ff-43b9-b845-40f392a9b58a
+Borough,N54,N55,True,0,0,c5a53f30-a897-4834-b178-dfa220408b6e
+Elephant & Castle,N55,N54,False,0,0,b216b23e-025d-43da-a2a8-8e87bd23f96c
+Elephant & Castle,N55,N32,True,0,0,631166b1-3db7-4012-afaa-485bbe69c1df

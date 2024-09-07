@@ -1,52 +1,52 @@
-station_name,end_of_line,tube_line_identifier,location,year_opened,wiggle_ranking
-Wanstead,False,C0,"[lon, lat]",,0.0
-Redbridge,False,C1,"[lon, lat]",,0.0
-Gants Hill,False,C2,"[lon, lat]",,0.0
-Newbury Park,False,C3,"[lon, lat]",,0.0
-Barkingide,False,C4,"[lon, lat]",,0.0
-Fairlop,False,C5,"[lon, lat]",,0.0
-Hainault,False,C6,"[lon, lat]",,0.0
-Grange Hill,False,C7,"[lon, lat]",,0.0
-Chigwell,False,C8,"[lon, lat]",,0.0
-Roding Valley,False,C9,"[lon, lat]",,0.0
+station_name,end_of_line,tube_line_identifier
+Wanstead,False,C0
+Redbridge,False,C1
+Gants Hill,False,C2
+Newbury Park,False,C3
+Barkingide,False,C4
+Fairlop,False,C5
+Hainault,False,C6
+Grange Hill,False,C7
+Chigwell,False,C8
+Roding Valley,False,C9
 
-Ealing Broadway,True,C11,"[lon, lat]",,0.0
-West Acton,False,C12,"[lon, lat]",,0.0
+Ealing Broadway,True,C11
+West Acton,False,C12
 
-West Ruislip,True,C14,"[lon, lat]",,0.0
-Ruislip Gardens,False,C15,"[lon, lat]",,0.0
-South Ruislip,False,C16,"[lon, lat]",,0.0
-Northholt,False,C17,"[lon, lat]",,0.0
-Greenford,False,C18,"[lon, lat]",,0.0
-Perivale,False,C19,"[lon, lat]",,0.0
-Hanger Lane,False,C20,"[lon, lat]",,0.0
-North Acton,False,C21,"[lon, lat]",,0.0
-East Acton,False,C22,"[lon, lat]",,0.0
-White City,False,C23,"[lon, lat]",,0.0
-Shepherds's Bush,False,C24,"[lon, lat]",,0.0
-Holland Park,False,C25,"[lon, lat]",,0.0
-Notting Hill Gate,False,C26,"[lon, lat]",,0.0
-Queensway,False,C27,"[lon, lat]",,0.0
-Lancaster Gate,False,C28,"[lon, lat]",,0.0
-Marble Arch,False,C29,"[lon, lat]",,0.0
-Bond Street,False,C30,"[lon, lat]",,0.0
-Oxford Circus,False,C31,"[lon, lat]",,0.0
-Tottenham Court Road,False,C32,"[lon, lat]",,0.0
-Holborn,False,C33,"[lon, lat]",,0.0
-Chancery Lane,False,C34,"[lon, lat]",,0.0
-St Paul's,False,C35,"[lon, lat]",,0.0
-Bank,False,C36,"[lon, lat]",,0.0
-Liverpool Street,False,C37,"[lon, lat]",,0.0
-Bethnal Green,False,C38,"[lon, lat]",,0.0
-Mile End,False,C39,"[lon, lat]",,0.0
-Stratford,False,C40,"[lon, lat]",,0.0
-Leyton,False,C41,"[lon, lat]",,0.0
-Leytonstone,False,C42,"[lon, lat]",,0.0
-Snaresbrook,False,C43,"[lon, lat]",,0.0
-South Woodford,False,C44,"[lon, lat]",,0.0
-Woodford,False,C45,"[lon, lat]",,0.0
-Buckhurst Hill,False,C46,"[lon, lat]",,0.0
-Loughton,False,C47,"[lon, lat]",,0.0
-Debden,False,C48,"[lon, lat]",,0.0
-Theydon Bois,False,C49,"[lon, lat]",,0.0
-Epping,True,C50,"[lon, lat]",,0.0
+West Ruislip,True,C14
+Ruislip Gardens,False,C15
+South Ruislip,False,C16
+Northholt,False,C17
+Greenford,False,C18
+Perivale,False,C19
+Hanger Lane,False,C20
+North Acton,False,C21
+East Acton,False,C22
+White City,False,C23
+Shepherds's Bush,False,C24
+Holland Park,False,C25
+Notting Hill Gate,False,C26
+Queensway,False,C27
+Lancaster Gate,False,C28
+Marble Arch,False,C29
+Bond Street,False,C30
+Oxford Circus,False,C31
+Tottenham Court Road,False,C32
+Holborn,False,C33
+Chancery Lane,False,C34
+St Paul's,False,C35
+Bank,False,C36
+Liverpool Street,False,C37
+Bethnal Green,False,C38
+Mile End,False,C39
+Stratford,False,C40
+Leyton,False,C41
+Leytonstone,False,C42
+Snaresbrook,False,C43
+South Woodford,False,C44
+Woodford,False,C45
+Buckhurst Hill,False,C46
+Loughton,False,C47
+Debden,False,C48
+Theydon Bois,False,C49
+Epping,True,C50

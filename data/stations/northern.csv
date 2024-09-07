@@ -1,0 +1,57 @@
+station_name,end_of_line,tube_line_identifier
+Mill Hill East,True,N0
+
+High Barnet,True,N2
+Totteridge & Whetstone,False,N3
+Woodside Park,False,N4
+West Finchley,False,N5
+Finchley Central,False,N6
+East Finchley,False,N7
+Highgate,False,N8
+Archway,False,N9
+Tuffnell Park,False,N10
+Kentish Town,False,N11
+
+Edgware,True,N13
+Burnt Oak,False,N14
+Colindale,False,N15
+Hendon Central,False,N16
+Brent Cross,False,N17
+Golders Green,False,N18
+Hampstead,False,N19
+Belsize Park,False,N20
+Chalk Farm,False,N21
+Camden Town,False,N22
+Mornington Crescent,False,N23
+Euston,False,N24
+Warren Street,False,N25
+Goodge Street,False,N26
+Tottenham Court Road,False,N27
+Leicester Square,False,N28
+Charing Cross,False,N29
+Embankment,False,N30
+Waterloo,False,N31
+Kennington,False,N32
+Oval,False,N33
+Stockwell,False,N34
+Clapham North,False,N35
+Clapham Common,False,N36
+Clapham South,False,N37
+Balham,False,N38
+Tooting Bec,False,N39
+Tooting Broadway,False,N40
+Colliers Wood,False,N41
+South Wimbledon,False,N42
+Morden,True,N43
+
+Nine Elms,False,N45
+Battersea Power Station,True,N46
+
+King's Cross St Pancras,False,N48
+Angel,False,N49
+Old Street,False,N50
+Moorgate,False,N51
+Bank,False,N52
+London Bridge,False,N53
+Borough,False,N54
+Elephant & Castle,False,N55

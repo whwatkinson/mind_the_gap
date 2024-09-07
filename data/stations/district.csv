@@ -1,0 +1,65 @@
+station_name,end_of_line,tube_line_identifier
+Richmond,True,D0
+Kew Gardens,False,D1
+Gunnersbury,False,D2
+
+Wimbledon,True,D4
+Wimbledon Park,False,D5
+Southfields,False,D6
+East Putney,False,D7
+Putney Bridge,False,D8
+Parsons Green,False,D9
+Fulham Broadway,False,D10
+West Brompton,False,D11
+
+Edgware True,False,D13
+Paddington,False,D14
+Bayswater,False,D15
+Notting Hill Gate,False,D16
+High Street Kensington,False,D17
+
+Kensington (Olympia),True,D19
+
+Ealing Broadway,True,D21
+Ealing Common,False,D22
+Acton Town,False,D23
+Chiswick Park,False,D24
+Turnham Green,False,D25
+Stamford Brook,False,D26
+Ravenscourt Park,False,D27
+Hammersmith,False,D28
+Barons Court,False,D29
+West Kensington,False,D30
+Earl's Court,False,D31
+Gloucester Road,False,D32
+South Kensington,False,D33
+Sloane Square,False,D34
+Victoria,False,D35
+St James's Park,False,D36
+Westminster,False,D37
+Embankment,False,D38
+Temple,False,D39
+Blackfriars,False,D40
+Mansion House,False,D41
+Cannon Street,False,D42
+Monument,False,D43
+Tower Hill,False,D44
+Aldgate East,False,D45
+Whitechapel,False,D46
+Stepney Green,False,D47
+Mile End,False,D48
+Bow Road,False,D49
+Bromley-by-Bow,False,D50
+West Ham,False,D51
+Plaistow,False,D52
+Upton Park,False,D53
+East Ham,False,D54
+Barking,False,D55
+Upney,False,D56
+Becontree,False,D57
+Dagenham Heathway,False,D58
+Dagenham East,False,D59
+Elm Park,False,D60
+Hornchurch,False,D61
+Upminster Bridge,False,D62
+Upminster,False,D63

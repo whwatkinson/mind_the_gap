@@ -11,6 +11,10 @@ config.DATABASE_URL = NEO4J_DATABASE_URL
 
 
 def load_connections(tube_line: TubeLine) -> None:
+
+    if tube_line.data_file_name == "master_station_names":
+        return None
+
     print(f"Loading connections for {tube_line.line_name} line")
 
     with open(
@@ -67,21 +71,32 @@ def load_tube_stations(tube_line: TubeLine) -> None:
     ) as csvfile:
         records = DictReader(csvfile, delimiter=",", quotechar='"')
         for row in records:
-            print(f'\tAdding {row["station_name"]}')
+
             if station := Station.nodes.get_or_none(
                 station_name=row["station_name"],
             ):
-                station.update_tube_lines(tube_line.line_name)
-                station.update_tube_line_identifiers(row["tube_line_identifier"])
+                if tube_line.data_file_name == "master_station_names":
+                    print(f'\tUpdating from master {row["station_name"]}')
+                    station.location = row["location"]
+                    station.year_opened = int(row["year_opened"])
+                    station.wiggle_ranking = float(row["wiggle_ranking"])
+                else:
+                    print(f'\tUpdating for {tube_line.line_name} {row["station_name"]}')
+                    station.update_tube_lines(tube_line.line_name)
+                    station.update_tube_line_identifiers(row["tube_line_identifier"])
+
             else:
+                print(f'\tAdding {row["station_name"]}')
+                if row["end_of_line"] == "True":
+                    end_of_line_for = [tube_line.line_name]
+                else:
+                    end_of_line_for = []
+
                 station = Station(
                     station_name=row["station_name"],
-                    end_of_line=row["end_of_line"] == "True",
                     tube_lines=[tube_line.line_name],
                     tube_line_identifiers=[row["tube_line_identifier"]],
-                    location=row["location"],
-                    year_opened=int(row["year_opened"]) if row["year_opened"] else 0,
-                    wiggle_ranking=row["wiggle_ranking"],
+                    end_of_line_for=end_of_line_for,
                 )
 
             station.save()
@@ -89,6 +104,7 @@ def load_tube_stations(tube_line: TubeLine) -> None:
 
 
 def load_tube_lines() -> None:
+    # TODO profile this
 
     with db.transaction:
         tll = TubeLineList()
@@ -99,15 +115,25 @@ def load_tube_lines() -> None:
         load_tube_stations(tll.bakerloo)
         load_tube_stations(tll.jubilee)
         load_tube_stations(tll.metropolitan)
+        load_tube_stations(tll.hammersmith_and_city)
+        load_tube_stations(tll.district)
+        load_tube_stations(tll.northern)
+        load_tube_stations(tll.waterloo_and_city)
+        load_tube_stations(tll.master_station_names)
 
+    with db.transaction:
         load_connections(tll.piccadilly)
         load_connections(tll.central)
         load_connections(tll.victoria)
         load_connections(tll.bakerloo)
         load_connections(tll.jubilee)
         load_connections(tll.metropolitan)
+        load_connections(tll.hammersmith_and_city)
+        load_connections(tll.district)
+        load_connections(tll.northern)
+        load_connections(tll.waterloo_and_city)
 
 
 if __name__ == "__main__":
-    db.cypher_query("MATCH (n) DETACH DELETE n;")
+    # db.cypher_query("MATCH (n) DETACH DELETE n;")
     load_tube_lines()

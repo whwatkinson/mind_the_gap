@@ -1,0 +1,59 @@
+station_name,from_station,to_station,heading_west,travel_time_seconds,distance_km,uuid
+Hammersmith,H0,H1,False,0,0,7a1493ac-c327-4290-a54a-270ea38396b4
+Goldhawk Road,H1,H0,True,0,0,21a55a80-fd16-4b28-8d3c-43bfa2178647
+Goldhawk Road,H1,H2,False,0,0,c675fbdf-f56b-4b29-a5dd-520fd1ed2679
+Shepherd's Bush Market,H2,H1,True,0,0,73df411f-ac1d-4a47-92cb-7a860f96a59f
+Shepherd's Bush Market,H2,H3,False,0,0,a9254857-d9b8-4584-ad2d-b04ea8e82070
+Wood Lane,H3,H2,True,0,0,fb0b3873-54b9-44f0-963d-73edc970cde2
+Wood Lane,H3,H4,False,0,0,4ce8f6ea-d789-4db3-82a4-16a226251a6c
+White City,H4,H3,True,0,0,759873c8-eb8d-41c7-85ac-eddf04228010
+White City,H4,H5,False,0,0,3b0f8758-8649-47c1-8650-f5186ea211fd
+Latimer Road,H5,H4,True,0,0,49669ed4-67de-4ee8-b2cd-9785d707cc79
+Latimer Road,H5,H6,False,0,0,c5fd1370-1c4f-4900-b920-2e27743d8f46
+Ladbroke Grove,H6,H5,True,0,0,53f430c1-30d3-409e-a470-1535ddadcae0
+Ladbroke Grove,H6,H7,False,0,0,01a579d5-55d6-4b1d-b211-b8fb816ff343
+Westbourne Park,H7,H6,True,0,0,add0adeb-0302-4f58-95c5-73ba0a9d57e6
+Westbourne Park,H7,H8,False,0,0,b7053dc2-9479-4379-96a2-e293d8cc912a
+Royal Oak,H8,H7,True,0,0,ee351cdd-29d3-4765-b409-7da4f31d6930
+Royal Oak,H8,H9,False,0,0,42a695ce-2679-452c-aa1b-14cfee61e95e
+Paddington,H9,H8,True,0,0,c198d06c-e979-4e35-98e8-53c90d8367b1
+Paddington,H9,H10,False,0,0,56c45946-afd2-471f-9790-492f588a818d
+Edgware Road,H10,H9,True,0,0,6c3203b0-2c7f-46bb-9f48-711f2b84e7c4
+Edgware Road,H10,H11,False,0,0,0e104963-ba11-465f-8864-fec992327860
+Baker Street,H11,H10,True,0,0,145989b9-ce14-4ab5-a72e-bf3c15d64461
+Baker Street,H11,H12,False,0,0,89bf6a3e-0e79-4970-8938-64025d5c8f11
+Great Portland Street,H12,H11,True,0,0,f538551c-6ef1-4cd3-a28f-bf1ab97f680b
+Great Portland Street,H12,H13,False,0,0,4de0cc68-6010-4178-9a54-8d651ef097a1
+Euston Square,H13,H12,True,0,0,ee96e11a-62a6-4932-9763-b61a024f8784
+Euston Square,H13,H14,False,0,0,ba756e8f-dc78-4074-b920-e7c7c8f71b73
+King's Cross St Pancras,H14,H13,True,0,0,0763f249-8871-420d-9ccc-0753824fcebc
+King's Cross St Pancras,H14,H15,False,0,0,795c0fd2-c0b2-47a0-a6bc-d8ddf891def7
+Farringdon,H15,H14,True,0,0,80b9370a-65ba-4cce-a571-50e9aad753b3
+Farringdon,H15,H16,False,0,0,07bf6d26-1243-40d7-b7c4-2ae3652b13be
+Barbican,H16,H15,True,0,0,1932d233-057b-484c-9909-aaf84cd3a657
+Barbican,H16,H17,False,0,0,8b711f0f-c484-4a13-b3bf-552aab202b18
+Moorgate,H17,H16,True,0,0,b0c55d60-200c-4ae4-a0a6-82d7371d737c
+Moorgate,H17,H18,False,0,0,5f662ab9-f86d-4beb-b81e-439abedc4d49
+Liverpool Street,H18,H17,True,0,0,58140ea6-161a-49ee-987f-992c0ee21dd1
+Liverpool Street,H18,H19,False,0,0,144a4e0e-0cb1-4a16-8081-a481b73d4ce3
+Aldgate East,H19,H18,True,0,0,16a06a1a-d137-43fd-b819-79d09cd02634
+Aldgate East,H19,H20,False,0,0,69ceb3da-c545-4b33-bb68-04633218ea06
+Whitechapel,H20,H19,True,0,0,fd892cad-5f19-4fa5-b874-230564f11f68
+Whitechapel,H20,H21,False,0,0,65195ac6-6e5a-424e-865d-f7708ef30c72
+Stepney Green,H21,H20,True,0,0,3b3d940f-93fc-4c76-8945-3d47bff764ef
+Stepney Green,H21,H22,False,0,0,e220190c-c5af-4cc1-8f7d-ca132b7207aa
+Mile End,H22,H21,True,0,0,155b15e3-b98f-470f-984e-1ad7a0ff68b6
+Mile End,H22,H23,False,0,0,1ae3f544-4a26-4a7a-b76d-c71c3e6b2a13
+Bow Road,H23,H22,True,0,0,07beb2fd-c5a8-4ec0-af7c-7eb0736fede9
+Bow Road,H23,H24,False,0,0,7adecf5c-613a-4bf0-b8f9-648f2cc02ed1
+Bromley-by-Bow,H24,H23,True,0,0,1bbdaec8-355c-415e-9a5f-9a9481092764
+Bromley-by-Bow,H24,H25,False,0,0,645a7686-ba8b-4d43-a4d2-82775a34b9cc
+West Ham,H25,H24,True,0,0,0a8b78e8-964d-4f84-92ef-169e0987e753
+West Ham,H25,H26,False,0,0,608c5e06-ab4f-47ba-85bd-bf01a2588078
+Plaistow,H26,H25,True,0,0,36a4aad2-716d-4638-bf53-6b91692df109
+Plaistow,H26,H27,False,0,0,74d42914-0994-4a69-9182-3c66ab64a9d2
+Upton Park,H27,H26,True,0,0,ce70f953-5db6-4d53-8c10-55c324e83071
+Upton Park,H27,H28,False,0,0,7f901ae2-f730-4b5a-aca8-abde112d5c9b
+East Ham,H28,H27,True,0,0,3127575f-50c4-43e3-bd8e-caf3e0bd03c2
+East Ham,H28,H29,False,0,0,ca93ae68-e889-46d0-9ea2-85d020ff15b7
+Barking,H29,H28,True,0,0,19d86b35-7e6a-486c-8560-9791012f2ba0

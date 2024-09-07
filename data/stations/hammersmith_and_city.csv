@@ -1,0 +1,31 @@
+station_name,end_of_line,tube_line_identifier
+Hammersmith,True,H0
+Goldhawk Road,False,H1
+Shepherd's Bush Market,False,H2
+Wood Lane,False,H3
+White City,False,H4
+Latimer Road,False,H5
+Ladbroke Grove,False,H6
+Westbourne Park,False,H7
+Royal Oak,False,H8
+Paddington,False,H9
+Edgware Road,False,H10
+Baker Street,False,H11
+Great Portland Street,False,H12
+Euston Square,False,H13
+King's Cross St Pancras,False,H14
+Farringdon,False,H15
+Barbican,False,H16
+Moorgate,False,H17
+Liverpool Street,False,H18
+Aldgate East,False,H19
+Whitechapel,False,H20
+Stepney Green,False,H21
+Mile End,False,H22
+Bow Road,False,H23
+Bromley-by-Bow,False,H24
+West Ham,False,H25
+Plaistow,False,H26
+Upton Park,False,H27
+East Ham,False,H28
+Barking,True,H29
